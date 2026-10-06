@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74dedcd54da02394a892896cb1029da0, type: 3}
+  m_Name: GloriaV1
+  m_EditorClassIdentifier: Assembly-CSharp::Track
+  Song: {fileID: 8300000, guid: 9ab0a04cfcec1bf45b9a9935b2a80fc1, type: 3}
+  BPM: 140
+  Offset: -270
+  GameplayStartBeat: 81
+  BeatsInBar: 8
+  HalfBeatsEnabled: 0
