@@ -339,7 +339,7 @@ MonoBehaviour:
   GlobalLight: {fileID: 338618987}
   EnemyLight: {fileID: 1325484481}
   PlayerLight: {fileID: 20668607}
-  BattleDimness: 0.5
+  BattleDimness: 0.4
   BeatsToDim: 4
   BeatsToBeDimBeforeStart: 4
 --- !u!4 &271775870
@@ -508,7 +508,7 @@ MonoBehaviour:
   spriteAnimationTime: 0.4
   matchAnimationTimerToTimingWindow: 1
   spriteAnimationSlideDistance: 1
-  EncounterTrack: {fileID: 11400000, guid: 8796345be2e8b074d80d977a89f433f6, type: 2}
+  EncounterTrack: {fileID: 11400000, guid: 523c9803279e6ac49af4262238c85e36, type: 2}
   TimingWindow: 80
 --- !u!212 &275158541
 SpriteRenderer:
@@ -618,7 +618,7 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.4
   m_LightVolumeIntensity: 1
   m_LightVolumeEnabled: 0
   m_ApplyToSortingLayers: 00000000
