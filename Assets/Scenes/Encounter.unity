@@ -188,7 +188,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -437322039120708491, guid: 761a723dc5eedc84db9c3b9937b02a1e, type: 3}
+  m_Sprite: {fileID: 5399228094500936495, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -207,8 +207,8 @@ Transform:
   m_GameObject: {fileID: 270486015}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.31, z: 0}
-  m_LocalScale: {x: 0.7144, y: 0.7144, z: 0.7144}
+  m_LocalPosition: {x: 0.03, y: -3.0165, z: 0}
+  m_LocalScale: {x: 0.41802305, y: 0.38086608, z: 0.7144}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -225,19 +225,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3fdab75a26eebdb4db009844768c777d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  DefaultSprite: {fileID: -437322039120708491, guid: 761a723dc5eedc84db9c3b9937b02a1e, type: 3}
+  DefaultSprite: {fileID: 5399228094500936495, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
   NoteActions:
   - Note: 1
-    Sprite: {fileID: -4090978185585803396, guid: 761a723dc5eedc84db9c3b9937b02a1e, type: 3}
+    Sprite: {fileID: 1866080321450298439, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
     Sound: {fileID: 0}
   - Note: 2
-    Sprite: {fileID: -1583959265, guid: 761a723dc5eedc84db9c3b9937b02a1e, type: 3}
+    Sprite: {fileID: -8744409789289659004, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
     Sound: {fileID: 0}
   - Note: 3
-    Sprite: {fileID: -6454181427881192536, guid: 761a723dc5eedc84db9c3b9937b02a1e, type: 3}
+    Sprite: {fileID: 6888708756529517008, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
     Sound: {fileID: 0}
   - Note: 4
-    Sprite: {fileID: -342488978388223297, guid: 761a723dc5eedc84db9c3b9937b02a1e, type: 3}
+    Sprite: {fileID: 2788089956977029842, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
     Sound: {fileID: 0}
   spriteAnimationTime: 0.16
   matchAnimationTimerToTimingWindow: 1
@@ -494,16 +494,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 264eb3f5099da454c8fa958d9d7e9ce5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  DefaultSprite: {fileID: 3739918606922178988, guid: 990f56c8295c15d45ad99e4ab62cbc40, type: 3}
+  DefaultSprite: {fileID: -8122013498621285982, guid: 6a924ad67791a464b93cccfefc31acc2, type: 3}
   NoteActions:
   - Note: 1
-    Sprite: {fileID: 7174406893051493193, guid: 990f56c8295c15d45ad99e4ab62cbc40, type: 3}
+    Sprite: {fileID: -3344844586257861575, guid: 84301bd02f1fafd4eb4932e7c9c3bd10, type: 3}
     Sound: {fileID: 0}
   - Note: 2
-    Sprite: {fileID: 2874025327791258668, guid: 990f56c8295c15d45ad99e4ab62cbc40, type: 3}
+    Sprite: {fileID: 2687551959115899296, guid: e4e287947496158418fc7a6dd333a691, type: 3}
     Sound: {fileID: 0}
   - Note: 3
-    Sprite: {fileID: 8751281259726764774, guid: 990f56c8295c15d45ad99e4ab62cbc40, type: 3}
+    Sprite: {fileID: 5341458426511824504, guid: a57487231469b3a48bd70ecab7b4e74c, type: 3}
     Sound: {fileID: 0}
   - Note: 4
     Sprite: {fileID: -5610005607842546794, guid: 990f56c8295c15d45ad99e4ab62cbc40, type: 3}
@@ -566,7 +566,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 3739918606922178988, guid: 990f56c8295c15d45ad99e4ab62cbc40, type: 3}
+  m_Sprite: {fileID: -8122013498621285982, guid: 6a924ad67791a464b93cccfefc31acc2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -585,8 +585,8 @@ Transform:
   m_GameObject: {fileID: 275158538}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 0.69360626, y: 0.69360626, z: 0.69360626}
+  m_LocalPosition: {x: 0.4768, y: 1.2356, z: 0}
+  m_LocalScale: {x: 0.80590117, y: 0.8953763, z: 0.69360626}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
