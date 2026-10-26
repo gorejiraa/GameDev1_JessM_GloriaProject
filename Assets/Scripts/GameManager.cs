@@ -75,7 +75,7 @@ public class GameManager : MonoBehaviour
 
         Music.audioSource.clip = track.Song;
         Metronome.ResetValues(track);
-        Choreographer.ResetValues(track.GameplayStartBeat);
+        Choreographer.ResetValues(track);
         Metronome.TimingWindowMargin = timingWindow;
         LightingManager.SetStartBattleBeat(track.GameplayStartBeat);
         DialogueManager.AddAllTimedDialogue(track.Dialogue);

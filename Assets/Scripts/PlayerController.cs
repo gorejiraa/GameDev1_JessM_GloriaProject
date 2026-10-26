@@ -49,26 +49,8 @@ public class PlayerController : MonoBehaviour
         else if (spriteTimerActive && spriteTimer < 0) ResetSprite();
     }
 
-    public void OnMove(InputAction.CallbackContext context)
+    public void OnMove(Note direction)
     {
-        if (!context.started) return;
-
-        if (spriteTimerActive) return;
-
-        Note direction = Note.Blank;
-        Vector2 inputDir = context.ReadValue<Vector2>().normalized;
-
-        if (Mathf.Abs(inputDir.x) > Mathf.Abs(inputDir.y))
-        {
-            if (inputDir.x > 0) direction = Note.Right;
-            else direction = Note.Left;
-        }
-        else 
-        {
-            if (inputDir.y > 0) direction = Note.Up;
-            else direction = Note.Down;
-        }
-
         foreach (NoteActionDetails noteAction in NoteActions)
         {
             if (direction != noteAction.Note) continue;
@@ -109,5 +91,33 @@ public class PlayerController : MonoBehaviour
     private void GetSongDetails(Track track, float timingWindow) 
     {
         if (matchAnimationTimerToTimingWindow) spriteAnimationTime = (timingWindow * 2) / 1000;
+    }
+
+    public void OnLeft(InputAction.CallbackContext context) 
+    {
+        if (!context.started) return;
+
+        OnMove(Note.Left);
+    }
+
+    public void OnRight(InputAction.CallbackContext context)
+    {
+        if (!context.started) return;
+
+        OnMove(Note.Right);
+    }
+
+    public void OnUp(InputAction.CallbackContext context)
+    {
+        if (!context.started) return;
+
+        OnMove(Note.Up);
+    }
+
+    public void OnDown(InputAction.CallbackContext context)
+    {
+        if (!context.started) return;
+
+        OnMove(Note.Down);
     }
 }

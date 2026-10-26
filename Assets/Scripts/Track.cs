@@ -12,5 +12,8 @@ public class Track : ScriptableObject
     public int BeatsInBar = 8;
     public bool HalfBeatsEnabled = false;
 
+    public bool RandomPatterns = true;
+    public List<Pattern> Patterns;
+
     public List<TimedDialogue> Dialogue;
 }

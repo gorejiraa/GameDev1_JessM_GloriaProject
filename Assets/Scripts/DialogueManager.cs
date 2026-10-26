@@ -59,6 +59,8 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         DialogueText.text = "";
+        EnemyEncounter.OnEnemyHealthEmpty += CancelDialogue;
+        PlayerStatus.OnPlayerHealthEmpty += CancelDialogue;
     }
 
     private void Update()
@@ -130,6 +132,13 @@ public class DialogueManager : MonoBehaviour
         {
             _showingText = false;
         }
+    }
+
+    private void CancelDialogue() 
+    {
+        DialogueQueue?.Clear();
+        _showingText = false;
+        _dialogueStartTimer = 0;
     }
 
     private void SetText(string text) 
