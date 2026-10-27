@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using static UnityEngine.EventSystems.EventTrigger;
 
 public class GameManager : MonoBehaviour
 {
@@ -15,6 +14,7 @@ public class GameManager : MonoBehaviour
     public IndicatorManager IndicatorManager;
     public DialogueManager DialogueManager;
     public TutorialManager TutorialManager;
+    public SongSelectMenu SongSelectMenu;
 
     public PlayerStatus PlayerStatus;
     public EnemyEncounter Enemy;
@@ -46,15 +46,16 @@ public class GameManager : MonoBehaviour
         EnemyEncounter.OnEnemyHealthEmpty += WinGame;
         PlayerStatus.OnPlayerHealthEmpty += LoseGame;
         OffsetCalculator.Complete += OnCompleteOffsetCalculation;
-        TutorialManager.gameObject.SetActive(false);
 
         LoadSettings();
 
         UIManager.ToggleMainMenu(true);
         OffsetCalculator.gameObject.SetActive(false);
+        TutorialManager.gameObject.SetActive(false);
+        SongSelectMenu.gameObject.SetActive(false);
     }
 
-    public void StartTrack(Track track, bool tutorial) 
+    public void StartTrack(Track track) 
     {
         currentTrack = track;
 
@@ -62,7 +63,7 @@ public class GameManager : MonoBehaviour
 
         StartGameplay();
 
-        if (tutorial) 
+        if (track.Tutorial) 
         {
             EnableGameplayUI(false);
             TutorialManager.gameObject.SetActive(true);
@@ -174,13 +175,24 @@ public class GameManager : MonoBehaviour
     {
         ResetGameState?.Invoke();
 
-        StartTrack(currentTrack, false);
+        StartTrack(currentTrack);
     }
 
     public void ReturnToMenu() 
     {
         ResetGameState?.Invoke();
         IndicatorManager.ToggleIndicators(false);
+    }
+
+    public void SongSelectButton() 
+    {
+        ToggleSongSelect(true);
+    }
+
+    public void ToggleSongSelect(bool toggle) 
+    {
+        SongSelectMenu.gameObject.SetActive(toggle);
+        UIManager.ToggleMainMenu(!toggle);
     }
 
     public void QuitGame() 

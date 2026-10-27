@@ -12,12 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74dedcd54da02394a892896cb1029da0, type: 3}
   m_Name: TitleSong
   m_EditorClassIdentifier: Assembly-CSharp::Track
+  Name: Test Track
+  Difficulty: 1
   Song: {fileID: 8300000, guid: 86e47e76ce708c04e811d2e17516c638, type: 3}
   BPM: 140
   Offset: -60
   GameplayStartBeat: 8
   BeatsInBar: 8
   HalfBeatsEnabled: 0
+  EnemyHealth: 10
+  PlayerHealth: 5
+  TimingWindow: 100
+  Tutorial: 0
   RandomPatterns: 0
   Patterns:
   - HalfBeats: 0

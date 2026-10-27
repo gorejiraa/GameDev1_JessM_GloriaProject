@@ -8,6 +8,6 @@ public class TrackSelectButton : MonoBehaviour
 
     public void StartTrack() 
     {
-        GameManager.Instance.StartTrack(_track, _tutorial);
+        GameManager.Instance.StartTrack(_track);
     }
 }

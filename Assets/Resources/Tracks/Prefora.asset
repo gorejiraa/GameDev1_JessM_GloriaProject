@@ -10,11 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74dedcd54da02394a892896cb1029da0, type: 3}
-  m_Name: PreforaShowcaseTester
+  m_Name: Prefora
   m_EditorClassIdentifier: Assembly-CSharp::Track
-  Song: {fileID: 8300000, guid: 5047bce160705054b9a7e839bf04bafb, type: 3}
+  Name: Prefora
+  Difficulty: 2
+  Song: {fileID: 8300000, guid: ffc73f499c73bc043aad77f4d3565abb, type: 3}
   BPM: 150
   Offset: 0
-  GameplayStartBeat: 0
+  GameplayStartBeat: 24
   BeatsInBar: 8
   HalfBeatsEnabled: 0
+  EnemyHealth: 15
+  PlayerHealth: 5
+  TimingWindow: 100
+  Tutorial: 0
+  RandomPatterns: 1
+  Patterns: []
+  Dialogue: []
