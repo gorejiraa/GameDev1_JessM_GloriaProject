@@ -73,7 +73,6 @@ public class EnemyEncounter : MonoBehaviour
 
             SetSlideDirection(noteAction.Note);
             if (noteAction.Sprite != null) SetSpriteWithTimer(noteAction.Sprite, spriteAnimationTime);
-            if (noteAction.Sound != null) audioSource.PlayOneShot(noteAction.Sound);
         }
     }
 
