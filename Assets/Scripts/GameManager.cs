@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using static UnityEngine.EventSystems.EventTrigger;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,12 +14,19 @@ public class GameManager : MonoBehaviour
     public UIManager UIManager;
     public IndicatorManager IndicatorManager;
     public DialogueManager DialogueManager;
+    public TutorialManager TutorialManager;
 
-    public static event Action<bool> OnToggleMusic;
+    public PlayerStatus PlayerStatus;
+    public EnemyEncounter Enemy;
+
+    public static event Action<bool> ToggleMusic;
     public static event Action ResetGameState;
+    public static event Action EndBattle;
 
     public OffsetCalculator OffsetCalculator;
     public int GeneralOffset = 0;
+
+    private Track currentTrack;
 
     private void Awake()
     {
@@ -31,28 +39,38 @@ public class GameManager : MonoBehaviour
         Instance = this;
 
         DontDestroyOnLoad(gameObject);
-
-        
     }
 
     private void Start()
     {
-        EnemyEncounter.SendEncounterDetails += SetTrackDetails;
         EnemyEncounter.OnEnemyHealthEmpty += WinGame;
         PlayerStatus.OnPlayerHealthEmpty += LoseGame;
         OffsetCalculator.Complete += OnCompleteOffsetCalculation;
+        TutorialManager.gameObject.SetActive(false);
+
+        LoadSettings();
 
         UIManager.ToggleMainMenu(true);
         OffsetCalculator.gameObject.SetActive(false);
     }
 
-    public void StartButton() 
+    public void StartTrack(Track track, bool tutorial) 
     {
-        EnemyEncounter enemy = GameObject.FindAnyObjectByType<EnemyEncounter>();
-        enemy.BeginEncounter();
+        currentTrack = track;
+
+        SetTrackDetails(track);
 
         StartGameplay();
-        EnableGameplayUI();
+
+        if (tutorial) 
+        {
+            EnableGameplayUI(false);
+            TutorialManager.gameObject.SetActive(true);
+        }
+        else 
+        {
+            EnableGameplayUI(true);
+        }
     }
 
     public void StartGameplay() 
@@ -61,43 +79,43 @@ public class GameManager : MonoBehaviour
         Metronome.ToggleGameplay(true);
     }
 
-    public void EnableGameplayUI() 
+    public void EnableGameplayUI(bool healthbars) 
     {
-        UIManager.ToggleGameplayUI(true);
+        UIManager.ToggleGameplayUI(healthbars);
         UIManager.ToggleMainMenu(false);
         IndicatorManager.ToggleIndicators(true);
     }
 
-    public void StartButEvil() 
+    public void StartTutorial() 
     {
-        EnemyEncounter enemy = GameObject.FindAnyObjectByType<EnemyEncounter>();
-        Track evilTrack = Instantiate(Resources.Load<Track>("Tracks/TitleSong"));
-        evilTrack.BeatsInBar = 8;
+        Track tutorialTrack = Instantiate(Resources.Load<Track>("Tracks/Tutorial"));
 
-        SetTrackDetails(evilTrack, enemy.TimingWindow);
+        SetTrackDetails(tutorialTrack);
 
         StartGameplay();
-        EnableGameplayUI();
+        EnableGameplayUI(false);
     }
 
-    public void SetTrackDetails(Track track, float timingWindow) 
+    public void SetTrackDetails(Track track) 
     {
         Music.audioSource.clip = track.Song;
         Metronome.ResetValues(track, GeneralOffset);
         Choreographer.ResetValues(track);
-        Metronome.TimingWindowMargin = timingWindow;
         LightingManager.SetStartBattleBeat(track.GameplayStartBeat);
         DialogueManager.AddAllTimedDialogue(track.Dialogue);
+        PlayerStatus.Health.SetMaxHealth(track.PlayerHealth);
+        Enemy.Health.SetMaxHealth(track.EnemyHealth);
     }
 
     public void BeginOffsetCalculation() 
     {
         OffsetCalculator.gameObject.SetActive(true);
         OffsetCalculator.Reset();
+        GeneralOffset = 0;
 
         Track track = OffsetCalculator.CalculationTrack;
 
-        SetTrackDetails(track, 100);
+        SetTrackDetails(track);
         UIManager.ToggleOffsetCalculationPanel(true);
         UIManager.ToggleDisplayOffsetCalculation(false);
         StartGameplay();
@@ -107,20 +125,24 @@ public class GameManager : MonoBehaviour
     {
         GeneralOffset = OffsetCalculator.GetOffsetAverageInt();
         OffsetCalculator.gameObject.SetActive(false);
-        Music.audioSource?.Stop();
-        Metronome.ToggleGameplay(false);
         UIManager.ToggleDisplayOffsetCalculation(true);
+        Metronome.PushOffset(GeneralOffset);
     }
 
     public void ExitOffsetCalculation() 
     {
+        SaveOffset();
         UIManager.ToggleOffsetCalculationPanel(false);
+        Music.audioSource?.Stop();
+        Metronome.ToggleGameplay(false);
         ReturnToMenu();
     }
 
     public void LoseGame() 
     {
-        OnToggleMusic?.Invoke(false);
+        EndBattle?.Invoke();
+
+        ToggleMusic?.Invoke(false);
         Metronome.ToggleGameplay(false);
 
         UIManager.ShowLossPanel();
@@ -128,7 +150,9 @@ public class GameManager : MonoBehaviour
 
     public void WinGame() 
     {
-        OnToggleMusic?.Invoke(false);
+        EndBattle?.Invoke();
+
+        ToggleMusic?.Invoke(false);
         Metronome.ToggleGameplay(false);
 
         UIManager.ShowWinPanel();
@@ -136,13 +160,13 @@ public class GameManager : MonoBehaviour
 
     public void PauseGameplay() 
     {
-        OnToggleMusic?.Invoke(false);
+        ToggleMusic?.Invoke(false);
         Metronome.ToggleGameplay(false);
     }
 
     public void ResumeGameplay() 
     {
-        OnToggleMusic?.Invoke(true);
+        ToggleMusic?.Invoke(true);
         Metronome.ToggleGameplay(true);
     }
 
@@ -150,7 +174,7 @@ public class GameManager : MonoBehaviour
     {
         ResetGameState?.Invoke();
 
-        StartButton();
+        StartTrack(currentTrack, false);
     }
 
     public void ReturnToMenu() 
@@ -166,5 +190,17 @@ public class GameManager : MonoBehaviour
         #else
                 Application.Quit();
         #endif
+    }
+
+    public void SaveOffset()
+    {
+        PlayerPrefs.SetInt("GeneralOffset", GeneralOffset);
+
+        PlayerPrefs.Save();
+    }
+
+    public void LoadSettings()
+    {
+        GeneralOffset = PlayerPrefs.GetInt("GeneralOffset", 0);
     }
 }

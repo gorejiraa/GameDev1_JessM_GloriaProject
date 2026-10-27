@@ -12,6 +12,10 @@ public class Track : ScriptableObject
     public int BeatsInBar = 8;
     public bool HalfBeatsEnabled = false;
 
+    public int EnemyHealth = 10;
+    public int PlayerHealth = 5;
+    public int TimingWindow = 100;
+
     public bool RandomPatterns = true;
     public List<Pattern> Patterns;
 

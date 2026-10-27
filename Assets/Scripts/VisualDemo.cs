@@ -78,8 +78,6 @@ public class VisualDemo : MonoBehaviour
         if (proximity > 0) read = $"+{proximity}";
         else read = $"{proximity}";
 
-        Debug.Log($"Offset: {read}");
-
         averageInputOffset = (int)Math.Round(proximityReads.Average());
 
         if (offsetText != null) offsetText.text = averageInputOffset.ToString();

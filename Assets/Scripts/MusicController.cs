@@ -9,7 +9,7 @@ public class MusicController : MonoBehaviour
     public void Start()
     {
         audioSource = GetComponent<AudioSource>();
-        GameManager.OnToggleMusic += ToggleMusic;
+        GameManager.ToggleMusic += ToggleMusic;
     }
 
     private void Update()

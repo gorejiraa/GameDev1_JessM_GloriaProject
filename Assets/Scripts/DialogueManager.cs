@@ -30,6 +30,7 @@ public struct VoicedDialogue
 public class DialogueManager : MonoBehaviour
 {
     private static readonly Regex MetaRegex = new Regex(@"\[([a-zA-Z0-9]+)(?:=""(.*?)"")?\]");
+    private static event Action<string> PromptTutorial;
 
     private Queue<string> DialogueQueue = new Queue<string>();
     private List<TimedDialogue> TimedDialogueSections = new List<TimedDialogue>();
@@ -59,8 +60,7 @@ public class DialogueManager : MonoBehaviour
     private void Start()
     {
         DialogueText.text = "";
-        EnemyEncounter.OnEnemyHealthEmpty += CancelDialogue;
-        PlayerStatus.OnPlayerHealthEmpty += CancelDialogue;
+        GameManager.EndBattle += CancelDialogue;
         OffsetCalculator.Complete += CancelDialogue;
     }
 
@@ -123,7 +123,7 @@ public class DialogueManager : MonoBehaviour
         ProgressDialogue();
     }
 
-    private void ProgressDialogue() 
+    public void ProgressDialogue() 
     {
         if (DialogueQueue.TryDequeue(out string firstLine))
         {
@@ -190,7 +190,7 @@ public class DialogueManager : MonoBehaviour
             {
                 speakerName = value;
             }
-            else if (key == "auto") 
+            else if (key == "auto")
             {
                 auto = true;
 
@@ -200,6 +200,14 @@ public class DialogueManager : MonoBehaviour
             else if (key == "speed" || key == "spd")
             {
                 if (int.TryParse(value, out int result)) speed = result;
+            }
+            else if (key == "tutorial")
+            {
+                GameManager.Instance.TutorialManager.ReceiveTutorialPrompt(value);
+            }
+            else if (key == "patterns") 
+            {
+                GameManager.Instance.Choreographer.SetActivePatterns(value);
             }
         }
 

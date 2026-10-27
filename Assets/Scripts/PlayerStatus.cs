@@ -3,7 +3,6 @@ using UnityEngine;
 
 public class PlayerStatus : MonoBehaviour
 {
-    [SerializeField] private int maxHealth = 5;
     public Health Health;
 
     [SerializeField] private float DamageFlickerTime = 0.3f;
@@ -17,7 +16,7 @@ public class PlayerStatus : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Health = new Health(maxHealth);
+        Health = new Health(5);
         Judge.OnValidateInput += TakeDamageOnFailedInput;
         spriteRenderer = GetComponent<SpriteRenderer>();
         Choreographer.OnSwitchToListenState += ResetInvincibility;

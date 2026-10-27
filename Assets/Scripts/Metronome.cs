@@ -49,6 +49,7 @@ public class Metronome : MonoBehaviour
         BeatsInBar = track.BeatsInBar;
         Offset = track.Offset + generalOffset;
         HalfBeatsEnabled = track.HalfBeatsEnabled;
+        TimingWindowMargin = track.TimingWindow;
 
         lastBeat = 0;
         beatDurationMs = (60 / BPM) * 1000;
@@ -141,5 +142,10 @@ public class Metronome : MonoBehaviour
     public void ToggleGameplay(bool toggle) 
     {
         gameplayActive = toggle;
+    }
+
+    public void PushOffset(int offset) 
+    {
+        nextBeatPosition += offset;
     }
 }

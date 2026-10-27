@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74dedcd54da02394a892896cb1029da0, type: 3}
+  m_Name: Tutorial
+  m_EditorClassIdentifier: Assembly-CSharp::Track
+  Song: {fileID: 8300000, guid: 8a9a3a542b3358f41a97358c26c2d780, type: 3}
+  BPM: 120
+  Offset: 0
+  GameplayStartBeat: 24
+  BeatsInBar: 8
+  HalfBeatsEnabled: 0
+  EnemyHealth: 999
+  PlayerHealth: 999
+  TimingWindow: 100
+  RandomPatterns: 0
+  Patterns:
+  - HalfBeats: 0
+    Notes: 0100000007000000
+  - HalfBeats: 0
+    Notes: 0200000007000000
+  - HalfBeats: 0
+    Notes: 01000000020000000300000004000000
+  - HalfBeats: 0
+    Notes: 010000000100000003000000040000000100000002000000
+  - HalfBeats: 0
+    Notes: 0100000001000000030000000400000001000000040000000200000007000000
+  - HalfBeats: 0
+    Notes: 0200000003000000010000000000000004000000020000000400000007000000
+  - HalfBeats: 0
+    Notes: 02000000040000000100000003000000
+  Dialogue:
+  - Time: 0
+    Dialogue:
+    - '[s="tutorial"][auto]Welcome to Prefora! Here we''ll be teaching you the basics...'
+    - '[s="tutorial"][auto]In this game, you''ll follow the prompts of your opponent
+      to defeat them by matching the rhythm!'
+    - '[tutorial="Hit(3)"][patterns="0"]To start, try hitting up when prompted 5
+      times.'
+    - '[s="tutorial"][auto]Great job!!!'
+    - '[tutorial="Hit(3)"][patterns="1"]Now try it again, but this time pressing
+      down...'
+    - '[s="tutorial"][auto]Now you''re getting it!'
+    - '[tutorial="Sequence(3)"][patterns="2,6"]Let''s get all four directions in...
+      Can you get the whole patterns?'
+    - '[s="tutorial"][auto]Fantastic!! When you do a whole pattern successfully,
+      the enemy will lose health. If you miss a note, you''ll fail that sequence
+      and lose health.'
+    - '[tutorial="Sequence(3)"][patterns="3,4,5"]Try and beat a few harder sequences
+      here to prove you''ve got what it takes!'
+    - '[s="tutorial"][auto]Great work! Looks like you''re ready to take on the real
+      thing. Good luck!'
+    - '[tutorial="End(1)"]'

@@ -24,8 +24,7 @@ public class EnemyEncounter : MonoBehaviour
     private bool spriteTimerActive = false;
     private Vector2 slideDirection;
 
-    [SerializeField] private int maxHealth = 10;
-    private Health Health;
+    public Health Health;
 
     public static event Action<Track, float> SendEncounterDetails;
     public static event Action<Health> OnEnemyHealthChange;
@@ -34,7 +33,7 @@ public class EnemyEncounter : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        Health = new Health(maxHealth);
+        Health = new Health(10);
 
         spriteRenderer = GetComponent<SpriteRenderer>();
         audioSource = GetComponent<AudioSource>();

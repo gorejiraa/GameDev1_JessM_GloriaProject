@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Track
   Song: {fileID: 8300000, guid: 86e47e76ce708c04e811d2e17516c638, type: 3}
   BPM: 140
-  Offset: 0
+  Offset: -60
   GameplayStartBeat: 8
   BeatsInBar: 8
   HalfBeatsEnabled: 0

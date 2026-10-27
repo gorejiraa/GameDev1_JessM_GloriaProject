@@ -1,10 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using UnityEngine;
 
 public class Choreographer : MonoBehaviour
 {
+    private static readonly Regex PatternSetRegex = new Regex(@"\d+");
+
     [SerializeField] private int NextDemoBeat;
     [SerializeField] private int NextListenBeat;
     [SerializeField] private int ActiveBeat;
@@ -16,7 +19,8 @@ public class Choreographer : MonoBehaviour
     private bool _randomPatterns = true;
     private int _currentPatternLength = 8;
     private bool _currentPatternHalfBeats = false;
-    private List<Pattern> _presetPatterns;
+    private List<Pattern> _allPresetPatterns;
+    private List<Pattern> _activePresetPatterns;
 
     [SerializeField] private bool DisableBlanks = false;
     [SerializeField] private bool LastSequenceNoteIsGo = false;
@@ -56,10 +60,11 @@ public class Choreographer : MonoBehaviour
         NextListenBeat = NextDemoBeat;
         _currentPatternBeat = 0;
         _randomPatterns = track.RandomPatterns;
-        _presetPatterns = track.Patterns.ToList();
+        _allPresetPatterns = track.Patterns.ToList();
+        _activePresetPatterns = track.Patterns.ToList();
 
-        if (_presetPatterns.Count <= 0) _randomPatterns = true;
-        if (!track.HalfBeatsEnabled) _presetPatterns.RemoveAll(p => p.HalfBeats);
+        if (_allPresetPatterns.Count <= 0) _randomPatterns = true;
+        if (!track.HalfBeatsEnabled) _allPresetPatterns.RemoveAll(p => p.HalfBeats);
     }
 
     // Update is called once per frame
@@ -169,13 +174,31 @@ public class Choreographer : MonoBehaviour
 
     private void SelectRandomPatternPreset() 
     {
-        int index = UnityEngine.Random.Range(0, _presetPatterns.Count);
+        int index = UnityEngine.Random.Range(0, _activePresetPatterns.Count);
 
-        _currentPattern = _presetPatterns[index].Notes;
+        _currentPattern = _activePresetPatterns[index].Notes;
         _currentPatternLength = _currentPattern.Count;
-        _currentPatternHalfBeats = _presetPatterns[index].HalfBeats;
+        _currentPatternHalfBeats = _activePresetPatterns[index].HalfBeats;
 
         if (DebugMessages) Debug.Log($"Selected preset pattern {index}: {string.Join(", ", _currentPattern)}");
+    }
+
+    public void SetActivePatterns(string patternIndexes) 
+    {
+        if (DebugMessages) Debug.Log("Setting active patterns...");
+
+        _activePresetPatterns.Clear();
+
+        MatchCollection matches = PatternSetRegex.Matches(patternIndexes);
+
+        foreach (Match match in matches)
+        {
+            int index = int.Parse(match.Value);
+
+            if (DebugMessages) Debug.Log($"Activating pattern: {index}");
+
+            _activePresetPatterns.Add(_allPresetPatterns[index]);
+        }
     }
 }
 

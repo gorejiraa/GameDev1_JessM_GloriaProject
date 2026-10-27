@@ -33,4 +33,10 @@ public class Health
         CurrentHealth = MaxHealth;
         Empty = false;
     }
+
+    public void SetMaxHealth(int health)
+    {
+        MaxHealth = health;
+        CurrentHealth = health;
+    }
 }

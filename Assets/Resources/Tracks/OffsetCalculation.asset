@@ -18,6 +18,9 @@ MonoBehaviour:
   GameplayStartBeat: 9999
   BeatsInBar: 8
   HalfBeatsEnabled: 0
+  EnemyHealth: 10
+  PlayerHealth: 5
+  TimingWindow: 100
   RandomPatterns: 1
   Patterns: []
   Dialogue:
