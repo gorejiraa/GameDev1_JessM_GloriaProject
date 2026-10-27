@@ -43,11 +43,11 @@ public class Metronome : MonoBehaviour
         SetNextBeatWindow();
     }
 
-    public void ResetValues(Track track)
+    public void ResetValues(Track track, int generalOffset)
     {
         BPM = track.BPM;
         BeatsInBar = track.BeatsInBar;
-        Offset = track.Offset;
+        Offset = track.Offset + generalOffset;
         HalfBeatsEnabled = track.HalfBeatsEnabled;
 
         lastBeat = 0;

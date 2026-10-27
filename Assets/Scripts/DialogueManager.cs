@@ -61,6 +61,7 @@ public class DialogueManager : MonoBehaviour
         DialogueText.text = "";
         EnemyEncounter.OnEnemyHealthEmpty += CancelDialogue;
         PlayerStatus.OnPlayerHealthEmpty += CancelDialogue;
+        OffsetCalculator.Complete += CancelDialogue;
     }
 
     private void Update()

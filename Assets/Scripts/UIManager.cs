@@ -14,6 +14,10 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject WinPanel;
     [SerializeField] private GameObject MenuPanel;
 
+    [SerializeField] private GameObject OffsetCalculationPanel;
+    [SerializeField] private GameObject OffsetCalculationDetailsPanel;
+    [SerializeField] private TextMeshProUGUI OffsetDisplayText;
+
     [SerializeField] private bool DebugMessages = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -100,10 +104,24 @@ public class UIManager : MonoBehaviour
         LossPanel.SetActive(true);
     }
 
+    public void ToggleOffsetCalculationPanel(bool toggle) 
+    {
+        OffsetCalculationPanel.SetActive(toggle);
+    }
+
+    public void ToggleDisplayOffsetCalculation(bool toggle) 
+    {
+        OffsetCalculationDetailsPanel.SetActive(toggle);
+        OffsetDisplayText.text = GameManager.Instance.OffsetCalculator.GetOffsetAverageString();
+    }
+
     private void ResetState() 
     {
         LossPanel.SetActive(false);
         WinPanel.SetActive(false);
+        ToggleGameplayUI(false);
+        ToggleOffsetCalculationPanel(false);
+        ToggleMainMenu(true);
     }
 
     public void ToggleGameplayUI(bool toggle) 
