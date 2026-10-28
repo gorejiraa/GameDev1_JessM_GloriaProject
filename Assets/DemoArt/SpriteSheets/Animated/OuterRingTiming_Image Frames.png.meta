@@ -184,12 +184,12 @@ TextureImporter:
       name: OuterRingTiming_Image Frames_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 245
-        width: 226
-        height: 228
+        x: 0
+        y: 241
+        width: 244
+        height: 241
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,19 +206,19 @@ TextureImporter:
       name: OuterRingTiming_Image Frames_1
       rect:
         serializedVersion: 2
-        x: 25
-        y: 22
-        width: 200
-        height: 205
+        x: 0
+        y: 0
+        width: 244
+        height: 241
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 311e3c77dc7902f10800000000000000
+      spriteID: d3d59d01c4ff2234aaca65d75e00cf82
       internalID: 2242959523163922707
       vertices: []
       indices: 
@@ -228,7 +228,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 84678e9e10bb6f3408d9cb56aa250f71
     internalID: 0
     vertices: []
     indices: 
@@ -236,7 +236,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":2.0},"gridSpriteSize":{"x":244.0,"y":241.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       OuterRingTiming_Image Frames_0: 9051234349372084296
       OuterRingTiming_Image Frames_1: 2242959523163922707

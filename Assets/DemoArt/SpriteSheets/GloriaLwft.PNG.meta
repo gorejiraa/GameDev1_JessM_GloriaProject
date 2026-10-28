@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 6a01bb5acfb75f249adbaf70492de94c
+guid: a57487231469b3a48bd70ecab7b4e74c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1987538854986323829
-    second: Portraits_Image Frames_0
-  - first:
-      213: 3640351985812965384
-    second: Portraits_Image Frames_1
-  - first:
-      213: -5977708164993029328
-    second: Portraits_Image Frames_2
+      213: 5341458426511824504
+    second: GloriaLwft_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -184,13 +178,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Portraits_Image Frames_0
+      name: GloriaLwft_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 488
-        width: 252
-        height: 250
+        x: 69
+        y: 113
+        width: 894
+        height: 615
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,52 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5771fb4ee08259b10800000000000000
-      internalID: 1987538854986323829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Portraits_Image Frames_1
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 242
-        width: 252
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 80805cbf7d0258230800000000000000
-      internalID: 3640351985812965384
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Portraits_Image Frames_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 252
-        height: 243
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 03b63ae581aea0da0800000000000000
-      internalID: -5977708164993029328
+      spriteID: 87611ce732ca02a40800000000000000
+      internalID: 5341458426511824504
       vertices: []
       indices: 
       edges: []
@@ -263,9 +213,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Portraits_Image Frames_0: 1987538854986323829
-      Portraits_Image Frames_1: 3640351985812965384
-      Portraits_Image Frames_2: -5977708164993029328
+      GloriaLwft_0: 5341458426511824504
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

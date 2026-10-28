@@ -193,12 +193,12 @@ TextureImporter:
       name: Gloria_SpriteSheet_Image Frames_0
       rect:
         serializedVersion: 2
-        x: 26
-        y: 170
-        width: 970
-        height: 668
+        x: 0
+        y: 0
+        width: 1022
+        height: 1009
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -215,19 +215,19 @@ TextureImporter:
       name: Gloria_SpriteSheet_Image Frames_1
       rect:
         serializedVersion: 2
-        x: 1066
-        y: 147
-        width: 934
-        height: 715
+        x: 1022
+        y: 0
+        width: 1022
+        height: 1009
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0a1228e744a1c4520800000000000000
+      spriteID: a57ceb6dfd6b01e4a8015c375c7cd93b
       internalID: 2687551959115899296
       vertices: []
       indices: 
@@ -237,19 +237,19 @@ TextureImporter:
       name: Gloria_SpriteSheet_Image Frames_2
       rect:
         serializedVersion: 2
-        x: 2058
-        y: 280
-        width: 994
-        height: 448
+        x: 2044
+        y: 0
+        width: 1022
+        height: 1009
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4b7022e202777e4f0800000000000000
+      spriteID: 9ca9bacf150030a4783da6a0314cff63
       internalID: -799539428738332748
       vertices: []
       indices: 
@@ -259,19 +259,19 @@ TextureImporter:
       name: Gloria_SpriteSheet_Image Frames_3
       rect:
         serializedVersion: 2
-        x: 3151
-        y: 139
-        width: 851
-        height: 731
+        x: 3066
+        y: 0
+        width: 1022
+        height: 1009
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a029df5977f8d1c60800000000000000
+      spriteID: 7ebf53daab2a78242b70f682595b7cb7
       internalID: 7790540674201129482
       vertices: []
       indices: 
@@ -281,19 +281,19 @@ TextureImporter:
       name: Gloria_SpriteSheet_Image Frames_4
       rect:
         serializedVersion: 2
-        x: 4087
+        x: 4088
         y: 0
-        width: 1023
+        width: 1022
         height: 1009
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 58ceb48a21e546a10800000000000000
+      spriteID: 49b9bd0c7ae2796488edd993a67585b0
       internalID: 1901748376883162245
       vertices: []
       indices: 
@@ -303,7 +303,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: da627356e09a4ec449b9e9f5ce8230d1
     internalID: 0
     vertices: []
     indices: 
@@ -311,7 +311,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":5.0,"y":1.0},"gridSpriteSize":{"x":1022.0,"y":1009.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Gloria_SpriteSheet_Image Frames_0: 7701276910917720576
       Gloria_SpriteSheet_Image Frames_1: 2687551959115899296
