@@ -452,7 +452,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -568,7 +568,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -771,6 +771,10 @@ PrefabInstance:
     - target: {fileID: 1956714609571371660, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
       propertyPath: m_Name
       value: OffsetCalculator
+      objectReference: {fileID: 0}
+    - target: {fileID: 1956714609571371660, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2798045597679278499, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1238,7 +1242,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3072847342395049986, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3162608417309628367, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: easyColor.b
@@ -1628,6 +1632,14 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 0.8
       objectReference: {fileID: 0}
+    - target: {fileID: 6716472915284598610, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7166296430610649921, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: m_Volume
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7197370073299371230, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_Type
       value: 0
@@ -1652,6 +1664,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -7819713580185839188, guid: e90128cce1d03c74c9b162b8d0e64900, type: 3}
+    - target: {fileID: 7731602621917637809, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7983005441810660766, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_Type
       value: 0
