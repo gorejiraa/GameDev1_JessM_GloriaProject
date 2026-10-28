@@ -263,11 +263,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2418
-        width: 571
-        height: 480
+        y: 2415
+        width: 95
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -284,12 +284,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_1
       rect:
         serializedVersion: 2
-        x: 569
-        y: 2416
-        width: 96
-        height: 481
+        x: 95
+        y: 2415
+        width: 95
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -306,12 +306,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1933
-        width: 94
-        height: 470
+        x: 190
+        y: 2415
+        width: 95
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -328,12 +328,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1449
-        width: 476
-        height: 484
+        x: 285
+        y: 2415
+        width: 95
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -350,12 +350,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_4
       rect:
         serializedVersion: 2
-        x: 94
-        y: 1933
+        x: 380
+        y: 2415
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -372,12 +372,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_5
       rect:
         serializedVersion: 2
-        x: 189
-        y: 1933
+        x: 475
+        y: 2415
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -394,12 +394,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_6
       rect:
         serializedVersion: 2
-        x: 284
-        y: 1933
+        x: 570
+        y: 2415
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -416,12 +416,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_7
       rect:
         serializedVersion: 2
-        x: 379
+        x: 0
         y: 1932
-        width: 286
-        height: 484
+        width: 95
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -438,12 +438,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 965
-        width: 96
+        x: 95
+        y: 1932
+        width: 95
         height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -460,12 +460,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_9
       rect:
         serializedVersion: 2
-        x: 474
-        y: 1448
-        width: 97
+        x: 190
+        y: 1932
+        width: 95
         height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -482,12 +482,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_10
       rect:
         serializedVersion: 2
-        x: 569
-        y: 1448
-        width: 96
+        x: 285
+        y: 1932
+        width: 95
         height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -504,12 +504,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_11
       rect:
         serializedVersion: 2
-        x: 0
-        y: 483
-        width: 96
-        height: 484
+        x: 380
+        y: 1932
+        width: 95
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -526,12 +526,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_12
       rect:
         serializedVersion: 2
-        x: 94
-        y: 967
+        x: 475
+        y: 1932
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -548,12 +548,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_13
       rect:
         serializedVersion: 2
-        x: 94
-        y: 483
-        width: 97
-        height: 484
+        x: 570
+        y: 1932
+        width: 95
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -570,12 +570,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_14
       rect:
         serializedVersion: 2
-        x: 189
-        y: 967
+        x: 0
+        y: 1449
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -592,12 +592,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_15
       rect:
         serializedVersion: 2
-        x: 189
-        y: 483
-        width: 97
-        height: 484
+        x: 95
+        y: 1449
+        width: 95
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -614,12 +614,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_16
       rect:
         serializedVersion: 2
-        x: 284
-        y: 967
+        x: 190
+        y: 1449
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -636,12 +636,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_17
       rect:
         serializedVersion: 2
-        x: 284
-        y: 483
-        width: 97
-        height: 484
+        x: 285
+        y: 1449
+        width: 95
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -658,12 +658,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_18
       rect:
         serializedVersion: 2
-        x: 379
-        y: 967
+        x: 380
+        y: 1449
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -680,12 +680,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_19
       rect:
         serializedVersion: 2
-        x: 379
-        y: 483
-        width: 97
-        height: 484
+        x: 475
+        y: 1449
+        width: 95
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -702,12 +702,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_20
       rect:
         serializedVersion: 2
-        x: 474
-        y: 967
+        x: 570
+        y: 1449
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -724,12 +724,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_21
       rect:
         serializedVersion: 2
-        x: 569
-        y: 967
+        x: 0
+        y: 966
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -746,12 +746,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_22
       rect:
         serializedVersion: 2
-        x: 474
-        y: 484
+        x: 95
+        y: 966
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -768,12 +768,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_23
       rect:
         serializedVersion: 2
-        x: 569
-        y: 484
+        x: 190
+        y: 966
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -790,12 +790,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1
-        width: 94
-        height: 470
+        x: 285
+        y: 966
+        width: 95
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -812,12 +812,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_25
       rect:
         serializedVersion: 2
-        x: 94
-        y: 1
+        x: 380
+        y: 966
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -834,12 +834,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_26
       rect:
         serializedVersion: 2
-        x: 189
-        y: 1
+        x: 475
+        y: 966
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -856,12 +856,12 @@ TextureImporter:
       name: PlayerHealthEmpty_Layer1_IMG_1678_27
       rect:
         serializedVersion: 2
-        x: 284
-        y: 1
+        x: 570
+        y: 966
         width: 95
-        height: 470
+        height: 483
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -874,11 +874,319 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328b32d6572f11c489ea09980db25d29
+      internalID: 198659386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_29
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 483
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d36963bfee303ab49a227e5860b78fbd
+      internalID: 1615352508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_30
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 483
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 203e4f657a41e654db81de12f59f2228
+      internalID: -1979683829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_31
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 483
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1db4184eb313843bb8f95b7dac9cba
+      internalID: -462195981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_32
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 483
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f01acdd2cbfb9488d6d7d97305a3fa
+      internalID: -1648489541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_33
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 483
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c07fbd5763faeb43b8a89d24a65737a
+      internalID: 431611148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_34
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 483
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a64e25419075be4193c125c86181e12
+      internalID: 143820844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a86d15d3e2b4e4ba09f727df89ef8c
+      internalID: -1941100934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_36
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 0
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c21a3be106949408ad3c6895842814
+      internalID: -2073883165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_37
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 0
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9999a8358b9ae4943b84c8ae94c07fc0
+      internalID: -350699093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_38
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b6bd2aaabe21246843faa221d1bbb0
+      internalID: -1519072619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_39
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 0
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac6c0b2e4a0180479148437ff303f7c
+      internalID: -1859995571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_40
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 0
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a71cd3caf880954e951e540b1c79954
+      internalID: -1903780138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerHealthEmpty_Layer1_IMG_1678_41
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 0
+        width: 95
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5e341c7043c5b543b0082d96fab2811
+      internalID: 1128728578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1097638d5d1297843a85300c43c47174
     internalID: 0
     vertices: []
     indices: 
@@ -886,7 +1194,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":6.0},"gridSpriteSize":{"x":95.0,"y":483.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       PlayerHealthEmpty_Layer1_IMG_1678_0: 5299814744419262355
       PlayerHealthEmpty_Layer1_IMG_1678_1: -4813988433250706665
@@ -909,8 +1219,22 @@ TextureImporter:
       PlayerHealthEmpty_Layer1_IMG_1678_25: 691013824774145922
       PlayerHealthEmpty_Layer1_IMG_1678_26: -1766228895387115620
       PlayerHealthEmpty_Layer1_IMG_1678_27: 7922946580213701293
+      PlayerHealthEmpty_Layer1_IMG_1678_28: 198659386
+      PlayerHealthEmpty_Layer1_IMG_1678_29: 1615352508
       PlayerHealthEmpty_Layer1_IMG_1678_3: 9103753793118596366
+      PlayerHealthEmpty_Layer1_IMG_1678_30: -1979683829
+      PlayerHealthEmpty_Layer1_IMG_1678_31: -462195981
+      PlayerHealthEmpty_Layer1_IMG_1678_32: -1648489541
+      PlayerHealthEmpty_Layer1_IMG_1678_33: 431611148
+      PlayerHealthEmpty_Layer1_IMG_1678_34: 143820844
+      PlayerHealthEmpty_Layer1_IMG_1678_35: -1941100934
+      PlayerHealthEmpty_Layer1_IMG_1678_36: -2073883165
+      PlayerHealthEmpty_Layer1_IMG_1678_37: -350699093
+      PlayerHealthEmpty_Layer1_IMG_1678_38: -1519072619
+      PlayerHealthEmpty_Layer1_IMG_1678_39: -1859995571
       PlayerHealthEmpty_Layer1_IMG_1678_4: -2800162575809332560
+      PlayerHealthEmpty_Layer1_IMG_1678_40: -1903780138
+      PlayerHealthEmpty_Layer1_IMG_1678_41: 1128728578
       PlayerHealthEmpty_Layer1_IMG_1678_5: -1804793270397292379
       PlayerHealthEmpty_Layer1_IMG_1678_6: -1063935411317482429
       PlayerHealthEmpty_Layer1_IMG_1678_7: -4923619806994622775

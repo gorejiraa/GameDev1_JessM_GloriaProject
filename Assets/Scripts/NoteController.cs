@@ -24,6 +24,9 @@ public class NoteController : MonoBehaviour
         transform.position = GameManager.Instance.IndicatorManager.GetIndicatorPosition(note);
         targetScale = GameManager.Instance.IndicatorManager.GetIndicatorScale(note).x;
         startingScale = targetScale * startingScaleRatio;
+        Color color = spriteRenderer.color;
+        color.a = 0f;
+        spriteRenderer.color = color;
     }
 
     public float GetProgress()
