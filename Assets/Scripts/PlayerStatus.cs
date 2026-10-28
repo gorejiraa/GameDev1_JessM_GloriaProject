@@ -13,12 +13,16 @@ public class PlayerStatus : MonoBehaviour
     public static event Action<Health> OnPlayerHealthChange;
     public static event Action OnPlayerHealthEmpty;
 
+    private AudioSource audioSource;
+    [SerializeField] private AudioClip TakeDamageSound;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Health = new Health(5);
         Judge.OnValidateInput += TakeDamageOnFailedInput;
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioSource = GetComponent<AudioSource>();
         Choreographer.OnSwitchToListenState += ResetInvincibility;
         GameManager.ResetGameState += ResetState;
     }
@@ -43,6 +47,7 @@ public class PlayerStatus : MonoBehaviour
 
         Invincibility = true;
 
+        audioSource.PlayOneShot(TakeDamageSound);
         Health.TakeDamage(1);
         OnPlayerHealthChange?.Invoke(Health);
 

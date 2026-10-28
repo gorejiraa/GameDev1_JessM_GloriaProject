@@ -61,10 +61,11 @@ public class Choreographer : MonoBehaviour
         _currentPatternBeat = 0;
         _randomPatterns = track.RandomPatterns;
         _allPresetPatterns = track.Patterns.ToList();
-        _activePresetPatterns = track.Patterns.ToList();
 
         if (_allPresetPatterns.Count <= 0) _randomPatterns = true;
         if (!track.HalfBeatsEnabled) _allPresetPatterns.RemoveAll(p => p.HalfBeats);
+
+        _activePresetPatterns = _allPresetPatterns.ToList();
     }
 
     // Update is called once per frame

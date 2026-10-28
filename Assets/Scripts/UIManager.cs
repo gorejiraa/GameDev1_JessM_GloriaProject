@@ -20,6 +20,16 @@ public class UIManager : MonoBehaviour
 
     [SerializeField] private bool DebugMessages = false;
 
+    [Header("Proximity Text")]
+    [SerializeField] private Color missColor;
+    [SerializeField] private string missText;
+    [SerializeField] private Color perfectColor;
+    [SerializeField] private string perfectText;
+    [SerializeField] private Color closeColor;
+    [SerializeField] private string closeText;
+    [SerializeField] private Color nearMissColor;
+    [SerializeField] private string nearMissText;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -65,8 +75,8 @@ public class UIManager : MonoBehaviour
 
         if (!success)
         {
-            text = "Ouch!";
-            color = Color.red;
+            text = missText;
+            color = missColor;
         }
         else 
         {
@@ -74,18 +84,18 @@ public class UIManager : MonoBehaviour
 
             if (Mathf.Abs(proximity) < 10)
             {
-                text = "Perfect!";
-                color = Color.yellow;
+                text = perfectText;
+                color = perfectColor;
             }
             else if (Mathf.Abs(proximity) < 45)
             {
-                text = "Nice";
-                color = Color.green;
+                text = closeText;
+                color = closeColor;
             }
             else 
             {
-                text = "Okay...";
-                color = Color.blue;
+                text = nearMissText;
+                color = nearMissColor;
             }
         }
 
