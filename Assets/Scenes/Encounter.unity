@@ -229,16 +229,16 @@ MonoBehaviour:
   NoteActions:
   - Note: 1
     Sprite: {fileID: 1866080321450298439, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
-    Sound: {fileID: 0}
+    Sound: {fileID: 8300000, guid: 1cda3225487aa144593bb1b7209cb3c0, type: 3}
   - Note: 2
     Sprite: {fileID: -8744409789289659004, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
-    Sound: {fileID: 0}
+    Sound: {fileID: 8300000, guid: 1cda3225487aa144593bb1b7209cb3c0, type: 3}
   - Note: 3
     Sprite: {fileID: 6888708756529517008, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
-    Sound: {fileID: 0}
+    Sound: {fileID: 8300000, guid: 1cda3225487aa144593bb1b7209cb3c0, type: 3}
   - Note: 4
     Sprite: {fileID: 2788089956977029842, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
-    Sound: {fileID: 0}
+    Sound: {fileID: 8300000, guid: 1cda3225487aa144593bb1b7209cb3c0, type: 3}
   spriteAnimationTime: 0.16
   matchAnimationTimerToTimingWindow: 1
   spriteAnimationSlideDistance: 1
@@ -268,19 +268,7 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents:
   - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 270486018}
-        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_ActionId: 351f2ccd-1f9f-44bf-9bec-d62ac5c5f408
     m_ActionName: 'Player/Move[/Keyboard/w,/Keyboard/upArrow,/Keyboard/s,/Keyboard/downArrow,/Keyboard/a,/Keyboard/leftArrow,/Keyboard/d,/Keyboard/rightArrow]'
   - m_PersistentCalls:
@@ -347,6 +335,78 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 270486018}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnLeft
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 3834630e-5da7-4b76-9af9-bc905821b6f6
+    m_ActionName: 'Player/Left[/Keyboard/a,/Keyboard/leftArrow]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 270486018}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnRight
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: e548497b-9d6e-4beb-8433-612e382582b2
+    m_ActionName: 'Player/Right[/Keyboard/d,/Keyboard/rightArrow]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 270486018}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnUp
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: cc928e45-e2e6-4b00-89b9-245251e3d79b
+    m_ActionName: 'Player/Up[/Keyboard/w,/Keyboard/upArrow]'
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 270486018}
+        m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
+        m_MethodName: OnDown
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: 10cf4785-1bde-4174-99ba-5a136d5781c2
+    m_ActionName: 'Player/Down[/Keyboard/s,/Keyboard/downArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ec41f992-429a-4bbf-9c15-659f12a8bce2
+    m_ActionName: 'Player/InputTest[/Keyboard/anyKey]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 895c74a8-174b-4470-aad6-1e679aecb46f
+    m_ActionName: 'Player/Escape[/Keyboard/escape,/Keyboard/backspace]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -364,7 +424,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bb8b9cd126891b47810f2ed631dd9bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  maxHealth: 5
   DamageFlickerTime: 2
 --- !u!1 &275158538
 GameObject:
@@ -498,16 +557,16 @@ MonoBehaviour:
   NoteActions:
   - Note: 1
     Sprite: {fileID: -3344844586257861575, guid: 84301bd02f1fafd4eb4932e7c9c3bd10, type: 3}
-    Sound: {fileID: 0}
+    Sound: {fileID: 8300000, guid: ad9c7d28d68e33a4e98268470b5ec0dc, type: 3}
   - Note: 2
     Sprite: {fileID: 2687551959115899296, guid: e4e287947496158418fc7a6dd333a691, type: 3}
-    Sound: {fileID: 0}
+    Sound: {fileID: 8300000, guid: ad9c7d28d68e33a4e98268470b5ec0dc, type: 3}
   - Note: 3
     Sprite: {fileID: 5341458426511824504, guid: a57487231469b3a48bd70ecab7b4e74c, type: 3}
-    Sound: {fileID: 0}
+    Sound: {fileID: 8300000, guid: ad9c7d28d68e33a4e98268470b5ec0dc, type: 3}
   - Note: 4
     Sprite: {fileID: -5610005607842546794, guid: 990f56c8295c15d45ad99e4ab62cbc40, type: 3}
-    Sound: {fileID: 0}
+    Sound: {fileID: 8300000, guid: ad9c7d28d68e33a4e98268470b5ec0dc, type: 3}
   - Note: 7
     Sprite: {fileID: -8166685118564402328, guid: d1da741e8307ee449a5d30d3fb75ee2a, type: 3}
     Sound: {fileID: 0}
@@ -516,7 +575,6 @@ MonoBehaviour:
   spriteAnimationSlideDistance: 1
   EncounterTrack: {fileID: 11400000, guid: e89d96efa801d1d44ab285b33318f8c1, type: 2}
   TimingWindow: 80
-  maxHealth: 10
 --- !u!212 &275158541
 SpriteRenderer:
   serializedVersion: 2
@@ -591,6 +649,74 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &566343469
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1956714609571371660, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+      propertyPath: m_Name
+      value: OffsetCalculator
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798045597679278499, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 519.232
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798045597679278499, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 260.72433
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798045597679278499, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798045597679278499, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798045597679278499, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798045597679278499, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798045597679278499, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798045597679278499, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798045597679278499, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2798045597679278499, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+--- !u!114 &566343470 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6713161148627059884, guid: 2fbee90eb0a97ef4fa1373e7c0743b85, type: 3}
+  m_PrefabInstance: {fileID: 566343469}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f473654be7e1cf44d8848d3b24b98ef3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &597666626
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,6 +886,18 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.9433962
       objectReference: {fileID: 0}
+    - target: {fileID: 1806471752778804174, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: Enemy
+      value: 
+      objectReference: {fileID: 275158540}
+    - target: {fileID: 1806471752778804174, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: PlayerStatus
+      value: 
+      objectReference: {fileID: 270486020}
+    - target: {fileID: 1806471752778804174, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: OffsetCalculator
+      value: 
+      objectReference: {fileID: 566343470}
     - target: {fileID: 2168688532261684175, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.0991
@@ -880,6 +1018,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7702236635711159347, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7819713580185839188, guid: e90128cce1d03c74c9b162b8d0e64900, type: 3}
     - target: {fileID: 8293224913489009869, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_Value
       value: 1
@@ -1089,7 +1231,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2114961416
 SpriteRenderer:
   serializedVersion: 2
@@ -1287,6 +1429,30 @@ MonoBehaviour:
       m_Calls: []
     m_ActionId: 9caa3d8a-6b2f-4e8e-8bad-6ede561bd9be
     m_ActionName: UI/TrackedDeviceOrientation
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 3834630e-5da7-4b76-9af9-bc905821b6f6
+    m_ActionName: 'Player/Left[/Keyboard/a,/Keyboard/leftArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: e548497b-9d6e-4beb-8433-612e382582b2
+    m_ActionName: 'Player/Right[/Keyboard/d,/Keyboard/rightArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: cc928e45-e2e6-4b00-89b9-245251e3d79b
+    m_ActionName: 'Player/Up[/Keyboard/w,/Keyboard/upArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 10cf4785-1bde-4174-99ba-5a136d5781c2
+    m_ActionName: 'Player/Down[/Keyboard/s,/Keyboard/downArrow]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: ec41f992-429a-4bbf-9c15-659f12a8bce2
+    m_ActionName: 'Player/InputTest[/Keyboard/anyKey]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 895c74a8-174b-4470-aad6-1e679aecb46f
+    m_ActionName: 'Player/Escape[/Keyboard/escape,/Keyboard/backspace]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -1302,4 +1468,5 @@ SceneRoots:
   - {fileID: 275158542}
   - {fileID: 270486017}
   - {fileID: 2105859175}
+  - {fileID: 566343469}
   - {fileID: 2114961418}
