@@ -59,6 +59,8 @@ MonoBehaviour:
   - Time: 100
     Dialogue:
     - '[patterns="0"][s="gloria"]...'
+    - '[s="gloria"]PLACEHOLDER for Gloria to talk'
   - Time: 168
     Dialogue:
     - '[patterns="10,11,12"][s="gloria"]...'
+    - '[s="gloria"]PLACEHOLDER'
