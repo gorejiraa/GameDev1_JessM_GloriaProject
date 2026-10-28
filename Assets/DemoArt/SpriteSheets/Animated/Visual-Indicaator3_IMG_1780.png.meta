@@ -191,11 +191,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
+        y: 173
         width: 174
-        height: 344
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,12 +212,12 @@ TextureImporter:
       name: Visual-Indicaator3_IMG_1780_1
       rect:
         serializedVersion: 2
-        x: 175
+        x: 174
         y: 173
         width: 174
-        height: 172
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: Visual-Indicaator3_IMG_1780_2
       rect:
         serializedVersion: 2
-        x: 349
+        x: 348
         y: 173
-        width: 173
-        height: 172
+        width: 174
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: Visual-Indicaator3_IMG_1780_3
       rect:
         serializedVersion: 2
-        x: 175
+        x: 0
         y: 0
-        width: 173
-        height: 172
+        width: 174
+        height: 173
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -274,11 +274,33 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Visual-Indicaator3_IMG_1780_4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 0
+        width: 174
+        height: 173
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f29c52c8dbab4408db5d6a0eeb13e9
+      internalID: 319788734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e8db482e70ecbf445ab0176275a045af
     internalID: 0
     vertices: []
     indices: 
@@ -286,12 +308,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":174.0,"y":173.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Visual-Indicaator3_IMG_1780_0: 7642687992759857039
       Visual-Indicaator3_IMG_1780_1: 2238653845143919104
       Visual-Indicaator3_IMG_1780_2: -5027011339659440920
       Visual-Indicaator3_IMG_1780_3: -4513479350565490410
+      Visual-Indicaator3_IMG_1780_4: 319788734
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

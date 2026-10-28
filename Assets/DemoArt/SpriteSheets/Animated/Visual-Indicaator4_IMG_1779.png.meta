@@ -185,11 +185,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 171
-        width: 510
-        height: 173
+        y: 172
+        width: 170
+        height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -206,12 +206,12 @@ TextureImporter:
       name: Visual-Indicaator4_IMG_1779_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 341
+        x: 170
+        y: 172
+        width: 170
         height: 172
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -224,11 +224,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Visual-Indicaator4_IMG_1779_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 172
+        width: 170
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e8e4ea063becb442bad591c7cb466ee
+      internalID: -456316402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visual-Indicaator4_IMG_1779_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 170
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2d384e6252b79344a46d65f5bb5993c
+      internalID: 874084581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Visual-Indicaator4_IMG_1779_4
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c256cfa7cf2194096c8b6e41761b1e
+      internalID: 756921292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 425ab70ef90db7944b458bbec60e6738
     internalID: 0
     vertices: []
     indices: 
@@ -236,10 +302,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":2.0},"gridSpriteSize":{"x":170.0,"y":172.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Visual-Indicaator4_IMG_1779_0: -1259396035206890836
       Visual-Indicaator4_IMG_1779_1: -7548073493768031217
+      Visual-Indicaator4_IMG_1779_2: -456316402
+      Visual-Indicaator4_IMG_1779_3: 874084581
+      Visual-Indicaator4_IMG_1779_4: 756921292
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -215,11 +215,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 439
-        width: 229
-        height: 221
+        y: 440
+        width: 228
+        height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -236,12 +236,12 @@ TextureImporter:
       name: TimingIndicator_SpriteSheet_NoPadding_Image Frames_1
       rect:
         serializedVersion: 2
-        x: 257
-        y: 470
-        width: 169
-        height: 164
+        x: 228
+        y: 440
+        width: 228
+        height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -258,12 +258,12 @@ TextureImporter:
       name: TimingIndicator_SpriteSheet_NoPadding_Image Frames_2
       rect:
         serializedVersion: 2
-        x: 527
-        y: 530
-        width: 90
-        height: 55
+        x: 456
+        y: 440
+        width: 228
+        height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -280,12 +280,12 @@ TextureImporter:
       name: TimingIndicator_SpriteSheet_NoPadding_Image Frames_3
       rect:
         serializedVersion: 2
-        x: 748
-        y: 529
-        width: 90
-        height: 57
+        x: 684
+        y: 440
+        width: 228
+        height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: TimingIndicator_SpriteSheet_NoPadding_Image Frames_4
       rect:
         serializedVersion: 2
-        x: 63
-        y: 309
-        width: 90
-        height: 57
+        x: 0
+        y: 220
+        width: 228
+        height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -324,12 +324,12 @@ TextureImporter:
       name: TimingIndicator_SpriteSheet_NoPadding_Image Frames_5
       rect:
         serializedVersion: 2
-        x: 292
-        y: 309
-        width: 90
-        height: 57
+        x: 228
+        y: 220
+        width: 228
+        height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -346,12 +346,12 @@ TextureImporter:
       name: TimingIndicator_SpriteSheet_NoPadding_Image Frames_6
       rect:
         serializedVersion: 2
-        x: 455
-        y: 219
-        width: 230
-        height: 222
+        x: 456
+        y: 220
+        width: 228
+        height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -368,12 +368,12 @@ TextureImporter:
       name: TimingIndicator_SpriteSheet_NoPadding_Image Frames_7
       rect:
         serializedVersion: 2
-        x: 710
-        y: 247
-        width: 176
-        height: 169
+        x: 684
+        y: 220
+        width: 228
+        height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -390,12 +390,12 @@ TextureImporter:
       name: TimingIndicator_SpriteSheet_NoPadding_Image Frames_8
       rect:
         serializedVersion: 2
-        x: 87
-        y: 73
-        width: 55
-        height: 89
+        x: 0
+        y: 0
+        width: 228
+        height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -412,12 +412,12 @@ TextureImporter:
       name: TimingIndicator_SpriteSheet_NoPadding_Image Frames_9
       rect:
         serializedVersion: 2
-        x: 314
-        y: 71
-        width: 55
-        height: 89
+        x: 228
+        y: 0
+        width: 228
+        height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -434,12 +434,12 @@ TextureImporter:
       name: TimingIndicator_SpriteSheet_NoPadding_Image Frames_10
       rect:
         serializedVersion: 2
-        x: 543
-        y: 73
-        width: 55
-        height: 89
+        x: 456
+        y: 0
+        width: 228
+        height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -456,12 +456,12 @@ TextureImporter:
       name: TimingIndicator_SpriteSheet_NoPadding_Image Frames_11
       rect:
         serializedVersion: 2
-        x: 769
-        y: 71
-        width: 57
-        height: 90
+        x: 684
+        y: 0
+        width: 228
+        height: 220
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -478,7 +478,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f71dd24a0a1756a4488dc6c8276b81d3
     internalID: 0
     vertices: []
     indices: 
@@ -486,7 +486,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":228.0,"y":220.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       TimingIndicator_SpriteSheet_NoPadding_Image Frames_0: 2487097529283254272
       TimingIndicator_SpriteSheet_NoPadding_Image Frames_1: -4904498238091576653
