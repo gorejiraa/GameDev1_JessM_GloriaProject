@@ -230,7 +230,7 @@ MonoBehaviour:
   NoteActions:
   - Note: 1
     Sprite: {fileID: 1866080321450298439, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
-    Sound: {fileID: 8300000, guid: 3dd67f0e22d33bb49ba09881e5517f0f, type: 3}
+    Sound: {fileID: 8300000, guid: 5c871b4e1b30ee748a1397d567d2ed03, type: 3}
   - Note: 2
     Sprite: {fileID: -8744409789289659004, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
     Sound: {fileID: 8300000, guid: 1cda3225487aa144593bb1b7209cb3c0, type: 3}
@@ -664,10 +664,10 @@ MonoBehaviour:
     Sprite: {fileID: 5341458426511824504, guid: a57487231469b3a48bd70ecab7b4e74c, type: 3}
     Sound: {fileID: 8300000, guid: ad9c7d28d68e33a4e98268470b5ec0dc, type: 3}
   - Note: 4
-    Sprite: {fileID: -5610005607842546794, guid: 990f56c8295c15d45ad99e4ab62cbc40, type: 3}
+    Sprite: {fileID: 7701276910917720576, guid: e4e287947496158418fc7a6dd333a691, type: 3}
     Sound: {fileID: 8300000, guid: ad9c7d28d68e33a4e98268470b5ec0dc, type: 3}
   - Note: 7
-    Sprite: {fileID: -8166685118564402328, guid: d1da741e8307ee449a5d30d3fb75ee2a, type: 3}
+    Sprite: {fileID: 295006509812495885, guid: 55e127ace595e6941af3009d8a31d2c4, type: 3}
     Sound: {fileID: 0}
   spriteAnimationTime: 0.4
   matchAnimationTimerToTimingWindow: 1
