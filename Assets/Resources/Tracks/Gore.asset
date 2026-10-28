@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Gore
   m_EditorClassIdentifier: Assembly-CSharp::Track
   Name: The Death of a Diva
-  Difficulty: 1
+  Difficulty: 2
   Song: {fileID: 8300000, guid: 376f2f24d9e6df340a15a37a43863134, type: 3}
   BPM: 144
-  Offset: 0
+  Offset: -66
   GameplayStartBeat: 24
   BeatsInBar: 8
   HalfBeatsEnabled: 0
@@ -58,9 +58,30 @@ MonoBehaviour:
     - '[patterns="1,2,3,4,5,6,7,8,9"][auto="0"]'
   - Time: 100
     Dialogue:
-    - '[patterns="0"][s="gloria"]...'
-    - '[s="gloria"]PLACEHOLDER for Gloria to talk'
-  - Time: 168
-    Dialogue:
-    - '[patterns="10,11,12"][s="gloria"]...'
-    - '[s="gloria"]PLACEHOLDER'
+    - '[patterns="0"][s="you"]...'
+    - '[s="gloria"]Oh, sweetheart!!! How are you still standing?'
+    - '[s="you"]you sound disappointed by that, gloria.'
+    - '[s="gloria"]Disappointed?? Oh no darling, FAR from the truth! I haven''t had
+      an audience this engaged in one of my performances in YEARS!'
+    - '[s="gloria"]Oh, how silly of me! You are NOT my audience at all, darling...'
+    - '[s="gloria"]YOU''RE MY LEADING CO-STAR!!!'
+    - '[s="gloria"]Although, between you and me...'
+    - '[s="gloria"]Your footwork could use a little work... you keep missing your
+      cues'
+    - '[s="you"]are you ever going to shut up?'
+    - '[s="gloria"]If I stopped talking, you''d only have yourself to listen to... 
+      how incredibly BORING!'
+    - '[s="gloria"]Anyways sweetpea, you know how the show goes.'
+    - '[s="gloria"]The lights, the music, the screaming... and that dreadful little
+      voice in your head, ME, telling you that you are going to flop your performance
+      like a fish.'
+    - '[s="you"]you''re insufferable.'
+    - '[s="gloria"]Now, I do hope you''ve enjoyed the intermission!'
+    - '[s="you"]We''re in the middle of your song STILL?!'
+    - '[s="gloria"]I KNOW!'
+    - '[s="gloria"]Now, EVERYBODY!!! give our little star a BIG round of applause!
+      A total A FOR EFFORT!!!'
+    - '[s="gloria"]...You hear that?! I hear the people insisting on an ENCOREEEEE!!!'
+    - '[s="gloria"]HOW DELIGHTFUL!!!'
+    - '[patterns="10,11,12"][s="gloria"]PLACES, DARLING!!! LET''S MAKE A BLOODY MESS
+      OF THINGS!!!'

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Prefora
   m_EditorClassIdentifier: Assembly-CSharp::Track
   Name: A Dance with Insanity
-  Difficulty: 2
+  Difficulty: 1
   Song: {fileID: 8300000, guid: ffc73f499c73bc043aad77f4d3565abb, type: 3}
   BPM: 150
-  Offset: 0
+  Offset: 51
   GameplayStartBeat: 24
   BeatsInBar: 8
   HalfBeatsEnabled: 0

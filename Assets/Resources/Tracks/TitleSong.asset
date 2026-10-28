@@ -16,7 +16,7 @@ MonoBehaviour:
   Difficulty: 0
   Song: {fileID: 8300000, guid: 86e47e76ce708c04e811d2e17516c638, type: 3}
   BPM: 140
-  Offset: -60
+  Offset: 0
   GameplayStartBeat: 8
   BeatsInBar: 8
   HalfBeatsEnabled: 0
@@ -24,7 +24,7 @@ MonoBehaviour:
   PlayerHealth: 5
   TimingWindow: 100
   Tutorial: 0
-  RandomPatterns: 0
+  RandomPatterns: 1
   Patterns:
   - HalfBeats: 0
     Notes: 0100000002000000030000000400000001000000020000000100000007000000
@@ -40,19 +40,4 @@ MonoBehaviour:
     Notes: 0000000000000000010000000200000000000000000000000300000004000000
   - HalfBeats: 1
     Notes: 0000000001000000010000000100000000000000020000000200000002000000
-  Dialogue:
-  - Time: 1
-    Dialogue:
-    - '[auto="1"][speaker="gloria"]Let''s get this show on the road.'
-    - '[auto="2"][s="gloria"]Shall we?'
-  - Time: 15
-    Dialogue:
-    - '[auto="1"][s="gloria"]Great moves punk.'
-    - '[auto="3"][s="gloria"]Tbh I''m mainly just talking again to prove that I can
-      do it twice in one song. Lol.'
-    - '[auto="4"][s="you"]ok'
-  - Time: 30
-    Dialogue:
-    - '[auto="2"][s="gloria"][spd="5"]I can also talk really really slowly...'
-    - '[auto="3"][s="gloria"][spd="100"]OR REALLY FAST LIKE THIS!!! SEE!!!'
-    - '[auto="4"][s="you"]thats awesome man'
+  Dialogue: []
