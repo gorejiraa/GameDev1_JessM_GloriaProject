@@ -11,6 +11,11 @@ public class SongSelectMenu : MonoBehaviour
 
     private int TrackIndex = 0;
 
+    [SerializeField] private Color easyColor = Color.green;
+    [SerializeField] private Color mediumColor = Color.orange;
+    [SerializeField] private Color hardColor = Color.red;
+    [SerializeField] private Color impossibleColor = Color.darkRed;
+
     private void OnEnable()
     {
         TrackIndex = 0;
@@ -53,16 +58,16 @@ public class SongSelectMenu : MonoBehaviour
         switch (Songs[TrackIndex].Difficulty) 
         {
             case SongDifficulty.Easy:
-                DifficultyText.color = Color.green;
+                DifficultyText.color = easyColor;
                 break;
             case SongDifficulty.Medium:
-                DifficultyText.color = Color.orange;
+                DifficultyText.color = mediumColor;
                 break;
             case SongDifficulty.Hard:
-                DifficultyText.color = Color.red;
+                DifficultyText.color = hardColor;
                 break;
             case SongDifficulty.Impossible:
-                DifficultyText.color = Color.darkRed;
+                DifficultyText.color = impossibleColor;
                 break;
         }
     }

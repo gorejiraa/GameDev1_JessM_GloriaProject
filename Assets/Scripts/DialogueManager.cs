@@ -42,7 +42,7 @@ public class DialogueManager : MonoBehaviour
 
     [Header("Text Settings")]
     [SerializeField] private float DefaultCharPerSecond = 15;
-    [SerializeField] private float DefaultAutoWaitSeconds = 5;
+    [SerializeField] private float DefaultAutoWaitSeconds = 3;
     [SerializeField] private float DialogueBoxOpenSpeed = 5;
 
     [SerializeField] private List<SpeakerSprite> SpeakerSprites;
@@ -52,7 +52,7 @@ public class DialogueManager : MonoBehaviour
     private bool _showingText = false;
     private bool _autoContinue = false;
     private float _autoWaitTime = 99;
-    private float _charPerSecond = 5;
+    private float _charPerSecond = 30;
     private float _dialogueStartTimer = 0;
     private Vector2 _dialogueBoxSize;
 
@@ -178,8 +178,9 @@ public class DialogueManager : MonoBehaviour
         MatchCollection matches = MetaRegex.Matches(text);
 
         string speakerName = null;
-        bool auto = false;
+        bool auto = true;
         float speed = DefaultCharPerSecond;
+        _autoWaitTime = DefaultAutoWaitSeconds;
 
         foreach (Match match in matches) 
         {
@@ -193,9 +194,8 @@ public class DialogueManager : MonoBehaviour
             }
             else if (key == "auto")
             {
-                auto = true;
-
                 if (int.TryParse(value, out int result)) _autoWaitTime = result;
+                else if (value == "false") auto = false;
                 else _autoWaitTime = DefaultAutoWaitSeconds;
             }
             else if (key == "speed" || key == "spd")
@@ -213,8 +213,8 @@ public class DialogueManager : MonoBehaviour
         }
 
         SetSpeakerSprite(speakerName);
-        _autoContinue = auto;
         _charPerSecond = speed;
+        _autoContinue = auto;
 
         string cleanText = MetaRegex.Replace(text, "").Trim();
 

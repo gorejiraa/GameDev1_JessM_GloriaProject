@@ -120,9 +120,11 @@ public class Metronome : MonoBehaviour
     {
         float currentPosition = Music.SongTimeInMilliseconds();
 
-        int proximity = (int)Mathf.Round(currentPosition - nextBeatPosition);
+        int proximityToNext = (int)Mathf.Round(currentPosition - nextBeatPosition);
+        int proximityToLast = (int)Mathf.Round(currentPosition - (nextBeatPosition - beatDurationMs));
 
-        return proximity;
+        if (Math.Abs(proximityToNext) < Math.Abs(proximityToLast)) return proximityToNext;
+        else return proximityToLast;
     }
 
     public int GetNextBarStartBeat() 

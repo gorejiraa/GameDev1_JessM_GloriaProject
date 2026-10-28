@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Prefora
   m_EditorClassIdentifier: Assembly-CSharp::Track
   Name: Prefora
-  Difficulty: 2
+  Difficulty: 1
   Song: {fileID: 8300000, guid: ffc73f499c73bc043aad77f4d3565abb, type: 3}
   BPM: 150
   Offset: 0
