@@ -37,4 +37,21 @@ public class IndicatorManager : MonoBehaviour
                 return transform.position;
         }
     }
+
+    public Vector3 GetIndicatorScale(Note note) 
+    {
+        switch (note) 
+        {
+            case Note.Left:
+                return LeftIndicator.transform.localScale;
+            case Note.Right:
+                return RightIndicator.transform.localScale;
+            case Note.Up:
+                return UpIndicator.transform.localScale;
+            case Note.Down:
+                return DownIndicator.transform.localScale;
+            default:
+                return transform.localScale;
+        }
+    }
 }

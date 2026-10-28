@@ -10,6 +10,7 @@ public class NoteController : MonoBehaviour
     [SerializeField] private float MsTilDestruction = 300;
 
     [Header("Scale Boundaries")]
+    [SerializeField] private float startingScaleRatio = 4.0f;
     [SerializeField] private float startingScale = 4.0f;
     [SerializeField] private float targetScale = 1.0f;
 
@@ -21,6 +22,8 @@ public class NoteController : MonoBehaviour
     {
         TargetHitTime = hitTime;
         transform.position = GameManager.Instance.IndicatorManager.GetIndicatorPosition(note);
+        targetScale = GameManager.Instance.IndicatorManager.GetIndicatorScale(note).x;
+        startingScale = targetScale * startingScaleRatio;
     }
 
     public float GetProgress()

@@ -192,10 +192,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 253
-        height: 243
+        width: 254
+        height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,12 +212,12 @@ TextureImporter:
       name: Portraits_Image Frames2_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 241
-        width: 17
-        height: 6
+        x: 254
+        y: 0
+        width: 254
+        height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +234,12 @@ TextureImporter:
       name: Portraits_Image Frames2_2
       rect:
         serializedVersion: 2
-        x: 255
-        y: 1
+        x: 508
+        y: 0
         width: 254
-        height: 247
+        height: 248
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -252,33 +252,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Portraits_Image Frames2_3
-      rect:
-        serializedVersion: 2
-        x: 509
-        y: 1
-        width: 253
-        height: 247
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2d8f9f5e871ec5740800000000000000
-      internalID: 5142232783920953554
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e4b85852030d3974885f8a8570aeb1ff
     internalID: 0
     vertices: []
     indices: 
@@ -286,12 +264,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":1.0},"gridSpriteSize":{"x":254.0,"y":248.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Portraits_Image Frames2_0: -8109566908279616709
       Portraits_Image Frames2_1: -4591193824254702024
       Portraits_Image Frames2_2: 1214736979298526842
-      Portraits_Image Frames2_3: 5142232783920953554
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
