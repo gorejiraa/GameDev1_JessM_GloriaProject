@@ -53,6 +53,7 @@ public class GameManager : MonoBehaviour
         OffsetCalculator.gameObject.SetActive(false);
         TutorialManager.gameObject.SetActive(false);
         SongSelectMenu.gameObject.SetActive(false);
+        Music.PlayMenuMusic();
     }
 
     public void StartTrack(Track track) 
@@ -84,6 +85,7 @@ public class GameManager : MonoBehaviour
     {
         UIManager.ToggleGameplayUI(healthbars);
         UIManager.ToggleMainMenu(false);
+        SongSelectMenu.gameObject.SetActive(false);
         IndicatorManager.ToggleIndicators(true);
     }
 
@@ -182,6 +184,7 @@ public class GameManager : MonoBehaviour
     {
         ResetGameState?.Invoke();
         IndicatorManager.ToggleIndicators(false);
+        Music.PlayMenuMusic();
     }
 
     public void SongSelectButton() 

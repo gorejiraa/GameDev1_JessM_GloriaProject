@@ -43,7 +43,7 @@ MonoBehaviour:
   Dialogue:
   - Time: 1
     Dialogue:
-    - '[auto="1"][s="gloria"]Let''s get this show on the road.'
+    - '[auto="1"][speaker="gloria"]Let''s get this show on the road.'
     - '[auto="2"][s="gloria"]Shall we?'
   - Time: 15
     Dialogue:

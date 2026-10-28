@@ -4,11 +4,13 @@ public class MusicController : MonoBehaviour
 {
     public AudioSource audioSource;
     [SerializeField] private float pitchReduction = 1f;
+    [SerializeField] private AudioClip TitleScreenMusic;
     private bool PlayingMusic = true;
 
     public void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        audioSource.clip = TitleScreenMusic;
         GameManager.ToggleMusic += ToggleMusic;
     }
 
@@ -49,5 +51,11 @@ public class MusicController : MonoBehaviour
     private void ToggleMusic(bool toggle) 
     {
         PlayingMusic = toggle;
+    }
+
+    public void PlayMenuMusic() 
+    {
+        audioSource.clip = TitleScreenMusic;
+        PlaySong();
     }
 }

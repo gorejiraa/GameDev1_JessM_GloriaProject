@@ -24,6 +24,14 @@ MonoBehaviour:
   PlayerHealth: 5
   TimingWindow: 100
   Tutorial: 0
-  RandomPatterns: 1
-  Patterns: []
+  RandomPatterns: 0
+  Patterns:
+  - HalfBeats: 0
+    Notes: 01000000020000000300000007000000
+  - HalfBeats: 0
+    Notes: 0300000001000000040000000200000003000000020000000400000007000000
+  - HalfBeats: 0
+    Notes: 0300000004000000030000000400000000000000010000000200000007000000
+  - HalfBeats: 0
+    Notes: 03000000040000000300000004000000
   Dialogue: []
