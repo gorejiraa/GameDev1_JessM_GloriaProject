@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: TitleSong
   m_EditorClassIdentifier: Assembly-CSharp::Track
   Name: Test Track
-  Difficulty: 1
+  Difficulty: 0
   Song: {fileID: 8300000, guid: 86e47e76ce708c04e811d2e17516c638, type: 3}
   BPM: 140
   Offset: -60
