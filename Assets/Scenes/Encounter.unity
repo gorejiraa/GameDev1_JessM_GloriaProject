@@ -230,7 +230,7 @@ MonoBehaviour:
   NoteActions:
   - Note: 1
     Sprite: {fileID: 1866080321450298439, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
-    Sound: {fileID: 8300000, guid: 5c871b4e1b30ee748a1397d567d2ed03, type: 3}
+    Sound: {fileID: 8300000, guid: b977a9eacbfea31418a12a2a77031086, type: 3}
   - Note: 2
     Sprite: {fileID: -8744409789289659004, guid: 2e96622ffe71c064383f56c906fdc7b1, type: 3}
     Sound: {fileID: 8300000, guid: 1cda3225487aa144593bb1b7209cb3c0, type: 3}
@@ -1092,11 +1092,11 @@ PrefabInstance:
     - target: {fileID: 1265287195752268591, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_fontAsset
       value: 
-      objectReference: {fileID: 11400000, guid: 5f5d3ab9be5e9a548b81c431fcfeaabd, type: 2}
+      objectReference: {fileID: 11400000, guid: bfeb653cf3de9d14ebb98eddc68a179a, type: 2}
     - target: {fileID: 1265287195752268591, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 7743827904817004141, guid: 5f5d3ab9be5e9a548b81c431fcfeaabd, type: 2}
+      objectReference: {fileID: -6339776687679342046, guid: bfeb653cf3de9d14ebb98eddc68a179a, type: 2}
     - target: {fileID: 1265287195752268591, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
@@ -1494,9 +1494,13 @@ PrefabInstance:
       value: 137.6
       objectReference: {fileID: 0}
     - target: {fileID: 6196883135602493327, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: pitchReduction
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6196883135602493327, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: TitleScreenMusic
       value: 
-      objectReference: {fileID: 8300000, guid: 888b6b86185dbe94882f3777b7a042e7, type: 3}
+      objectReference: {fileID: 8300000, guid: 1c4b94ba2fe440144a8ecb432cfe709b, type: 3}
     - target: {fileID: 6308236734597519558, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_Sprite
       value: 

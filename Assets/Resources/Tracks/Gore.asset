@@ -21,7 +21,7 @@ MonoBehaviour:
   BeatsInBar: 8
   HalfBeatsEnabled: 0
   EnemyHealth: 30
-  PlayerHealth: 18
+  PlayerHealth: 15
   TimingWindow: 80
   Tutorial: 0
   RandomPatterns: 0
