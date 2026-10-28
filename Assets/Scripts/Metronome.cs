@@ -24,7 +24,7 @@ public class Metronome : MonoBehaviour
     private float activeBeatEndPos;
     private bool beatPassed = false;
 
-    private bool gameplayActive = false;
+    public bool GameplayActive { get; private set; } = false;
 
     public void Start()
     {
@@ -51,6 +51,7 @@ public class Metronome : MonoBehaviour
         HalfBeatsEnabled = track.HalfBeatsEnabled;
         TimingWindowMargin = track.TimingWindow;
 
+        activeBeat = -1;
         lastBeat = 0;
         beatDurationMs = (60 / BPM) * 1000;
         OnBeatDurationSet?.Invoke(beatDurationMs / 1000);
@@ -68,7 +69,7 @@ public class Metronome : MonoBehaviour
 
     public void Update()
     {
-        if (!gameplayActive) return;
+        if (!GameplayActive) return;
 
         float currentPosition = Music.SongTimeInMilliseconds();
 
@@ -143,7 +144,7 @@ public class Metronome : MonoBehaviour
 
     public void ToggleGameplay(bool toggle) 
     {
-        gameplayActive = toggle;
+        GameplayActive = toggle;
     }
 
     public void PushOffset(int offset) 

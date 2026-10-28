@@ -204,6 +204,7 @@ public class DialogueManager : MonoBehaviour
             }
             else if (key == "tutorial")
             {
+                auto = false;
                 GameManager.Instance.TutorialManager.ReceiveTutorialPrompt(value);
             }
             else if (key == "patterns") 

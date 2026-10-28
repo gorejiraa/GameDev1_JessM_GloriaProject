@@ -20,7 +20,7 @@ MonoBehaviour:
   GameplayStartBeat: 24
   BeatsInBar: 8
   HalfBeatsEnabled: 0
-  EnemyHealth: 30
+  EnemyHealth: 25
   PlayerHealth: 15
   TimingWindow: 100
   Tutorial: 0

@@ -12,7 +12,11 @@ public class OffsetCalculator : MonoBehaviour
 
     private List<int> proximityReads = new List<int>();
     [SerializeField] private int inputsNeeded = 10;
-    
+
+    private void OnEnable()
+    {
+        Debug.Log("offset calculator enabled");
+    }
 
     public void OnBeatPress(InputAction.CallbackContext context)
     {
@@ -21,6 +25,8 @@ public class OffsetCalculator : MonoBehaviour
         int proximity = GameManager.Instance.Metronome.GetProximityToNearestBeat();
 
         proximityReads.Add(proximity);
+
+        //Debug.Log($"Proximity: {proximity} ({proximityReads.Count}/{inputsNeeded})");
 
         if (proximityReads.Count >= inputsNeeded) 
         {

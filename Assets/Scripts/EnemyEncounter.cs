@@ -135,5 +135,6 @@ public class EnemyEncounter : MonoBehaviour
         Health.Reset();
         OnEnemyHealthChange?.Invoke(Health);
         spriteTimer = 0f;
+        beatToCue = 0;
     }
 }

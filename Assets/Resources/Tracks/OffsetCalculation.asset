@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74dedcd54da02394a892896cb1029da0, type: 3}
   m_Name: OffsetCalculation
   m_EditorClassIdentifier: Assembly-CSharp::Track
+  Name: 
+  Difficulty: 0
   Song: {fileID: 8300000, guid: 8a9a3a542b3358f41a97358c26c2d780, type: 3}
   BPM: 120
   Offset: 0
@@ -21,9 +23,11 @@ MonoBehaviour:
   EnemyHealth: 10
   PlayerHealth: 5
   TimingWindow: 100
+  Tutorial: 0
   RandomPatterns: 1
   Patterns: []
   Dialogue:
   - Time: 0
     Dialogue:
-    - '[s="tutorial"][auto="9999"]Press on the beat 10 times to find your input offset!'
+    - '[s="tutorial"][auto="9999"]Press spacebar on the beat 10 times to find your
+      input offset!'

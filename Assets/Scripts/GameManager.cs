@@ -147,6 +147,7 @@ public class GameManager : MonoBehaviour
 
         ToggleMusic?.Invoke(false);
         Metronome.ToggleGameplay(false);
+        Choreographer.ResetValues();
 
         UIManager.ShowLossPanel();
     }
@@ -157,6 +158,7 @@ public class GameManager : MonoBehaviour
 
         ToggleMusic?.Invoke(false);
         Metronome.ToggleGameplay(false);
+        Choreographer.ResetValues();
 
         UIManager.ShowWinPanel();
     }
@@ -171,6 +173,14 @@ public class GameManager : MonoBehaviour
     {
         ToggleMusic?.Invoke(true);
         Metronome.ToggleGameplay(true);
+    }
+
+    public void EscapeMidSong() 
+    {
+        if (Metronome.GameplayActive) 
+        {
+            LoseGame();
+        }
     }
 
     public void RestartGame() 
