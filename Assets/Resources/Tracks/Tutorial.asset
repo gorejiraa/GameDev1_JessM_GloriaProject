@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74dedcd54da02394a892896cb1029da0, type: 3}
   m_Name: Tutorial
   m_EditorClassIdentifier: Assembly-CSharp::Track
-  Name: Tutorial
+  Name: The Tutorial
   Difficulty: 0
   Song: {fileID: 8300000, guid: a7bf88cf4875c39439f7786e3fc9cef0, type: 3}
   BPM: 117

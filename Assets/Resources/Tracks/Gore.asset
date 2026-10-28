@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74dedcd54da02394a892896cb1029da0, type: 3}
   m_Name: Gore
   m_EditorClassIdentifier: Assembly-CSharp::Track
-  Name: Gore
-  Difficulty: 2
+  Name: The Death of a Diva
+  Difficulty: 1
   Song: {fileID: 8300000, guid: 376f2f24d9e6df340a15a37a43863134, type: 3}
   BPM: 144
   Offset: 0
   GameplayStartBeat: 24
   BeatsInBar: 8
   HalfBeatsEnabled: 0
-  EnemyHealth: 25
-  PlayerHealth: 5
+  EnemyHealth: 30
+  PlayerHealth: 18
   TimingWindow: 80
   Tutorial: 0
   RandomPatterns: 0
