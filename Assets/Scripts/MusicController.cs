@@ -7,6 +7,8 @@ public class MusicController : MonoBehaviour
     [SerializeField] private AudioClip TitleScreenMusic;
     private bool PlayingMusic = true;
 
+    private double songStartDspTime;
+
     public void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -30,7 +32,7 @@ public class MusicController : MonoBehaviour
     {
         if (audioSource.clip == null) return;
 
-        Debug.Log("Playing song");
+        songStartDspTime = AudioSettings.dspTime;
 
         audioSource.pitch = 1f;
         PlayingMusic = true;
@@ -40,7 +42,13 @@ public class MusicController : MonoBehaviour
 
     public float SongTimeInMilliseconds() 
     {
-        return audioSource.time * 1000;
+        if (!audioSource.isPlaying) return 0f;
+
+        // Current hardware time minus the start hardware time equals elapsed seconds
+        double elapsedSeconds = AudioSettings.dspTime - songStartDspTime;
+
+        // Convert to milliseconds
+        return (float)(elapsedSeconds * 1000.0);
     }
 
     public float SongTimeInSeconds()

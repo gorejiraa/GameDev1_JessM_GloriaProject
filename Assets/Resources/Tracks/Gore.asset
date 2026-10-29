@@ -16,11 +16,11 @@ MonoBehaviour:
   Difficulty: 2
   Song: {fileID: 8300000, guid: 376f2f24d9e6df340a15a37a43863134, type: 3}
   BPM: 144
-  Offset: -140
-  GameplayStartBeat: 24
+  Offset: -117
+  GameplayStartBeat: 26
   BeatsInBar: 8
   HalfBeatsEnabled: 0
-  EnemyHealth: 25
+  EnemyHealth: 28
   PlayerHealth: 10
   TimingWindow: 80
   Tutorial: 0

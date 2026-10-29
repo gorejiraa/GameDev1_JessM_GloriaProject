@@ -114,7 +114,7 @@ public class Metronome : MonoBehaviour
 
     public float GetTimingOfSpecificBeatInMs(int beat) 
     {
-        return (beatDurationMs * beat)+ Offset;
+        return (beatDurationMs * beat) + Offset;
     }
 
     public int GetProximityToNearestBeat() 
