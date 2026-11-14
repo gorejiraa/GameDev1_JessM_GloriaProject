@@ -4,6 +4,14 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
 
+public enum ChoreographerState
+{
+    Setting,
+    Waiting,
+    Demonstrating,
+    Listening
+}
+
 public class Choreographer : MonoBehaviour
 {
     private static readonly Regex PatternSetRegex = new Regex(@"\d+");
@@ -94,8 +102,8 @@ public class Choreographer : MonoBehaviour
 
                 // Demo the beat using pattern[CurrentPatternBeat]
                 OnBeatDemo.Invoke((int)_currentPattern[_currentPatternBeat]);
-                float noteHitTime = GameManager.Instance.Metronome.GetTimingOfSpecificBeatInMs(ActiveBeat+_currentPattern.Count);
-                SpawnNote(noteHitTime, (Note)_currentPattern[_currentPatternBeat]);
+                double noteHitTime = GameManager.Instance.Metronome.GetTimingOfSpecificBeatInMs(ActiveBeat+_currentPattern.Count);
+                SpawnNote((float)noteHitTime, (Note)_currentPattern[_currentPatternBeat]);
 
                 if (DebugMessages) Debug.Log($"Demo: {_currentPattern[_currentPatternBeat]} (Bar {_currentPatternBeat + 1}/{_currentPatternLength}");
 
@@ -203,12 +211,4 @@ public class Choreographer : MonoBehaviour
             _activePresetPatterns.Add(_allPresetPatterns[index]);
         }
     }
-}
-
-public enum ChoreographerState 
-{
-    Setting,
-    Waiting,
-    Demonstrating,
-    Listening
 }

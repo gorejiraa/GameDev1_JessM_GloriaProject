@@ -5,6 +5,7 @@ public class Judge : MonoBehaviour
 {
     [SerializeField] private int NextCorrectInput = 0;
     [SerializeField] private int LastReceivedInput = 0;
+    private double lastInputProximity;
     private bool InputReceived = false;
     public bool RanValidation = false;
     private bool SequenceEnded = false;
@@ -12,6 +13,7 @@ public class Judge : MonoBehaviour
 
     public static event Action OnInputReceived;
     public static event Action<bool> OnValidateInput;
+    public static event Action<bool, double> OnValidateInputWithProximity;
     public static event Action<bool> OnSequenceEnd;
 
     [SerializeField] private bool DebugMessages = false;
@@ -35,13 +37,17 @@ public class Judge : MonoBehaviour
         NextCorrectInput = input;
     }
 
-    public void ReceiveInput(int input)
+    public void ReceiveInput(int input, double inputTime)
     {
         if (!InputReceived) 
         {
             if (DebugMessages) Debug.Log($"Judge received player input: {(Note)input}");
 
+            double songInputTime = GameManager.Instance.Music.RealtimeToSongMs(inputTime);
+            double inputProximity = songInputTime - (GameManager.Instance.Metronome.ActiveBeatTimeMs() + GameManager.Instance.GeneralOffset);
+
             LastReceivedInput = input;
+            lastInputProximity = inputProximity;
             InputReceived = true;
             OnInputReceived?.Invoke();
 
@@ -58,10 +64,11 @@ public class Judge : MonoBehaviour
 
         bool valid = false;
 
-        if (LastReceivedInput == NextCorrectInput) valid = true;
+        if (LastReceivedInput == NextCorrectInput && Math.Abs(lastInputProximity) <= GameManager.Instance.Metronome.TimingWindowMargin) valid = true;
         else SuccessfulSequence = false;
 
         OnValidateInput?.Invoke(valid);
+        OnValidateInputWithProximity?.Invoke(valid, lastInputProximity);
 
         if (NextCorrectInput != 0 && DebugMessages) Debug.Log($"Player succeeded note: {valid} (Expected {NextCorrectInput}, Received {LastReceivedInput})");
     }

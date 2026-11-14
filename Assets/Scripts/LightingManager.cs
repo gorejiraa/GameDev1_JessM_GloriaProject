@@ -31,7 +31,7 @@ public class LightingManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        float currentBeat = GameManager.Instance.Metronome.GetCurrentBeat();
+        double currentBeat = GameManager.Instance.Metronome.GetCurrentBeat();
         int dimStart = StartBattleBeat - (BeatsToDim + BeatsToBeDimBeforeStart);
         int dimEnd = StartBattleBeat - BeatsToBeDimBeforeStart;
 
@@ -42,7 +42,7 @@ public class LightingManager : MonoBehaviour
         }
         else if (currentBeat > dimStart && currentBeat < dimEnd)
         {
-            float progress = Mathf.InverseLerp(dimStart, dimEnd, currentBeat);
+            float progress = Mathf.InverseLerp(dimStart, dimEnd, (float)currentBeat);
 
             GlobalLight.intensity = Mathf.Lerp(1f, BattleDimness, progress);
 

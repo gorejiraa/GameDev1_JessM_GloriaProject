@@ -72,6 +72,8 @@ public class EnemyEncounter : MonoBehaviour
 
             SetSlideDirection(noteAction.Note);
             if (noteAction.Sprite != null) SetSpriteWithTimer(noteAction.Sprite, spriteAnimationTime);
+            audioSource.clip = noteAction.Sound;
+            if (noteAction.Sound != null) audioSource.PlayScheduled(GameManager.Instance.Metronome.NextBeatPositionDspTime());
         }
     }
 
@@ -81,7 +83,7 @@ public class EnemyEncounter : MonoBehaviour
         {
             if (beatToCue != (int)noteAction.Note) continue;
 
-            if (noteAction.Sound != null) audioSource.PlayOneShot(noteAction.Sound);
+            //if (noteAction.Sound != null) audioSource.PlayOneShot(noteAction.Sound);
         }
     }
 

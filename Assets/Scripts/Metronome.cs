@@ -8,21 +8,22 @@ public class Metronome : MonoBehaviour
     public static event Action OnBeatWindowOpened;
     public static event Action OnBeatPassed;
     public static event Action OnBeatWindowClosed;
-    public static event Action<float> OnBeatDurationSet;
+    public static event Action<double> OnBeatDurationSet;
 
-    public float BPM;
+    public double BPM;
     public int BeatsInBar;
-    public float TimingWindowMargin = 80;
-    public float Offset;
+    public double TimingWindowMargin = 80;
+    public double Offset;
     public bool HalfBeatsEnabled = false;
 
     private int lastBeat;
-    [SerializeField] private float beatDurationMs;
-    private float nextBeatPosition;
+    [SerializeField] private double beatDurationMs;
+    public double NextBeatPosition;
     [SerializeField] private int activeBeat = -1;
-    private float activeBeatStartPos;
-    private float activeBeatEndPos;
+    private double activeBeatStartPos;
+    private double activeBeatEndPos;
     private bool beatPassed = false;
+    private double firstBeatMs;
 
     public bool GameplayActive { get; private set; } = false;
 
@@ -39,7 +40,7 @@ public class Metronome : MonoBehaviour
         beatDurationMs = (60 / BPM) * 1000;
         OnBeatDurationSet?.Invoke(beatDurationMs / 1000);
         if (HalfBeatsEnabled) beatDurationMs /= 2;
-        nextBeatPosition = beatDurationMs + Offset;
+        NextBeatPosition = beatDurationMs + Offset;
         SetNextBeatWindow();
     }
 
@@ -47,7 +48,8 @@ public class Metronome : MonoBehaviour
     {
         BPM = track.BPM;
         BeatsInBar = track.BeatsInBar;
-        Offset = track.Offset + generalOffset;
+        Offset = generalOffset;
+        firstBeatMs = track.Offset;
         HalfBeatsEnabled = track.HalfBeatsEnabled;
         TimingWindowMargin = track.TimingWindow;
 
@@ -56,13 +58,13 @@ public class Metronome : MonoBehaviour
         beatDurationMs = (60 / BPM) * 1000;
         OnBeatDurationSet?.Invoke(beatDurationMs / 1000);
         if (HalfBeatsEnabled) beatDurationMs /= 2;
-        nextBeatPosition = beatDurationMs + Offset;
+        NextBeatPosition = beatDurationMs + Offset;
         SetNextBeatWindow();
     }
 
-    public float GetCurrentBeat() 
+    public double GetCurrentBeat() 
     {
-        float currentSongTime = Music.SongTimeInMilliseconds();
+        double currentSongTime = Music.SongTimeInMilliseconds();
 
         return currentSongTime / beatDurationMs;
     }
@@ -71,7 +73,7 @@ public class Metronome : MonoBehaviour
     {
         if (!GameplayActive) return;
 
-        float currentPosition = Music.SongTimeInMilliseconds();
+        double currentPosition = Music.SongTimeInMilliseconds();
 
         if (activeBeat == -1) 
         {
@@ -84,7 +86,7 @@ public class Metronome : MonoBehaviour
             }
         }
 
-        if (currentPosition >= nextBeatPosition - 5 && !beatPassed) 
+        if (currentPosition >= NextBeatPosition && !beatPassed) 
         {
             OnBeatPassed?.Invoke();
             beatPassed = true;
@@ -94,7 +96,7 @@ public class Metronome : MonoBehaviour
         if (currentPosition >= activeBeatEndPos) 
         {
             lastBeat += 1;
-            nextBeatPosition += beatDurationMs;
+            NextBeatPosition += beatDurationMs;
             activeBeat = -1;
             SetNextBeatWindow();
             OnBeatWindowClosed?.Invoke();
@@ -103,8 +105,8 @@ public class Metronome : MonoBehaviour
 
     private void SetNextBeatWindow() 
     {
-        activeBeatStartPos = nextBeatPosition - TimingWindowMargin;
-        activeBeatEndPos = nextBeatPosition + TimingWindowMargin;
+        activeBeatStartPos = NextBeatPosition - TimingWindowMargin;
+        activeBeatEndPos = NextBeatPosition + TimingWindowMargin;
     }
 
     public int GetActiveBeat() 
@@ -112,20 +114,17 @@ public class Metronome : MonoBehaviour
         return activeBeat;
     }
 
-    public float GetTimingOfSpecificBeatInMs(int beat) 
+    public double GetTimingOfSpecificBeatInMs(int beat) 
     {
         return (beatDurationMs * beat) + Offset;
     }
 
     public int GetProximityToNearestBeat() 
     {
-        float currentPosition = Music.SongTimeInMilliseconds();
+        double songTimeMs = Music.SongTimeInMilliseconds();
 
-        int proximityToNext = (int)Mathf.Round(currentPosition - nextBeatPosition);
-        int proximityToLast = (int)Mathf.Round(currentPosition - (nextBeatPosition - beatDurationMs));
-
-        if (Math.Abs(proximityToNext) < Math.Abs(proximityToLast)) return proximityToNext;
-        else return proximityToLast;
+        int beat = (int)Math.Round((songTimeMs - firstBeatMs) / beatDurationMs);
+        return (int)Math.Round((songTimeMs - BeatTimeMs(beat)));
     }
 
     public int GetNextBarStartBeat() 
@@ -137,7 +136,7 @@ public class Metronome : MonoBehaviour
         return currentBeat + beatsTilNextBar;
     }
 
-    public float GetBeatDurationMs() 
+    public double GetBeatDurationMs() 
     {
         return beatDurationMs;
     }
@@ -147,8 +146,18 @@ public class Metronome : MonoBehaviour
         GameplayActive = toggle;
     }
 
-    public void PushOffset(int offset) 
+    private double BeatTimeMs(int beat) 
     {
-        nextBeatPosition += offset;
+        return firstBeatMs + beat * beatDurationMs;
+    }
+
+    public double ActiveBeatTimeMs() 
+    {
+        return BeatTimeMs(activeBeat);
+    }
+
+    public double NextBeatPositionDspTime() 
+    {
+        return GameManager.Instance.Music.SongTimeToDspTime(NextBeatPosition / 1000);
     }
 }

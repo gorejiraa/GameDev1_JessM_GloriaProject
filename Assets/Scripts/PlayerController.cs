@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
     private bool spriteTimerActive = false;
     private Vector2 slideDirection;
 
-    public static event Action<int> OnPlayerAction;
+    public static event Action<int, double> OnPlayerAction;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -49,7 +49,7 @@ public class PlayerController : MonoBehaviour
         else if (spriteTimerActive && spriteTimer < 0) ResetSprite();
     }
 
-    public void OnMove(Note direction)
+    public void OnMove(Note direction, double time)
     {
         foreach (NoteActionDetails noteAction in NoteActions)
         {
@@ -60,7 +60,7 @@ public class PlayerController : MonoBehaviour
             if (noteAction.Sound != null) audioSource.PlayOneShot(noteAction.Sound);
         }
 
-        OnPlayerAction?.Invoke((int)direction);
+        OnPlayerAction?.Invoke((int)direction, time);
     }
 
     private void SetSpriteWithTimer(Sprite sprite, float time)
@@ -97,27 +97,27 @@ public class PlayerController : MonoBehaviour
     {
         if (!context.started) return;
 
-        OnMove(Note.Left);
+        OnMove(Note.Left, context.time);
     }
 
     public void OnRight(InputAction.CallbackContext context)
     {
         if (!context.started) return;
 
-        OnMove(Note.Right);
+        OnMove(Note.Right, context.time);
     }
 
     public void OnUp(InputAction.CallbackContext context)
     {
         if (!context.started) return;
 
-        OnMove(Note.Up);
+        OnMove(Note.Up, context.time);
     }
 
     public void OnDown(InputAction.CallbackContext context)
     {
         if (!context.started) return;
 
-        OnMove(Note.Down);
+        OnMove(Note.Down, context.time);
     }
 }

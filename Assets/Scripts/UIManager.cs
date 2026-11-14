@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -35,7 +36,7 @@ public class UIManager : MonoBehaviour
     {
         proximityText.color = new Color(0, 0, 0, 0);
 
-        Judge.OnValidateInput += SetProximityText;
+        Judge.OnValidateInputWithProximity += SetProximityText;
         PlayerStatus.OnPlayerHealthChange += UpdatePlayerHealthBar;
         EnemyEncounter.OnEnemyHealthChange += UpdateEnemyHealthBar;
         GameManager.ResetGameState += ResetState;
@@ -68,7 +69,7 @@ public class UIManager : MonoBehaviour
         playerHealthBar.value = (float)health.CurrentHealth / health.MaxHealth;
     }
 
-    private void SetProximityText(bool success) 
+    private void SetProximityText(bool success, double proximity) 
     {
         string text = "ERROR";
         Color color = Color.white;
@@ -80,14 +81,12 @@ public class UIManager : MonoBehaviour
         }
         else 
         {
-            float proximity = GameManager.Instance.Metronome.GetProximityToNearestBeat();
-
-            if (Mathf.Abs(proximity) < 10)
+            if (Math.Abs(proximity) < 10)
             {
                 text = perfectText;
                 color = perfectColor;
             }
-            else if (Mathf.Abs(proximity) < 45)
+            else if (Math.Abs(proximity) < 45)
             {
                 text = closeText;
                 color = closeColor;
@@ -99,7 +98,7 @@ public class UIManager : MonoBehaviour
             }
         }
 
-        proximityText.text = text;
+        proximityText.text = text + " (" + Math.Round(proximity) + ")";
         proximityText.color = color;
         proxTextTimer = proximityTextDisplayTime;
     }

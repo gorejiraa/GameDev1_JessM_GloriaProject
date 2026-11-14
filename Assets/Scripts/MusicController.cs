@@ -4,10 +4,13 @@ public class MusicController : MonoBehaviour
 {
     public AudioSource audioSource;
     [SerializeField] private float pitchReduction = 1f;
+    [SerializeField] private double leadInSeconds = 0.25;
     [SerializeField] private AudioClip TitleScreenMusic;
     private bool PlayingMusic = true;
 
-    private double songStartDspTime;
+    private double songStartDsp;
+    private double lastDsp;
+    private double lastDspRealtime;
 
     public void Start()
     {
@@ -32,12 +35,12 @@ public class MusicController : MonoBehaviour
     {
         if (audioSource.clip == null) return;
 
-        songStartDspTime = AudioSettings.dspTime;
-
         audioSource.pitch = 1f;
         PlayingMusic = true;
         audioSource.time = 0;
-        if (!audioSource.isPlaying) audioSource.Play();
+
+        songStartDsp = AudioSettings.dspTime + leadInSeconds;
+        if (!audioSource.isPlaying) audioSource.PlayScheduled(songStartDsp);
     }
 
     public float SongTimeInMilliseconds() 
@@ -45,15 +48,20 @@ public class MusicController : MonoBehaviour
         if (!audioSource.isPlaying) return 0f;
 
         // Current hardware time minus the start hardware time equals elapsed seconds
-        double elapsedSeconds = AudioSettings.dspTime - songStartDspTime;
+        double elapsedSeconds = AudioSettings.dspTime - songStartDsp;
 
         // Convert to milliseconds
         return (float)(elapsedSeconds * 1000.0);
     }
 
-    public float SongTimeInSeconds()
+    public double SongTimeToDspTime(double songTime) 
     {
-        return audioSource.time;
+        return songStartDsp + songTime;
+    }
+
+    public double SongTimeInSeconds()
+    {
+        return AudioSettings.dspTime - songStartDsp; ;
     }
 
     private void ToggleMusic(bool toggle) 
@@ -65,5 +73,13 @@ public class MusicController : MonoBehaviour
     {
         audioSource.clip = TitleScreenMusic;
         PlaySong();
+    }
+
+    public double RealtimeToSongMs(double realtime)
+    {
+        double dsp = AudioSettings.dspTime;
+        if (dsp != lastDsp) { lastDsp = dsp; lastDspRealtime = Time.realtimeSinceStartupAsDouble; }
+        double dspAtThatTime = lastDsp + (realtime - lastDspRealtime);
+        return (dspAtThatTime - songStartDsp) * 1000.0;
     }
 }

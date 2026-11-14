@@ -54,7 +54,7 @@ public class VisualDemo : MonoBehaviour
 
         proximity = GameManager.Instance.Metronome.GetProximityToNearestBeat();
 
-        transform.localScale = baseScale * Math.Max((1.2f - (Math.Abs(proximity) / GameManager.Instance.Metronome.TimingWindowMargin) / 5), 1);
+        transform.localScale = baseScale * Math.Max((1.2f - (Math.Abs(proximity) / (float)GameManager.Instance.Metronome.TimingWindowMargin) / 5), 1);
     }
 
     public void StartButton() 
@@ -69,7 +69,7 @@ public class VisualDemo : MonoBehaviour
     {
         if (!context.started) return;
 
-        GameManager.Instance.Judge.ReceiveInput(1);
+        GameManager.Instance.Judge.ReceiveInput(1, context.time);
 
         proximityReads.Add(proximity);
 

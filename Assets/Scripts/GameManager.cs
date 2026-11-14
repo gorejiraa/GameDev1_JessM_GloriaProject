@@ -129,7 +129,6 @@ public class GameManager : MonoBehaviour
         GeneralOffset = OffsetCalculator.GetOffsetAverageInt();
         OffsetCalculator.gameObject.SetActive(false);
         UIManager.ToggleDisplayOffsetCalculation(true);
-        Metronome.PushOffset(GeneralOffset);
     }
 
     public void ExitOffsetCalculation() 

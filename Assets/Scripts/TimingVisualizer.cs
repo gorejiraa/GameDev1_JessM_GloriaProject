@@ -35,6 +35,6 @@ public class TimingVisualizer : MonoBehaviour
 
         float proximity = GameManager.Instance.Metronome.GetProximityToNearestBeat();
 
-        transform.localScale = baseScale * Math.Max((1.2f - (Math.Abs(proximity) / GameManager.Instance.Metronome.TimingWindowMargin) / 5), 1);
+        transform.localScale = baseScale * Math.Max((1.2f - (Math.Abs(proximity) / (float)GameManager.Instance.Metronome.TimingWindowMargin) / 5), 1);
     }
 }

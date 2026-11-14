@@ -234,7 +234,7 @@ public class DialogueManager : MonoBehaviour
 
     private void CheckIfTimedDialogueShouldStart() 
     {
-        float songTime = GameManager.Instance.Music.SongTimeInSeconds();
+        double songTime = GameManager.Instance.Music.SongTimeInSeconds();
 
         if (TimedDialogueSections.Count > 0) 
         {
