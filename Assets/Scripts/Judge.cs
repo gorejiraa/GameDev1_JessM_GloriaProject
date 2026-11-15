@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class Judge : MonoBehaviour
 {
+    private AudioSource audioSource;
+
     [SerializeField] private int NextCorrectInput = 0;
     [SerializeField] private int LastReceivedInput = 0;
     private double lastInputProximity;
@@ -10,6 +12,9 @@ public class Judge : MonoBehaviour
     public bool RanValidation = false;
     private bool SequenceEnded = false;
     private bool SuccessfulSequence = true;
+
+    [SerializeField] private AudioClip hitSuccessSound;
+    [SerializeField] private AudioClip hitFailureSound;
 
     public static event Action OnInputReceived;
     public static event Action<bool> OnValidateInput;
@@ -20,6 +25,8 @@ public class Judge : MonoBehaviour
 
     public void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         Choreographer.OnBeatListen += SetNextInput;
         PlayerController.OnPlayerAction += ReceiveInput;
         Metronome.OnBeatWindowClosed += ValidateLastInput;
@@ -69,6 +76,9 @@ public class Judge : MonoBehaviour
 
         OnValidateInput?.Invoke(valid);
         OnValidateInputWithProximity?.Invoke(valid, lastInputProximity);
+
+        if (valid) audioSource.PlayOneShot(hitSuccessSound);
+        else audioSource.PlayOneShot(hitFailureSound);
 
         if (NextCorrectInput != 0 && DebugMessages) Debug.Log($"Player succeeded note: {valid} (Expected {NextCorrectInput}, Received {LastReceivedInput})");
     }
