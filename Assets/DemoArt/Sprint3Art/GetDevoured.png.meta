@@ -1,0 +1,1521 @@
+fileFormatVersion: 2
+guid: 150a5d03088feab4d898aa2b0f7d2be2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 248025434825716085
+    second: GetDevoured_0
+  - first:
+      213: 8464400518685296945
+    second: GetDevoured_1
+  - first:
+      213: 4176887574836749584
+    second: GetDevoured_2
+  - first:
+      213: -8411385892604044574
+    second: GetDevoured_3
+  - first:
+      213: 5971269738132429515
+    second: GetDevoured_4
+  - first:
+      213: 121416738607821906
+    second: GetDevoured_5
+  - first:
+      213: -353874899710670453
+    second: GetDevoured_6
+  - first:
+      213: 1202010549212154300
+    second: GetDevoured_7
+  - first:
+      213: 4683834140045565520
+    second: GetDevoured_8
+  - first:
+      213: -4624597749025029004
+    second: GetDevoured_9
+  - first:
+      213: 4395114491860859796
+    second: GetDevoured_10
+  - first:
+      213: -8020842383216923980
+    second: GetDevoured_11
+  - first:
+      213: -3766438097993139387
+    second: GetDevoured_12
+  - first:
+      213: 1044110378886662110
+    second: GetDevoured_13
+  - first:
+      213: 2791777697845761707
+    second: GetDevoured_14
+  - first:
+      213: -8105838171419526480
+    second: GetDevoured_15
+  - first:
+      213: -4837717912586552979
+    second: GetDevoured_16
+  - first:
+      213: 2840247485365521692
+    second: GetDevoured_17
+  - first:
+      213: 871948456713144933
+    second: GetDevoured_18
+  - first:
+      213: 7982108456414018916
+    second: GetDevoured_19
+  - first:
+      213: 1790631135874589424
+    second: GetDevoured_20
+  - first:
+      213: 3723952866767959263
+    second: GetDevoured_21
+  - first:
+      213: 9009629786190352195
+    second: GetDevoured_22
+  - first:
+      213: -5459782757226377493
+    second: GetDevoured_23
+  - first:
+      213: 1891097139356775234
+    second: GetDevoured_24
+  - first:
+      213: 4888797952208531160
+    second: GetDevoured_25
+  - first:
+      213: -8422573695889935354
+    second: GetDevoured_26
+  - first:
+      213: -2304098079594459446
+    second: GetDevoured_27
+  - first:
+      213: 8320599189037401740
+    second: GetDevoured_28
+  - first:
+      213: 5030128974853476831
+    second: GetDevoured_29
+  - first:
+      213: -5875103544460547403
+    second: GetDevoured_30
+  - first:
+      213: 8057962980237552083
+    second: GetDevoured_31
+  - first:
+      213: -8545030231614759300
+    second: GetDevoured_32
+  - first:
+      213: 7667489733567381247
+    second: GetDevoured_33
+  - first:
+      213: 2392594768090045367
+    second: GetDevoured_34
+  - first:
+      213: -689521303113100995
+    second: GetDevoured_35
+  - first:
+      213: -2486198128138612902
+    second: GetDevoured_36
+  - first:
+      213: -2762765919135318314
+    second: GetDevoured_37
+  - first:
+      213: -7373310750780572742
+    second: GetDevoured_38
+  - first:
+      213: 8268907834204794296
+    second: GetDevoured_39
+  - first:
+      213: -8186425095785683665
+    second: GetDevoured_40
+  - first:
+      213: -4240293819734992856
+    second: GetDevoured_41
+  - first:
+      213: -6148607660117354242
+    second: GetDevoured_42
+  - first:
+      213: 7898660322513539006
+    second: GetDevoured_43
+  - first:
+      213: 5465457427398549506
+    second: GetDevoured_44
+  - first:
+      213: -3087664189155814837
+    second: GetDevoured_45
+  - first:
+      213: 1835319875761896246
+    second: GetDevoured_46
+  - first:
+      213: 8896542981873066310
+    second: GetDevoured_47
+  - first:
+      213: -438825586614899603
+    second: GetDevoured_48
+  - first:
+      213: 582045881227625338
+    second: GetDevoured_49
+  - first:
+      213: -7570461811722342230
+    second: GetDevoured_50
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GetDevoured_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2081
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5717c02a1d9217300800000000000000
+      internalID: 248025434825716085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1734
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1398ed8ec67977570800000000000000
+      internalID: 8464400518685296945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_2
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 2081
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01523e48e1947f930800000000000000
+      internalID: 4176887574836749584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_3
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1734
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ea9a9a9811c44b80800000000000000
+      internalID: -8411385892604044574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_4
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 2081
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca5c6f80363ed250800000000000000
+      internalID: 5971269738132429515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_5
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1734
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254718661eb5fa100800000000000000
+      internalID: 121416738607821906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_6
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 2081
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8981d357a8c61bf0800000000000000
+      internalID: -353874899710670453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_7
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1734
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb9001ad9366ea010800000000000000
+      internalID: 1202010549212154300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_8
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 2081
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e53489552500140800000000000000
+      internalID: 4683834140045565520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_9
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 1734
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474ca4479d022dfb0800000000000000
+      internalID: -4624597749025029004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_10
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 2081
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bb98218559efc30800000000000000
+      internalID: 4395114491860859796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_11
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 1734
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ba25f4495e30b090800000000000000
+      internalID: -8020842383216923980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_12
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 2081
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54bfe9c518ceabbc0800000000000000
+      internalID: -3766438097993139387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_13
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 1734
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed786df8bdc6d7e00800000000000000
+      internalID: 1044110378886662110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_14
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 2081
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba654f356036eb620800000000000000
+      internalID: 2791777697845761707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_15
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 1734
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0babcb13127428f80800000000000000
+      internalID: -8105838171419526480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_16
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1387
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69fbb89039fcdcb0800000000000000
+      internalID: -4837717912586552979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_17
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1040
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1d88672a069a6720800000000000000
+      internalID: 2840247485365521692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_18
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1387
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a46d86088c91c00800000000000000
+      internalID: 871948456713144933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_19
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 1040
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46df23f995526ce60800000000000000
+      internalID: 7982108456414018916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_20
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1387
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f22f89e78999d810800000000000000
+      internalID: 1790631135874589424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_21
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1040
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd47008e6632ea330800000000000000
+      internalID: 3723952866767959263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_22
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1387
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f87a33e82a80d70800000000000000
+      internalID: 9009629786190352195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_23
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 1040
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee08bc6284fa34b0800000000000000
+      internalID: -5459782757226377493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_24
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 1387
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2433e1b24d68e3a10800000000000000
+      internalID: 1891097139356775234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_25
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 1040
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8deeb08e5df78d340800000000000000
+      internalID: 4888797952208531160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_26
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 1387
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6047ee929d10d1b80800000000000000
+      internalID: -8422573695889935354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_27
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 1040
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acecc1611033600e0800000000000000
+      internalID: -2304098079594459446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_28
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 1387
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c864af4c0e4b87370800000000000000
+      internalID: 8320599189037401740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_29
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 1040
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd19a80e6ab9ec540800000000000000
+      internalID: 5030128974853476831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_30
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 1387
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba6ac53470777ea0800000000000000
+      internalID: -5875103544460547403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_31
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 1040
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d9ae4a33a2a3df60800000000000000
+      internalID: 8057962980237552083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_32
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 693
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ed0a12744f96980800000000000000
+      internalID: -8545030231614759300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_33
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 346
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffefc30e945686a60800000000000000
+      internalID: 7667489733567381247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_34
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 693
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb177bd344343120800000000000000
+      internalID: 2392594768090045367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_35
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 346
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3111ee27045e66f0800000000000000
+      internalID: -689521303113100995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_36
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 693
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5f8e0399ff3f7dd0800000000000000
+      internalID: -2486198128138612902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_37
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 346
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6de3268c80fa8a9d0800000000000000
+      internalID: -2762765919135318314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_38
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 693
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abbb72900fcbca990800000000000000
+      internalID: -7373310750780572742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_39
+      rect:
+        serializedVersion: 2
+        x: 1629
+        y: 346
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bda83a5ddf01c270800000000000000
+      internalID: 8268907834204794296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_40
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 693
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f25e959bfb9f36e80800000000000000
+      internalID: -8186425095785683665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_41
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 346
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 828596bac337725c0800000000000000
+      internalID: -4240293819734992856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_42
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 693
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8957be8e1cbaaa0800000000000000
+      internalID: -6148607660117354242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_43
+      rect:
+        serializedVersion: 2
+        x: 2709
+        y: 346
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf44e4e6bdad9d60800000000000000
+      internalID: 7898660322513539006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_44
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 693
+        width: 530
+        height: 347
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2006c1fa29439db40800000000000000
+      internalID: 5465457427398549506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_45
+      rect:
+        serializedVersion: 2
+        x: 3249
+        y: 346
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b425ca377c96625d0800000000000000
+      internalID: -3087664189155814837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_46
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 693
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b700cf3bd587910800000000000000
+      internalID: 1835319875761896246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_47
+      rect:
+        serializedVersion: 2
+        x: 3789
+        y: 346
+        width: 532
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641e983c4bed67b70800000000000000
+      internalID: 8896542981873066310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_48
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 530
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c6777347af8e9f0800000000000000
+      internalID: -438825586614899603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_49
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 0
+        width: 532
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a734d8925a7d31800800000000000000
+      internalID: 582045881227625338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GetDevoured_50
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 0
+        width: 530
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa031ae971150f690800000000000000
+      internalID: -7570461811722342230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GetDevoured_0: 248025434825716085
+      GetDevoured_1: 8464400518685296945
+      GetDevoured_10: 4395114491860859796
+      GetDevoured_11: -8020842383216923980
+      GetDevoured_12: -3766438097993139387
+      GetDevoured_13: 1044110378886662110
+      GetDevoured_14: 2791777697845761707
+      GetDevoured_15: -8105838171419526480
+      GetDevoured_16: -4837717912586552979
+      GetDevoured_17: 2840247485365521692
+      GetDevoured_18: 871948456713144933
+      GetDevoured_19: 7982108456414018916
+      GetDevoured_2: 4176887574836749584
+      GetDevoured_20: 1790631135874589424
+      GetDevoured_21: 3723952866767959263
+      GetDevoured_22: 9009629786190352195
+      GetDevoured_23: -5459782757226377493
+      GetDevoured_24: 1891097139356775234
+      GetDevoured_25: 4888797952208531160
+      GetDevoured_26: -8422573695889935354
+      GetDevoured_27: -2304098079594459446
+      GetDevoured_28: 8320599189037401740
+      GetDevoured_29: 5030128974853476831
+      GetDevoured_3: -8411385892604044574
+      GetDevoured_30: -5875103544460547403
+      GetDevoured_31: 8057962980237552083
+      GetDevoured_32: -8545030231614759300
+      GetDevoured_33: 7667489733567381247
+      GetDevoured_34: 2392594768090045367
+      GetDevoured_35: -689521303113100995
+      GetDevoured_36: -2486198128138612902
+      GetDevoured_37: -2762765919135318314
+      GetDevoured_38: -7373310750780572742
+      GetDevoured_39: 8268907834204794296
+      GetDevoured_4: 5971269738132429515
+      GetDevoured_40: -8186425095785683665
+      GetDevoured_41: -4240293819734992856
+      GetDevoured_42: -6148607660117354242
+      GetDevoured_43: 7898660322513539006
+      GetDevoured_44: 5465457427398549506
+      GetDevoured_45: -3087664189155814837
+      GetDevoured_46: 1835319875761896246
+      GetDevoured_47: 8896542981873066310
+      GetDevoured_48: -438825586614899603
+      GetDevoured_49: 582045881227625338
+      GetDevoured_5: 121416738607821906
+      GetDevoured_50: -7570461811722342230
+      GetDevoured_6: -353874899710670453
+      GetDevoured_7: 1202010549212154300
+      GetDevoured_8: 4683834140045565520
+      GetDevoured_9: -4624597749025029004
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
