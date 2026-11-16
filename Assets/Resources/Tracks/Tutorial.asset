@@ -43,22 +43,34 @@ MonoBehaviour:
   Dialogue:
   - Time: 0
     Dialogue:
-    - '[s="tutorial"][auto]Welcome to Prefora! Here we''ll be teaching you the basics...'
-    - '[s="tutorial"][auto]In this game, you''ll follow the prompts of your opponent
-      to defeat them by matching the rhythm!'
-    - '[tutorial="Hit(3)"][patterns="0"]To start, try hitting up when prompted 3
-      times.'
-    - '[s="tutorial"][auto]Great job!!!'
-    - '[tutorial="Hit(4)"][patterns="1"]Now try it again, but this time pressing
-      down...'
-    - '[s="tutorial"][auto]Now you''re getting it!'
-    - '[tutorial="Sequence(4)"][patterns="2,6"]Let''s get all four directions in...
-      Can you get the whole patterns?'
-    - '[s="tutorial"][auto]Fantastic!! When you do a whole pattern successfully,
-      the enemy will lose health. If you miss a note, you''ll fail that sequence
-      and lose health.'
-    - '[tutorial="Sequence(4)"][patterns="3,4,5"]Try and beat a few harder sequences
-      here to prove you''ve got what it takes!'
-    - '[s="tutorial"][auto]Great work! Looks like you''re ready to take on the real
-      thing. Good luck!'
-    - '[tutorial="End(1)"]'
+    - Text: '[s="tutorial"][auto]Welcome to Prefora! Here we''''ll be teaching you
+        the basics...'
+      Audio: {fileID: 0}
+    - Text: '[s="tutorial"][auto]In this game, you''''ll follow the prompts of your
+        opponent to defeat them by matching the rhythm!'
+      Audio: {fileID: 0}
+    - Text: '[tutorial="Hit(3)"][patterns="0"]To start, try hitting up when prompted
+        3 times.'
+      Audio: {fileID: 0}
+    - Text: '[s="tutorial"][auto]Great job!!!'
+      Audio: {fileID: 0}
+    - Text: '[tutorial="Hit(4)"][patterns="1"]Now try it again, but this time pressing
+        down... '
+      Audio: {fileID: 0}
+    - Text: '[s="tutorial"][auto]Now you''''re getting it!'
+      Audio: {fileID: 0}
+    - Text: '[tutorial="Sequence(4)"][patterns="2,6"]Let''''s get all four directions
+        in... Can you get the whole patterns? '
+      Audio: {fileID: 0}
+    - Text: '[s="tutorial"][auto]Fantastic!! When you do a whole pattern successfully,
+        the enemy will lose health. If you miss a note, you''''ll fail that sequence
+        and lose health.'
+      Audio: {fileID: 0}
+    - Text: '[tutorial="Sequence(4)"][patterns="3,4,5"]Try and beat a few harder
+        sequences here to prove you''''ve got what it takes!'
+      Audio: {fileID: 0}
+    - Text: '[s="tutorial"][auto]Great work! Looks like you''''re ready to take on
+        the real thing. Good luck!'
+      Audio: {fileID: 0}
+    - Text: '[tutorial="End(1)"]'
+      Audio: {fileID: 0}

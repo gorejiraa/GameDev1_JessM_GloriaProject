@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.UI;
 
 [Serializable]
@@ -16,7 +17,7 @@ public struct SpeakerSprite
 public struct TimedDialogue 
 {
     public float Time;
-    public List<string> Dialogue;
+    public List<VoicedDialogue> Dialogue;
 }
 
 [Serializable]
@@ -31,7 +32,9 @@ public class DialogueManager : MonoBehaviour
     private static readonly Regex MetaRegex = new Regex(@"\[([a-zA-Z0-9]+)(?:=""(.*?)"")?\]");
     private static event Action<string> PromptTutorial;
 
-    private Queue<string> DialogueQueue = new Queue<string>();
+    private AudioSource audioSource;
+
+    private Queue<VoicedDialogue> DialogueQueue = new Queue<VoicedDialogue>();
     private List<TimedDialogue> TimedDialogueSections = new List<TimedDialogue>();
 
     [Header("Object References")]
@@ -55,9 +58,12 @@ public class DialogueManager : MonoBehaviour
     private float _charPerSecond = 30;
     private float _dialogueStartTimer = 0;
     private Vector2 _dialogueBoxSize;
+    private bool _progressAfterAudio = false;
 
     private void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+
         DialogueText.text = "";
         GameManager.EndBattle += CancelDialogue;
         PlayerStatus.OnPlayerHealthEmpty += CancelDialogue;
@@ -91,13 +97,20 @@ public class DialogueManager : MonoBehaviour
 
         DisplayText(textToDisplay);
 
-        if (_autoContinue && _textIndex >= _currentText.Length) 
+        if (_autoContinue) 
         {
-            _autoWaitTime -= Time.deltaTime;
-
-            if (_autoWaitTime <= 0)
+            if (_progressAfterAudio)
             {
-                ProgressDialogue();
+                if (audioSource.time >= audioSource.clip.length) ProgressDialogue();
+            }
+            else if (_textIndex >= _currentText.Length)
+            {
+                _autoWaitTime -= Time.deltaTime;
+
+                if (_autoWaitTime <= 0)
+                {
+                    ProgressDialogue();
+                }
             }
         }
     }
@@ -114,9 +127,9 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
-    public void InitiateDialogue(List<string> dialogue) 
+    public void InitiateDialogue(List<VoicedDialogue> dialogue) 
     {
-        foreach (string line in dialogue) 
+        foreach (VoicedDialogue line in dialogue) 
         {
             DialogueQueue.Enqueue(line);
         }
@@ -126,9 +139,17 @@ public class DialogueManager : MonoBehaviour
 
     public void ProgressDialogue() 
     {
-        if (DialogueQueue.TryDequeue(out string firstLine))
+        _progressAfterAudio = false;
+
+        if (DialogueQueue.TryDequeue(out VoicedDialogue line))
         {
-            SetText(firstLine);
+            SetText(line.Text);
+            if (line.Audio != null)
+            {
+                audioSource.clip = line.Audio;
+                audioSource.Play();
+                _progressAfterAudio = true;
+            }
         }
         else 
         {
