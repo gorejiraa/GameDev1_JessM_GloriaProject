@@ -23,6 +23,7 @@ public struct TimedDialogue
 [Serializable]
 public struct VoicedDialogue
 {
+    [TextArea]
     public string Text;
     public AudioClip Audio;
 }

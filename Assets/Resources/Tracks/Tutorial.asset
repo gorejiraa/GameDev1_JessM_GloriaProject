@@ -27,50 +27,61 @@ MonoBehaviour:
   RandomPatterns: 0
   Patterns:
   - HalfBeats: 0
-    Notes: 0100000007000000
+    Notes: 00000000000000000000000000000000
   - HalfBeats: 0
-    Notes: 0200000007000000
+    Notes: 01000000
   - HalfBeats: 0
-    Notes: 01000000020000000300000004000000
+    Notes: 02000000
   - HalfBeats: 0
-    Notes: 010000000100000003000000040000000100000002000000
+    Notes: 03000000
+  - HalfBeats: 0
+    Notes: 04000000
+  - HalfBeats: 0
+    Notes: 01000000020000000300000007000000
+  - HalfBeats: 0
+    Notes: 02000000040000000100000007000000
+  - HalfBeats: 0
+    Notes: 0100000001000000030000000400000001000000020000000400000007000000
   - HalfBeats: 0
     Notes: 0100000001000000030000000400000001000000040000000200000007000000
   - HalfBeats: 0
     Notes: 0200000003000000010000000000000004000000020000000400000007000000
-  - HalfBeats: 0
-    Notes: 02000000040000000100000003000000
   Dialogue:
   - Time: 0
     Dialogue:
-    - Text: '[s="tutorial"][auto]Welcome to Prefora! Here we''ll be teaching you
-        the basics...'
+    - Text: '[s="tutorial"][patterns="0"][auto]Welcome to Prefora! Here we''ll be
+        teaching you the basics...'
       Audio: {fileID: 8300000, guid: 0386d24fb27d77b408f0a2964a31b9b1, type: 3}
     - Text: '[s="tutorial"][auto]In this game, you''ll follow the prompts of your
         opponent to defeat them by matching the rhythm!'
       Audio: {fileID: 8300000, guid: 7912ca3e8300ec94092e7f25804d9bd2, type: 3}
-    - Text: '[tutorial="Hit(3)"][patterns="0"]To start, try hitting up when prompted
-        3 times.'
+    - Text: '[s="tutorial"]Gloria will perform a sequence of moves, and then you''ll
+        try to repeat it back to dodge her attacks.  '
       Audio: {fileID: 8300000, guid: 8f94faa5176bf4a4ab95a46b963a1922, type: 3}
-    - Text: '[s="tutorial"][auto]Great job!!!'
+    - Text: '[s="tutorial"]First, let''s start with just one note. When Gloria moves
+        on the beat, you move on the next beat. For now she''ll just go UP.'
+      Audio: {fileID: 0}
+    - Text: '[tutorial="Hit(5)"][patterns="1"]Give it a try!'
+      Audio: {fileID: 0}
+    - Text: '[s="tutorial"][patterns="0"][auto]Great job!!!'
       Audio: {fileID: 8300000, guid: 16b3134ad0a2cdc4fb97eb97e85ccd8e, type: 3}
-    - Text: '[tutorial="Hit(4)"][patterns="1"]Now try it again, but this time pressing
-        down... '
+    - Text: '[tutorial="Hit(5)"][patterns="1,2,3,4"]Now let''s try it with different
+        directions. '
       Audio: {fileID: 8300000, guid: 67591c10dc15ab346b7e9f37cfc86fb1, type: 3}
-    - Text: '[s="tutorial"][auto]Now you''re getting it!'
+    - Text: '[s="tutorial"][patterns="0"][auto]Now you''re getting it!'
       Audio: {fileID: 8300000, guid: 829ba8e9773e7a54cb485e6e345d6b78, type: 3}
-    - Text: '[tutorial="Sequence(4)"][patterns="2,6"]Let''''s get all four directions
+    - Text: '[tutorial="Sequence(3)"][patterns="5,6"]Let''''s get all four directions
         in... Can you get the whole patterns? '
       Audio: {fileID: 0}
-    - Text: '[s="tutorial"][auto]Fantastic!! When you do a whole pattern successfully,
-        the enemy will lose health. If you miss a note, you''ll fail that sequence
-        and lose health.'
+    - Text: '[s="tutorial"][patterns="0"][auto]Fantastic!! When you do a whole pattern
+        successfully, the enemy will lose health. If you miss a note, you''ll fail
+        that sequence and lose health.'
       Audio: {fileID: 0}
-    - Text: '[tutorial="Sequence(4)"][patterns="3,4,5"]Try and beat a few harder
+    - Text: '[tutorial="Sequence(3)"][patterns="7,8,9"]Try and beat a few harder
         sequences here to prove you''ve got what it takes!'
       Audio: {fileID: 0}
-    - Text: '[s="tutorial"][auto]Great work! Looks like you''re ready to take on
-        the real thing. Good luck!'
+    - Text: '[s="tutorial"][patterns="0"][auto]Great work! Looks like you''re ready
+        to take on the real thing. Good luck!'
       Audio: {fileID: 0}
     - Text: '[tutorial="End(1)"]'
       Audio: {fileID: 0}
