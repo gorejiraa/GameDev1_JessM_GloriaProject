@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LeftAttack
+  m_Controller: {fileID: 9100000, guid: e3f642419d53f6442b1da87da27e0b1c, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: c74ef0c1b62dc6847833df33a45372e9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: faaaf1af2ae4f0d4d9ab703eaf72b1be, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: eef3fedc50feb2441a1e97471a803cbb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 1f50bb1838b523c48b95c92bedd9c742, type: 2}

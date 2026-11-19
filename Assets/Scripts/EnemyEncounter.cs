@@ -15,6 +15,14 @@ public class EnemyEncounter : MonoBehaviour
     public Track EncounterTrack;
     public float TimingWindow = 80;
 
+    [Header("Attacks")]
+    public AttackPositions AttackPositions;
+    public AnimatorOverrideController LeftAttackController;
+    public AnimatorOverrideController RightAttackController;
+    public AnimatorOverrideController UpAttackController;
+    public AnimatorOverrideController DownAttackController;
+    public GameObject AttackPrefab;
+
     private SpriteRenderer spriteRenderer;
     private AudioSource audioSource;
     private Vector2 baseScale;
@@ -23,6 +31,8 @@ public class EnemyEncounter : MonoBehaviour
     private float spriteTimer = 0f;
     private bool spriteTimerActive = false;
     private Vector2 slideDirection;
+
+    
 
     public Health Health;
 
@@ -40,6 +50,7 @@ public class EnemyEncounter : MonoBehaviour
         baseScale = transform.localScale;
         basePosition = transform.localPosition;
         Choreographer.OnBeatDemo += DemoBeat;
+        Choreographer.OnNoteSpawned += SpawnAttackProjectile;
         Metronome.OnBeatPassed += DemoBeatPassed;
         Judge.OnSequenceEnd += LoseHealthOnSuccessfulPlayerSequence;
         GameManager.ResetGameState += ResetState;
@@ -130,6 +141,40 @@ public class EnemyEncounter : MonoBehaviour
         if (!successfulSequence) return;
 
         TakeDamage(1);
+    }
+
+    private void SpawnAttackProjectile(int targetBeat, Note note) 
+    {
+        AnimatorOverrideController anim = null;
+        Vector3 idlePos = new Vector3(0, 0);
+
+        switch (note) 
+        {
+            case Note.Left:
+                anim = LeftAttackController;
+                idlePos = AttackPositions.Left.position;
+                break;
+            case Note.Right:
+                anim = RightAttackController;
+                idlePos = AttackPositions.Right.position;
+                break;
+            case Note.Up:
+                anim = UpAttackController;
+                idlePos = AttackPositions.Up.position;
+                break;
+            case Note.Down:
+                anim = DownAttackController;
+                idlePos = AttackPositions.Down.position;
+                break;
+            default:
+                anim = null;
+                break;
+        }
+
+        if (anim == null) return;
+
+        GameObject attack = Instantiate(AttackPrefab);
+        attack.GetComponent<AttackProjectile>().Initialize(anim, targetBeat, idlePos, AttackPositions.Target.position);
     }
 
     private void ResetState() 

@@ -8,6 +8,7 @@ public class Metronome : MonoBehaviour
     public static event Action OnBeatWindowOpened;
     public static event Action OnBeatPassed;
     public static event Action OnBeatWindowClosed;
+    public static event Action<int> OnBeatWindowOpenedWithBeat;
     public static event Action<double> OnBeatDurationSet;
 
     public double BPM;
@@ -82,6 +83,7 @@ public class Metronome : MonoBehaviour
             {
                 activeBeat = lastBeat + 1;
                 OnBeatWindowOpened?.Invoke();
+                OnBeatWindowOpenedWithBeat?.Invoke(activeBeat);
                 beatPassed = false;
             }
         }
