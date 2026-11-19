@@ -26,4 +26,82 @@ MonoBehaviour:
   Tutorial: 0
   RandomPatterns: 1
   Patterns: []
-  Dialogue: []
+  Dialogue:
+  - Time: 129
+    Dialogue:
+    - Text: '[s="gloria"]Oh look at that!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]You are still managing to stand on your own two feet after
+        the first act!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]I have to admit I was expecting you to take your final bow
+        of the performance by now'
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]Not that I thought you were incapable or anything, I simply
+        didn\u2019t realize we had such a fighter amongst us!!"
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]A true survivor\u2026"
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]A persistent little RISING STAR on our hands tonight!!!'
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]Tell me DARLING\u2026"
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Are you enjoying the show tonight?'
+      Audio: {fileID: 0}
+    - Text: "[s=\"you\"]\u2026"
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]OH!! Don\u2019t be shy We have had such a lovely time
+        together with all that jumping, dodging, and stumbling all about the stage"
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]AND Isn\u2019t it just PRECIOUS that you have started
+        to get the hang of it?"
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]but\u2026 PERSONALLY DARLING\u2026"
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]I must admit this is all a little too choreographed for
+        my taste'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]I was hoping for a little more FLAIR; A little more PASSION;
+        I was hoping for some real IMPROVISATION on stage here tonight!'
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]and every great performer and every great performance
+        of theirs comes with a little adversity and hardship, isn\u2019t that right
+        darling?"
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]After all, how could I possibly be a star without someone
+        to dance around on stage?'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]PLACES AGAIN EVERYONE!'
+      Audio: {fileID: 0}
+  - Time: 273
+    Dialogue:
+    - Text: '[s="gloria"]A STAR IS BORN!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]BRAVO!!! BRAVISSIMO!!! WHAT A PERFORMANCE!!! WHAT A SPECTACLE!!!
+        SOMEBODY GET THIS STAR A BOQUET! SOME FLOWERS FOR THEIR PERFORMANCE!!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]We have laughed! We have cried! We have danced and we have
+        dodged! '
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]and you my rising star, have made it all the way to the
+        end!'
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]Don\u2019t let it all go to your head, Streisand"
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]There\u2019s only room for ONE HEADLINER around here!"
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]OHHOHOHO HAHAHA'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Maybe I should start mixing stand up comedy into my future
+        performances'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Do you think I have a knack for it, darling?'
+      Audio: {fileID: 0}
+    - Text: "[s=\"you\"]\u2026"
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Well!! It seems like we have a tough crowd tonight folks!'
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]I suppose it\u2019s time for our final bow now,"
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Shall we?'
+      Audio: {fileID: 0}

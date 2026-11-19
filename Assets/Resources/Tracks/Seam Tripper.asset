@@ -26,4 +26,46 @@ MonoBehaviour:
   Tutorial: 0
   RandomPatterns: 1
   Patterns: []
-  Dialogue: []
+  Dialogue:
+  - Time: 92
+    Dialogue:
+    - Text: '[s="gloria"]Well, well, WELL! What a curious little predicament we''ve
+        found ourselves in!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]I simply must say, you have got such the interesting little
+        world in here!'
+      Audio: {fileID: 0}
+    - Text: '[s="you"]It''s not mine'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Oh, don''t be modest! I''m sure you have had a hand in its
+        creation somewhere!'
+      Audio: {fileID: 0}
+    - Text: '[s="you"]I really haven''t'
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]Well, that's rather concerning, actually\u2026"
+      Audio: {fileID: 0}
+    - Text: '[s="you"]Can you ever give it a rest?'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]REST?! '
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]Darling, don\u2019t be so SILLY!"
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]We are in the middle of a perfectly wonderful production
+        and you want an INTERMISSION?'
+      Audio: {fileID: 0}
+    - Text: '[s="you"]I want you to stop trying to attack me actually'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Oh, don''t be such a spoilsport!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]WHERE is your sense of whimsy and wonder?'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Besides, I haven''t even shown you my best trick yet!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]HA'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]OHHOHOHOO! '
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]HA HA HA'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]OH, you''re going to LOVE this!!'
+      Audio: {fileID: 0}

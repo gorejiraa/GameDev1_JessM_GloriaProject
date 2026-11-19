@@ -26,4 +26,31 @@ MonoBehaviour:
   Tutorial: 0
   RandomPatterns: 1
   Patterns: []
-  Dialogue: []
+  Dialogue:
+  - Time: 75
+    Dialogue:
+    - Text: '[s="gloria"]OHOHO!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]A little footwork!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]How DELIGHTFUL!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]A little to the left! A little to the right!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Now THAT is what I call a dramatic entrance!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Careful with this choreography, sweetheart, you will end
+        up ruining the whole number!'
+      Audio: {fileID: 0}
+    - Text: '[s="you"]You''re the one throwing things at me!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]ALL A PART OF THE SHOW, DARLING!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]And a one, and a two, and a DODGE!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]OHOHOHOHOHOHO! HAHAHAHA! OH, I SIMPLY CANNOT!'
+      Audio: {fileID: 0}
+    - Text: '[s="you"]What is wrong with you..?'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Don''t look so serious! This is supposed to be FUN!'
+      Audio: {fileID: 0}
