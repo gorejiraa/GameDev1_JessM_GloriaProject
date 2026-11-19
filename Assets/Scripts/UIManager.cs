@@ -5,21 +5,24 @@ using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
+    [Header("Gameplay UI")]
     [SerializeField] private TextMeshProUGUI proximityText;
     [SerializeField] private float proximityTextDisplayTime = 0.5f;
     private float proxTextTimer = 0;
-
     [SerializeField] private Slider playerHealthBar;
     [SerializeField] private Slider enemyHealthBar;
+
+    [Header("Panels")]
     [SerializeField] private GameObject LossPanel;
     [SerializeField] private GameObject WinPanel;
     [SerializeField] private GameObject MenuPanel;
-
     [SerializeField] private GameObject OffsetCalculationPanel;
     [SerializeField] private GameObject OffsetCalculationDetailsPanel;
     [SerializeField] private TextMeshProUGUI OffsetDisplayText;
 
-    [SerializeField] private bool DebugMessages = false;
+    [Header("Audio")]
+    public AudioClip DefaultClickSound;
+    private AudioSource _audioSource;
 
     [Header("Proximity Text")]
     [SerializeField] private Color missColor;
@@ -31,9 +34,14 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Color nearMissColor;
     [SerializeField] private string nearMissText;
 
+    [Header("Debug")]
+    [SerializeField] private bool DebugMessages = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        _audioSource = GetComponent<AudioSource>();
+
         proximityText.color = new Color(0, 0, 0, 0);
 
         Judge.OnValidateInputWithProximity += SetProximityText;
@@ -43,6 +51,7 @@ public class UIManager : MonoBehaviour
 
         ResetState();
         ToggleGameplayUI(false);
+        AddButtonSoundListeners();
     }
 
     // Update is called once per frame
@@ -55,6 +64,31 @@ public class UIManager : MonoBehaviour
         proxTextColor.a = Mathf.Clamp01(proxTextTimer / (proximityTextDisplayTime / 2));
 
         proximityText.color = proxTextColor;
+    }
+
+    public void ClickSound(AudioClip clip) 
+    {
+        if (clip == null) return;
+
+        _audioSource.PlayOneShot(clip);
+    }
+
+    private void AddButtonSoundListeners() 
+    {
+        Button[] allButtons = FindObjectsByType<Button>(FindObjectsInactive.Include, FindObjectsSortMode.None);
+
+        foreach (Button btn in allButtons)
+        {
+            // Check if this specific button has a custom sound attached
+            if (btn.TryGetComponent<CustomButtonSound>(out CustomButtonSound customSound) && customSound.Clip != null)
+            {
+                btn.onClick.AddListener(() => ClickSound(customSound.Clip));
+            }
+            else
+            {
+                btn.onClick.AddListener(() => ClickSound(DefaultClickSound));
+            }
+        }
     }
 
     private void UpdateEnemyHealthBar(Health health)

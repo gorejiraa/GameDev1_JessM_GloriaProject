@@ -29,5 +29,6 @@ MonoBehaviour:
   Dialogue:
   - Time: 0
     Dialogue:
-    - '[s="tutorial"][auto="9999"]Press spacebar on the beat 10 times to find your
-      input offset!'
+    - Text: '[s="tutorial"][auto="9999"]Press spacebar on the beat 10 times to find
+        your input offset!'
+      Audio: {fileID: 0}
