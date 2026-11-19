@@ -39,7 +39,7 @@ public class Choreographer : MonoBehaviour
     public static event Action OnSwitchToDemoState;
     public static event Action OnSwitchToListenState;
     public static event Action OnEndListenPhase;
-    public static event Action<int, Note> OnNoteSpawned;
+    public static event Action<int, Note, int> OnNoteSpawned;
 
     [SerializeField] private GameObject notePrefab;
 
@@ -150,7 +150,7 @@ public class Choreographer : MonoBehaviour
         if (note == Note.Blank || note == Note.Finish) return;
 
         // Pass the prefab reference, position, and rotation
-        OnNoteSpawned.Invoke(ActiveBeat + _currentPattern.Count, note);
+        OnNoteSpawned.Invoke(ActiveBeat + _currentPattern.Count, note, _currentPatternBeat);
         GameObject newNote = Instantiate(notePrefab);
         newNote.GetComponent<NoteController>().Initialize(hitTime, note);
     }

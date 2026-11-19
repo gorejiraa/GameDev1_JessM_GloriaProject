@@ -143,10 +143,11 @@ public class EnemyEncounter : MonoBehaviour
         TakeDamage(1);
     }
 
-    private void SpawnAttackProjectile(int targetBeat, Note note) 
+    private void SpawnAttackProjectile(int targetBeat, Note note, int orderInQueue) 
     {
         AnimatorOverrideController anim = null;
         Vector3 idlePos = new Vector3(0, 0);
+        int baseSortingOrder = 20;
 
         switch (note) 
         {
@@ -165,6 +166,7 @@ public class EnemyEncounter : MonoBehaviour
             case Note.Down:
                 anim = DownAttackController;
                 idlePos = AttackPositions.Down.position;
+                baseSortingOrder = 60;
                 break;
             default:
                 anim = null;
@@ -174,7 +176,7 @@ public class EnemyEncounter : MonoBehaviour
         if (anim == null) return;
 
         GameObject attack = Instantiate(AttackPrefab);
-        attack.GetComponent<AttackProjectile>().Initialize(anim, targetBeat, idlePos, AttackPositions.Target.position);
+        attack.GetComponent<AttackProjectile>().Initialize(anim, targetBeat, orderInQueue, baseSortingOrder, idlePos, AttackPositions.Target.position);
     }
 
     private void ResetState() 

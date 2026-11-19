@@ -1,9 +1,11 @@
+using System;
 using TMPro;
 using UnityEngine;
 using static UnityEngine.GraphicsBuffer;
 
 public class AttackProjectile : MonoBehaviour
 {
+    [SerializeField] private SpriteRenderer _spriteRenderer;
     [SerializeField] private Animator Animator;
     [SerializeField] private float _moveSpeed;
     [SerializeField] private float _spawnMoveSpeed;
@@ -11,37 +13,49 @@ public class AttackProjectile : MonoBehaviour
     private bool _spawning = true;
     private bool _moving = false;
     private float stoppingDistance = 0.05f;
+    private int _orderInQueue = 0;
+    [SerializeField] private float _queueGap;
 
     private Vector3 _idleLocation;
     private Vector3 _targetLocation;
 
-    public void Initialize(AnimatorOverrideController anim, int beat, Vector3 idleLocation, Vector3 targetLocation)
+    public static event Action OnMove;
+
+    public void Initialize(AnimatorOverrideController anim, int beat, int order, int sortingOrder, Vector3 idleLocation, Vector3 targetLocation)
     {
         Animator.runtimeAnimatorController = anim;
         _targetBeat = beat;
+        _orderInQueue = order;
         _idleLocation = idleLocation;
         _targetLocation = targetLocation;
+        _spriteRenderer.sortingOrder = sortingOrder - order;
     }
 
     private void Start()
     {
         Metronome.OnBeatWindowOpenedWithBeat += MoveOnBeat;
+        AttackProjectile.OnMove += DecrementOrder;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (_spawning)
+        float colorFade = 1 - ((float)_orderInQueue / 10f);
+
+        _spriteRenderer.color = new Color(colorFade, colorFade, colorFade, 1);
+
+        if (!_moving)
         {
+            Vector3 realIdleLocation = new Vector3(_idleLocation.x, _idleLocation.y + _orderInQueue * _queueGap, _idleLocation.z);
+
             float step = _spawnMoveSpeed * Time.deltaTime;
 
-            transform.position = Vector3.MoveTowards(transform.position, _idleLocation, step);
+            transform.position = Vector3.MoveTowards(transform.position, realIdleLocation, step);
 
-            if (Vector3.Distance(transform.position, _idleLocation) <= stoppingDistance)
+            if (Vector3.Distance(transform.position, realIdleLocation) <= stoppingDistance)
             {
                 // Snap to the exact position and stop moving
-                transform.position = _idleLocation;
-                _spawning = false;
+                transform.position = realIdleLocation;
             }
 
         }
@@ -67,6 +81,14 @@ public class AttackProjectile : MonoBehaviour
         _moving = true;
         Animator.SetBool("Moving", true);
 
+        OnMove?.Invoke();
+
         Metronome.OnBeatWindowOpenedWithBeat -= MoveOnBeat;
+        AttackProjectile.OnMove -= DecrementOrder;
+    }
+
+    private void DecrementOrder() 
+    {
+        _orderInQueue--;
     }
 }

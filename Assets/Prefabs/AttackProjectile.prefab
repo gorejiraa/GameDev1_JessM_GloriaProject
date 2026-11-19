@@ -46,10 +46,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4011775ed3f8dbc4b9b30a8e1e384f29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AttackProjectile
+  _spriteRenderer: {fileID: 8536334527469714030}
   Animator: {fileID: 7551598020354523977}
   _moveSpeed: 25
   _spawnMoveSpeed: 10
   _targetBeat: 0
+  _queueGap: 0.3
 --- !u!95 &7551598020354523977
 Animator:
   serializedVersion: 7
