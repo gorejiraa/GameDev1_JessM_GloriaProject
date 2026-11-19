@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 74dedcd54da02394a892896cb1029da0, type: 3}
-  m_Name: TitleSong
+  m_Name: TickTockDarling!
   m_EditorClassIdentifier: Assembly-CSharp::Track
   Name: Tick Tock, Darling!
   Difficulty: 0
