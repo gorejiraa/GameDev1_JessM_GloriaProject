@@ -1,0 +1,1235 @@
+fileFormatVersion: 2
+guid: caf0cf39062fae140807e1b0acf41908
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7516869734338979232
+    second: Encore_0
+  - first:
+      213: -7950094983496716469
+    second: Encore_1
+  - first:
+      213: -9143573976714001617
+    second: Encore_2
+  - first:
+      213: -4912582534531395190
+    second: Encore_3
+  - first:
+      213: 7943830304285379969
+    second: Encore_4
+  - first:
+      213: -3175924541552358478
+    second: Encore_5
+  - first:
+      213: 6069103514775707215
+    second: Encore_6
+  - first:
+      213: -1381690358934362430
+    second: Encore_7
+  - first:
+      213: 2383164820808961582
+    second: Encore_8
+  - first:
+      213: 5141219401426586107
+    second: Encore_9
+  - first:
+      213: 242863212397737178
+    second: Encore_10
+  - first:
+      213: -3462157352667417729
+    second: Encore_11
+  - first:
+      213: 5442159966643634723
+    second: Encore_12
+  - first:
+      213: -7437694437395090525
+    second: Encore_13
+  - first:
+      213: 8498363567657632028
+    second: Encore_14
+  - first:
+      213: -4865158041741510088
+    second: Encore_15
+  - first:
+      213: -626423727580554980
+    second: Encore_16
+  - first:
+      213: 2192602764354615052
+    second: Encore_17
+  - first:
+      213: 7466984161512267976
+    second: Encore_18
+  - first:
+      213: 4773375641874071353
+    second: Encore_19
+  - first:
+      213: 5675955603280882921
+    second: Encore_20
+  - first:
+      213: -4795011085422669336
+    second: Encore_21
+  - first:
+      213: 7005209954205636476
+    second: Encore_22
+  - first:
+      213: 4631360354980605151
+    second: Encore_23
+  - first:
+      213: 763679786258598549
+    second: Encore_24
+  - first:
+      213: -5118483319551224847
+    second: Encore_25
+  - first:
+      213: -4301736148036964872
+    second: Encore_26
+  - first:
+      213: 3009515334208625390
+    second: Encore_27
+  - first:
+      213: 3809082288755622685
+    second: Encore_28
+  - first:
+      213: -2917507347254383473
+    second: Encore_29
+  - first:
+      213: 8174614337624422307
+    second: Encore_30
+  - first:
+      213: -6363346976732013681
+    second: Encore_31
+  - first:
+      213: 4662699144403515586
+    second: Encore_32
+  - first:
+      213: -4334764491233778944
+    second: Encore_33
+  - first:
+      213: 5433944821619672927
+    second: Encore_34
+  - first:
+      213: -1993390914869939647
+    second: Encore_35
+  - first:
+      213: -7273232352610774608
+    second: Encore_36
+  - first:
+      213: 7290933818821125000
+    second: Encore_37
+  - first:
+      213: -2727084420000655438
+    second: Encore_38
+  - first:
+      213: 424966056125092561
+    second: Encore_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Encore_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1644
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5e8228239415860800000000000000
+      internalID: 7516869734338979232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_1
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1315
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4f2012ebb69ba190800000000000000
+      internalID: -7950094983496716469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_2
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1315
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f23c474b9ef7b1180800000000000000
+      internalID: -9143573976714001617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_3
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1644
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a81d77b763003dbb0800000000000000
+      internalID: -4912582534531395190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_4
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1644
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18dc9e2d2972e3e60800000000000000
+      internalID: 7943830304285379969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_5
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1315
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb835bc479dce3d0800000000000000
+      internalID: -3175924541552358478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_6
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1644
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ed74fbd79c93450800000000000000
+      internalID: 6069103514775707215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_7
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 1315
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6a22660ff33dce0800000000000000
+      internalID: -1381690358934362430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_8
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 1644
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e868927c3b21120800000000000000
+      internalID: 2383164820808961582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_9
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 1315
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9c0666ec7495740800000000000000
+      internalID: 5141219401426586107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_10
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 1644
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad43aff0ec2de5300800000000000000
+      internalID: 242863212397737178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_11
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 1315
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7370c52b32f3ffc0800000000000000
+      internalID: -3462157352667417729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_12
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 1315
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32245a6e7af668b40800000000000000
+      internalID: 5442159966643634723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_13
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 1644
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a3ba27d05008c890800000000000000
+      internalID: -7437694437395090525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_14
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 986
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c11ca5673a040f570800000000000000
+      internalID: 8498363567657632028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_15
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 657
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83abcd9a98c7b7cb0800000000000000
+      internalID: -4865158041741510088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_16
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 986
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c195fae40fe7e47f0800000000000000
+      internalID: -626423727580554980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_17
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 657
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0775e6e890bd6e10800000000000000
+      internalID: 2192602764354615052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_18
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 657
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0286a788e00a760800000000000000
+      internalID: 7466984161512267976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_19
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 986
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ff7691bdf6e3240800000000000000
+      internalID: 4773375641874071353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_20
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 986
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ece1767c8b05ce40800000000000000
+      internalID: 5675955603280882921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_21
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 657
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e15257a2d2b47db0800000000000000
+      internalID: -4795011085422669336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_22
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 986
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7715719651873160800000000000000
+      internalID: 7005209954205636476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_23
+      rect:
+        serializedVersion: 2
+        x: 2153
+        y: 657
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc227174b5e54040800000000000000
+      internalID: 4631360354980605151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_24
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 986
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a071e28b2299a00800000000000000
+      internalID: 763679786258598549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_25
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 657
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f3136d2a8e77f8b0800000000000000
+      internalID: -5118483319551224847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_26
+      rect:
+        serializedVersion: 2
+        x: 3225
+        y: 986
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fdacc2d3c92d44c0800000000000000
+      internalID: -4301736148036964872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_27
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 657
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea98995042f3c920800000000000000
+      internalID: 3009515334208625390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_28
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 328
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13c28509249cd430800000000000000
+      internalID: 3809082288755622685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_29
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 528
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8c6f49768ee287d0800000000000000
+      internalID: -2917507347254383473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_30
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 328
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a73be9dd60127170800000000000000
+      internalID: 8174614337624422307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_31
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 0
+        width: 526
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b155d93a9d0b7a0800000000000000
+      internalID: -6363346976732013681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_32
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 328
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c870b4fa2c35b040800000000000000
+      internalID: 4662699144403515586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_33
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 0
+        width: 526
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003a80b69a2d7d3c0800000000000000
+      internalID: -4334764491233778944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_34
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 0
+        width: 528
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f57c6b56600496b40800000000000000
+      internalID: 5433944821619672927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_35
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 328
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142bfac368d0654e0800000000000000
+      internalID: -1993390914869939647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_36
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 328
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b191c5e5b9401b90800000000000000
+      internalID: -7273232352610774608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_37
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 0
+        width: 526
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88327bfdda99e2560800000000000000
+      internalID: 7290933818821125000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_38
+      rect:
+        serializedVersion: 2
+        x: 2689
+        y: 328
+        width: 528
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7db513b23772ad0800000000000000
+      internalID: -2727084420000655438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Encore_39
+      rect:
+        serializedVersion: 2
+        x: 3227
+        y: 328
+        width: 526
+        height: 331
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d25fe06068c5e500800000000000000
+      internalID: 424966056125092561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Encore_0: 7516869734338979232
+      Encore_1: -7950094983496716469
+      Encore_10: 242863212397737178
+      Encore_11: -3462157352667417729
+      Encore_12: 5442159966643634723
+      Encore_13: -7437694437395090525
+      Encore_14: 8498363567657632028
+      Encore_15: -4865158041741510088
+      Encore_16: -626423727580554980
+      Encore_17: 2192602764354615052
+      Encore_18: 7466984161512267976
+      Encore_19: 4773375641874071353
+      Encore_2: -9143573976714001617
+      Encore_20: 5675955603280882921
+      Encore_21: -4795011085422669336
+      Encore_22: 7005209954205636476
+      Encore_23: 4631360354980605151
+      Encore_24: 763679786258598549
+      Encore_25: -5118483319551224847
+      Encore_26: -4301736148036964872
+      Encore_27: 3009515334208625390
+      Encore_28: 3809082288755622685
+      Encore_29: -2917507347254383473
+      Encore_3: -4912582534531395190
+      Encore_30: 8174614337624422307
+      Encore_31: -6363346976732013681
+      Encore_32: 4662699144403515586
+      Encore_33: -4334764491233778944
+      Encore_34: 5433944821619672927
+      Encore_35: -1993390914869939647
+      Encore_36: -7273232352610774608
+      Encore_37: 7290933818821125000
+      Encore_38: -2727084420000655438
+      Encore_39: 424966056125092561
+      Encore_4: 7943830304285379969
+      Encore_5: -3175924541552358478
+      Encore_6: 6069103514775707215
+      Encore_7: -1381690358934362430
+      Encore_8: 2383164820808961582
+      Encore_9: 5141219401426586107
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

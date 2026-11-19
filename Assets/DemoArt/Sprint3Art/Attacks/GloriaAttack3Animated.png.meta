@@ -1,0 +1,5447 @@
+fileFormatVersion: 2
+guid: c84b349bd2fa8ae468cd7ee52eb3e363
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1701790546753234161
+    second: GloriaAttack3Animated_0
+  - first:
+      213: 3864017522533478592
+    second: GloriaAttack3Animated_1
+  - first:
+      213: -3062182014121201123
+    second: GloriaAttack3Animated_2
+  - first:
+      213: 2764591745235113331
+    second: GloriaAttack3Animated_3
+  - first:
+      213: 2401065239471586400
+    second: GloriaAttack3Animated_4
+  - first:
+      213: 1847674755885744927
+    second: GloriaAttack3Animated_5
+  - first:
+      213: -8857660264159417606
+    second: GloriaAttack3Animated_6
+  - first:
+      213: -7154691166422430349
+    second: GloriaAttack3Animated_7
+  - first:
+      213: 7821521480741075557
+    second: GloriaAttack3Animated_8
+  - first:
+      213: 9198052291012358793
+    second: GloriaAttack3Animated_9
+  - first:
+      213: 5706925529197111588
+    second: GloriaAttack3Animated_10
+  - first:
+      213: 4308735333614143144
+    second: GloriaAttack3Animated_11
+  - first:
+      213: -4164023036294898674
+    second: GloriaAttack3Animated_12
+  - first:
+      213: 6785545061984271132
+    second: GloriaAttack3Animated_13
+  - first:
+      213: 7374760011903040104
+    second: GloriaAttack3Animated_14
+  - first:
+      213: 4892889267962981737
+    second: GloriaAttack3Animated_15
+  - first:
+      213: -3234596250390293560
+    second: GloriaAttack3Animated_16
+  - first:
+      213: 5966765331613363836
+    second: GloriaAttack3Animated_17
+  - first:
+      213: -7568732552778308765
+    second: GloriaAttack3Animated_18
+  - first:
+      213: 4688945409982948627
+    second: GloriaAttack3Animated_19
+  - first:
+      213: -1662534028461348620
+    second: GloriaAttack3Animated_20
+  - first:
+      213: -8019954724220985177
+    second: GloriaAttack3Animated_21
+  - first:
+      213: 7116068094404209609
+    second: GloriaAttack3Animated_22
+  - first:
+      213: -7918033584651719380
+    second: GloriaAttack3Animated_23
+  - first:
+      213: 7678674915950489197
+    second: GloriaAttack3Animated_24
+  - first:
+      213: 6175067669012779177
+    second: GloriaAttack3Animated_25
+  - first:
+      213: -4630704209387959625
+    second: GloriaAttack3Animated_26
+  - first:
+      213: 4184169227279761381
+    second: GloriaAttack3Animated_27
+  - first:
+      213: 4194515612815050753
+    second: GloriaAttack3Animated_28
+  - first:
+      213: -8551727151031724522
+    second: GloriaAttack3Animated_29
+  - first:
+      213: -8759062461940062775
+    second: GloriaAttack3Animated_30
+  - first:
+      213: -6293324879091771647
+    second: GloriaAttack3Animated_31
+  - first:
+      213: 6481276048958015949
+    second: GloriaAttack3Animated_32
+  - first:
+      213: -2466100513935759400
+    second: GloriaAttack3Animated_33
+  - first:
+      213: -6407288862954506316
+    second: GloriaAttack3Animated_34
+  - first:
+      213: -8392405798553367542
+    second: GloriaAttack3Animated_35
+  - first:
+      213: 3187065798198717635
+    second: GloriaAttack3Animated_36
+  - first:
+      213: 6351423834388481800
+    second: GloriaAttack3Animated_37
+  - first:
+      213: 8423290760025715437
+    second: GloriaAttack3Animated_38
+  - first:
+      213: 8949423208518218404
+    second: GloriaAttack3Animated_39
+  - first:
+      213: 7386211519448412787
+    second: GloriaAttack3Animated_40
+  - first:
+      213: 5464222034546094941
+    second: GloriaAttack3Animated_41
+  - first:
+      213: 2875282747727350747
+    second: GloriaAttack3Animated_42
+  - first:
+      213: 8657671882877214114
+    second: GloriaAttack3Animated_43
+  - first:
+      213: -2552627584559324988
+    second: GloriaAttack3Animated_44
+  - first:
+      213: -5292578564024315964
+    second: GloriaAttack3Animated_45
+  - first:
+      213: -572761904652185846
+    second: GloriaAttack3Animated_46
+  - first:
+      213: 2843707207154469859
+    second: GloriaAttack3Animated_47
+  - first:
+      213: 8322063376705772192
+    second: GloriaAttack3Animated_48
+  - first:
+      213: -5078671357263286576
+    second: GloriaAttack3Animated_49
+  - first:
+      213: 1847298108320251110
+    second: GloriaAttack3Animated_50
+  - first:
+      213: 6627519950287519501
+    second: GloriaAttack3Animated_51
+  - first:
+      213: 7223346152790974393
+    second: GloriaAttack3Animated_52
+  - first:
+      213: -6843619170131272593
+    second: GloriaAttack3Animated_53
+  - first:
+      213: -3624142475550425699
+    second: GloriaAttack3Animated_54
+  - first:
+      213: 6813567034639862888
+    second: GloriaAttack3Animated_55
+  - first:
+      213: 2551280457656787901
+    second: GloriaAttack3Animated_56
+  - first:
+      213: -720084533392151387
+    second: GloriaAttack3Animated_57
+  - first:
+      213: 8098480382512515963
+    second: GloriaAttack3Animated_58
+  - first:
+      213: 8409767690251640955
+    second: GloriaAttack3Animated_59
+  - first:
+      213: 1958944789000641742
+    second: GloriaAttack3Animated_60
+  - first:
+      213: -3063879509061644311
+    second: GloriaAttack3Animated_61
+  - first:
+      213: -6466701795967214766
+    second: GloriaAttack3Animated_62
+  - first:
+      213: 8267615193128667032
+    second: GloriaAttack3Animated_63
+  - first:
+      213: -5691905032370216178
+    second: GloriaAttack3Animated_64
+  - first:
+      213: 8415321619225222774
+    second: GloriaAttack3Animated_65
+  - first:
+      213: 64215768411401738
+    second: GloriaAttack3Animated_66
+  - first:
+      213: -4260914732229265806
+    second: GloriaAttack3Animated_67
+  - first:
+      213: -4398209634076638081
+    second: GloriaAttack3Animated_68
+  - first:
+      213: -8804015434096071182
+    second: GloriaAttack3Animated_69
+  - first:
+      213: -4850899341192629960
+    second: GloriaAttack3Animated_70
+  - first:
+      213: -1151329891365272491
+    second: GloriaAttack3Animated_71
+  - first:
+      213: 5871156827991684995
+    second: GloriaAttack3Animated_72
+  - first:
+      213: -7551712023496473688
+    second: GloriaAttack3Animated_73
+  - first:
+      213: -353140919087371600
+    second: GloriaAttack3Animated_74
+  - first:
+      213: -9100495374056060040
+    second: GloriaAttack3Animated_75
+  - first:
+      213: 3274944905674905303
+    second: GloriaAttack3Animated_76
+  - first:
+      213: -3952657746449972266
+    second: GloriaAttack3Animated_77
+  - first:
+      213: -6455138069651864704
+    second: GloriaAttack3Animated_78
+  - first:
+      213: -5387439225188807621
+    second: GloriaAttack3Animated_79
+  - first:
+      213: -5018395917141156731
+    second: GloriaAttack3Animated_80
+  - first:
+      213: -3833917509681866312
+    second: GloriaAttack3Animated_81
+  - first:
+      213: 703839360134162777
+    second: GloriaAttack3Animated_82
+  - first:
+      213: 3657176193663013044
+    second: GloriaAttack3Animated_83
+  - first:
+      213: -8700665332095911620
+    second: GloriaAttack3Animated_84
+  - first:
+      213: -3730806991520170047
+    second: GloriaAttack3Animated_85
+  - first:
+      213: 4243846274792842669
+    second: GloriaAttack3Animated_86
+  - first:
+      213: 5056678419125788156
+    second: GloriaAttack3Animated_87
+  - first:
+      213: -5804792949204799547
+    second: GloriaAttack3Animated_88
+  - first:
+      213: -2804610663128836362
+    second: GloriaAttack3Animated_89
+  - first:
+      213: 4569200923344511965
+    second: GloriaAttack3Animated_90
+  - first:
+      213: 8785703568101864088
+    second: GloriaAttack3Animated_91
+  - first:
+      213: -5989052318913208486
+    second: GloriaAttack3Animated_92
+  - first:
+      213: -2774690033769744209
+    second: GloriaAttack3Animated_93
+  - first:
+      213: -8434869642588777966
+    second: GloriaAttack3Animated_94
+  - first:
+      213: -4999550177934607294
+    second: GloriaAttack3Animated_95
+  - first:
+      213: -1433307142560991917
+    second: GloriaAttack3Animated_96
+  - first:
+      213: -5297183114969688587
+    second: GloriaAttack3Animated_97
+  - first:
+      213: -6026676979346464678
+    second: GloriaAttack3Animated_98
+  - first:
+      213: -6590917437379967251
+    second: GloriaAttack3Animated_99
+  - first:
+      213: 8650705124301548355
+    second: GloriaAttack3Animated_100
+  - first:
+      213: -8812973519854920601
+    second: GloriaAttack3Animated_101
+  - first:
+      213: -6944612236505824487
+    second: GloriaAttack3Animated_102
+  - first:
+      213: 8859018586710203576
+    second: GloriaAttack3Animated_103
+  - first:
+      213: 1372080869152097283
+    second: GloriaAttack3Animated_104
+  - first:
+      213: -6966079505646118104
+    second: GloriaAttack3Animated_105
+  - first:
+      213: -810825750965616294
+    second: GloriaAttack3Animated_106
+  - first:
+      213: -293852982140252228
+    second: GloriaAttack3Animated_107
+  - first:
+      213: -4485207283188330550
+    second: GloriaAttack3Animated_108
+  - first:
+      213: 6504172951120063327
+    second: GloriaAttack3Animated_109
+  - first:
+      213: -3192710341799496667
+    second: GloriaAttack3Animated_110
+  - first:
+      213: -303182735243540245
+    second: GloriaAttack3Animated_111
+  - first:
+      213: -1858422899688847793
+    second: GloriaAttack3Animated_112
+  - first:
+      213: 2110977991424190687
+    second: GloriaAttack3Animated_113
+  - first:
+      213: -8804055780887602015
+    second: GloriaAttack3Animated_114
+  - first:
+      213: -3626461522761448337
+    second: GloriaAttack3Animated_115
+  - first:
+      213: -2309068703514393473
+    second: GloriaAttack3Animated_116
+  - first:
+      213: 3336702054550088339
+    second: GloriaAttack3Animated_117
+  - first:
+      213: 8001674122062108014
+    second: GloriaAttack3Animated_118
+  - first:
+      213: -460966154575038482
+    second: GloriaAttack3Animated_119
+  - first:
+      213: 5673260020124482464
+    second: GloriaAttack3Animated_120
+  - first:
+      213: 7151033223394216881
+    second: GloriaAttack3Animated_121
+  - first:
+      213: 2184340602382902500
+    second: GloriaAttack3Animated_122
+  - first:
+      213: -5546077292757890666
+    second: GloriaAttack3Animated_123
+  - first:
+      213: 5346065714824044067
+    second: GloriaAttack3Animated_124
+  - first:
+      213: -583572622517158689
+    second: GloriaAttack3Animated_125
+  - first:
+      213: 4067396355090078511
+    second: GloriaAttack3Animated_126
+  - first:
+      213: -8022456055078814708
+    second: GloriaAttack3Animated_127
+  - first:
+      213: -6196216988093748526
+    second: GloriaAttack3Animated_128
+  - first:
+      213: -679407503158522978
+    second: GloriaAttack3Animated_129
+  - first:
+      213: -2898689517543445712
+    second: GloriaAttack3Animated_130
+  - first:
+      213: 7257687998542420313
+    second: GloriaAttack3Animated_131
+  - first:
+      213: 4993414344282421503
+    second: GloriaAttack3Animated_132
+  - first:
+      213: 5255073799177385630
+    second: GloriaAttack3Animated_133
+  - first:
+      213: -6497737663787750024
+    second: GloriaAttack3Animated_134
+  - first:
+      213: -5450767921707419042
+    second: GloriaAttack3Animated_135
+  - first:
+      213: 6469762168330543290
+    second: GloriaAttack3Animated_136
+  - first:
+      213: 6402751214819513014
+    second: GloriaAttack3Animated_137
+  - first:
+      213: -7209791609352972128
+    second: GloriaAttack3Animated_138
+  - first:
+      213: 8378885924891947220
+    second: GloriaAttack3Animated_139
+  - first:
+      213: 2878233326418085437
+    second: GloriaAttack3Animated_140
+  - first:
+      213: -7601937343103501027
+    second: GloriaAttack3Animated_141
+  - first:
+      213: -6087305944561799097
+    second: GloriaAttack3Animated_142
+  - first:
+      213: -7353529482693504670
+    second: GloriaAttack3Animated_143
+  - first:
+      213: -877085437198317802
+    second: GloriaAttack3Animated_144
+  - first:
+      213: -2667899519486823982
+    second: GloriaAttack3Animated_145
+  - first:
+      213: -3999489674696902150
+    second: GloriaAttack3Animated_146
+  - first:
+      213: 7057750786376749895
+    second: GloriaAttack3Animated_147
+  - first:
+      213: 2439890921667094860
+    second: GloriaAttack3Animated_148
+  - first:
+      213: 9061877170806267347
+    second: GloriaAttack3Animated_149
+  - first:
+      213: -7149434276942898997
+    second: GloriaAttack3Animated_150
+  - first:
+      213: -6123899100369644245
+    second: GloriaAttack3Animated_151
+  - first:
+      213: 659174175192617140
+    second: GloriaAttack3Animated_152
+  - first:
+      213: -4853973379700401134
+    second: GloriaAttack3Animated_153
+  - first:
+      213: -1228356969526399124
+    second: GloriaAttack3Animated_154
+  - first:
+      213: -5730644151241485487
+    second: GloriaAttack3Animated_155
+  - first:
+      213: 8893647545654634358
+    second: GloriaAttack3Animated_156
+  - first:
+      213: 592611100266690839
+    second: GloriaAttack3Animated_157
+  - first:
+      213: 1144448289553309907
+    second: GloriaAttack3Animated_158
+  - first:
+      213: -1239045108210162565
+    second: GloriaAttack3Animated_159
+  - first:
+      213: 2560711343207322344
+    second: GloriaAttack3Animated_160
+  - first:
+      213: -8106940211625044644
+    second: GloriaAttack3Animated_161
+  - first:
+      213: 2693898135263591897
+    second: GloriaAttack3Animated_162
+  - first:
+      213: 6462304086734185362
+    second: GloriaAttack3Animated_163
+  - first:
+      213: 2739908102085130945
+    second: GloriaAttack3Animated_164
+  - first:
+      213: 8632899035496691851
+    second: GloriaAttack3Animated_165
+  - first:
+      213: -8707855454484618482
+    second: GloriaAttack3Animated_166
+  - first:
+      213: 2965950207655790528
+    second: GloriaAttack3Animated_167
+  - first:
+      213: -5864864761244435416
+    second: GloriaAttack3Animated_168
+  - first:
+      213: -8111251605420745191
+    second: GloriaAttack3Animated_169
+  - first:
+      213: 3306425385675015138
+    second: GloriaAttack3Animated_170
+  - first:
+      213: -5952301945663574222
+    second: GloriaAttack3Animated_171
+  - first:
+      213: -2597220461517293130
+    second: GloriaAttack3Animated_172
+  - first:
+      213: 8160324473059595071
+    second: GloriaAttack3Animated_173
+  - first:
+      213: -9004231738884262409
+    second: GloriaAttack3Animated_174
+  - first:
+      213: 9109932811853251734
+    second: GloriaAttack3Animated_175
+  - first:
+      213: 1185670385838834129
+    second: GloriaAttack3Animated_176
+  - first:
+      213: -4465371730583671283
+    second: GloriaAttack3Animated_177
+  - first:
+      213: -5224226303800970902
+    second: GloriaAttack3Animated_178
+  - first:
+      213: 2541517648000714301
+    second: GloriaAttack3Animated_179
+  - first:
+      213: -6050086795155153764
+    second: GloriaAttack3Animated_180
+  - first:
+      213: 3783157114484493568
+    second: GloriaAttack3Animated_181
+  - first:
+      213: -8590423881368281546
+    second: GloriaAttack3Animated_182
+  - first:
+      213: -1456592479810662161
+    second: GloriaAttack3Animated_183
+  - first:
+      213: 4184604055332759842
+    second: GloriaAttack3Animated_184
+  - first:
+      213: 3248825697208126928
+    second: GloriaAttack3Animated_185
+  - first:
+      213: 2597278504230353777
+    second: GloriaAttack3Animated_186
+  - first:
+      213: 6569823928115153203
+    second: GloriaAttack3Animated_187
+  - first:
+      213: 1149103196836402145
+    second: GloriaAttack3Animated_188
+  - first:
+      213: -3305654972372040783
+    second: GloriaAttack3Animated_189
+  - first:
+      213: -6891810139715532273
+    second: GloriaAttack3Animated_190
+  - first:
+      213: 641798657775343276
+    second: GloriaAttack3Animated_191
+  - first:
+      213: 8288025432827853011
+    second: GloriaAttack3Animated_192
+  - first:
+      213: -927776645499588260
+    second: GloriaAttack3Animated_193
+  - first:
+      213: -9187962067752921766
+    second: GloriaAttack3Animated_194
+  - first:
+      213: -1324169532520346466
+    second: GloriaAttack3Animated_195
+  - first:
+      213: -4040524695747335319
+    second: GloriaAttack3Animated_196
+  - first:
+      213: -2409007577589655013
+    second: GloriaAttack3Animated_197
+  - first:
+      213: -4299771689174237987
+    second: GloriaAttack3Animated_198
+  - first:
+      213: 7223458931714816018
+    second: GloriaAttack3Animated_199
+  - first:
+      213: 86798757657341590
+    second: GloriaAttack3Animated_200
+  - first:
+      213: -7743171564187033572
+    second: GloriaAttack3Animated_201
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1932
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f4285d5c79fd9710800000000000000
+      internalID: 1701790546753234161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 1760
+        width: 393
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c03e7cd67fbf9530800000000000000
+      internalID: 3864017522533478592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_2
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 1924
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1237baaea1f085d0800000000000000
+      internalID: -3062182014121201123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_3
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1932
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37557bb7b8dcd5620800000000000000
+      internalID: 2764591745235113331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_4
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 1760
+        width: 393
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06cfd392d1c425120800000000000000
+      internalID: 2401065239471586400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_5
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1924
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13c60da66244a910800000000000000
+      internalID: 1847674755885744927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_6
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1932
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afa6fad6be4431580800000000000000
+      internalID: -8857660264159417606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_7
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1760
+        width: 393
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37d04c39a4e65bc90800000000000000
+      internalID: -7154691166422430349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_8
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 1924
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ab8a6b850ab8c60800000000000000
+      internalID: 7821521480741075557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_9
+      rect:
+        serializedVersion: 2
+        x: 1356
+        y: 1932
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 982724743db06af70800000000000000
+      internalID: 9198052291012358793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_10
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1760
+        width: 393
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 429e66f3882133f40800000000000000
+      internalID: 5706925529197111588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_11
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 1924
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a6ce3f05f3bbcb30800000000000000
+      internalID: 4308735333614143144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_12
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 1777
+        width: 403
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c59154c1b6636c0800000000000000
+      internalID: -4164023036294898674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_13
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 1930
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b7af258491b2e50800000000000000
+      internalID: 6785545061984271132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_14
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 1777
+        width: 403
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a7c3d5829685660800000000000000
+      internalID: 7374760011903040104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_15
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 1930
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d21469dd807e340800000000000000
+      internalID: 4892889267962981737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_16
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 1777
+        width: 403
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c31daf09d76c13d0800000000000000
+      internalID: -3234596250390293560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_17
+      rect:
+        serializedVersion: 2
+        x: 3113
+        y: 1930
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7e2ee0b4753ec250800000000000000
+      internalID: 5966765331613363836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_18
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1867
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363a6b718d576f690800000000000000
+      internalID: -7568732552778308765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_19
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 1867
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3156b3dd10b721140800000000000000
+      internalID: 4688945409982948627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_20
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 1867
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8ef8e0c1e7de8e0800000000000000
+      internalID: -1662534028461348620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_21
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 1867
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a0a71c7ba563b090800000000000000
+      internalID: -8019954724220985177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_22
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 1876
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cb2474ba3a51c260800000000000000
+      internalID: 7116068094404209609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_23
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 1876
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2da833086e7d1290800000000000000
+      internalID: -7918033584651719380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_24
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 1876
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e6ee61722209a60800000000000000
+      internalID: 7678674915950489197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_25
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 1803
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0918bf35f32b550800000000000000
+      internalID: 6175067669012779177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_26
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1803
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba468b5e0f6cbfb0800000000000000
+      internalID: -4630704209387959625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_27
+      rect:
+        serializedVersion: 2
+        x: 1307
+        y: 1803
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef71285eb7211a30800000000000000
+      internalID: 4184169227279761381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_28
+      rect:
+        serializedVersion: 2
+        x: 1756
+        y: 1803
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 108cba2f9b9e53a30800000000000000
+      internalID: 4194515612815050753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_29
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 1817
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616d0b21779225980800000000000000
+      internalID: -8551727151031724522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_30
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 1817
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5aa9e291f817680800000000000000
+      internalID: -8759062461940062775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_31
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 1817
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1075b9dad5e99a8a0800000000000000
+      internalID: -6293324879091771647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_32
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 1776
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9c36d2a3e12f950800000000000000
+      internalID: 6481276048958015949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_33
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 1776
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d7637606a6a6cdd0800000000000000
+      internalID: -2466100513935759400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_34
+      rect:
+        serializedVersion: 2
+        x: 2839
+        y: 1776
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7b746f9bcb417a0800000000000000
+      internalID: -6407288862954506316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_35
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 1759
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c4c4e146f288b80800000000000000
+      internalID: -8392405798553367542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_36
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 1759
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cc6e69257bba3c20800000000000000
+      internalID: 3187065798198717635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_37
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 1759
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807ccaa735ac42850800000000000000
+      internalID: 6351423834388481800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_38
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 1759
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2b927515a85e470800000000000000
+      internalID: 8423290760025715437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_39
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 1765
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a27d58fdfcb23c70800000000000000
+      internalID: 8949423208518218404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_40
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 1765
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372fe9c3e38118660800000000000000
+      internalID: 7386211519448412787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_41
+      rect:
+        serializedVersion: 2
+        x: 2891
+        y: 1765
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d537bfe5df0d4db40800000000000000
+      internalID: 5464222034546094941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_42
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 1749
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb0917dc6e07e720800000000000000
+      internalID: 2875282747727350747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_43
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1749
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ad98c805ba362870800000000000000
+      internalID: 8657671882877214114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_44
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 1749
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c06a7a7cbe339cd0800000000000000
+      internalID: -2552627584559324988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_45
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 1749
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfcb7956dbfc86b0800000000000000
+      internalID: -5292578564024315964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_46
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 1487
+        width: 403
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0f845415142d08f0800000000000000
+      internalID: -572761904652185846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_47
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1640
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb09a763a0e67720800000000000000
+      internalID: 2843707207154469859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_48
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 1522
+        width: 433
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aad5d68c88ed7370800000000000000
+      internalID: 8322063376705772192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_49
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1522
+        width: 433
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0deee5bfe4fe489b0800000000000000
+      internalID: -5078671357263286576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_50
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 1522
+        width: 433
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ecfda497dbe2a910800000000000000
+      internalID: 1847298108320251110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_51
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 1501
+        width: 420
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0fb3bad74ea9fb50800000000000000
+      internalID: 6627519950287519501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_52
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 1646
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bf5ac61e0b7e3460800000000000000
+      internalID: 7223346152790974393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_53
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 1501
+        width: 420
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6c9542bf949601a0800000000000000
+      internalID: -6843619170131272593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_54
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 1646
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d7969be9574bdc0800000000000000
+      internalID: -3624142475550425699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_55
+      rect:
+        serializedVersion: 2
+        x: 2708
+        y: 1501
+        width: 420
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86c45014e17ae8e50800000000000000
+      internalID: 6813567034639862888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_56
+      rect:
+        serializedVersion: 2
+        x: 3120
+        y: 1646
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db367091f08f76320800000000000000
+      internalID: 2551280457656787901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_57
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 1586
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac68ea9eeeb106f0800000000000000
+      internalID: -720084533392151387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_58
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1527
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bc0241005936070800000000000000
+      internalID: 8098480382512515963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_59
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 1521
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70a10d482f75b470800000000000000
+      internalID: 8409767690251640955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_60
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 1521
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc5cfa18e19f2b10800000000000000
+      internalID: 1958944789000641742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_61
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 1521
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef48c3d1d9ea75d0800000000000000
+      internalID: -3063879509061644311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_62
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 1512
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25b5ef68af8a146a0800000000000000
+      internalID: -6466701795967214766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_63
+      rect:
+        serializedVersion: 2
+        x: 1143
+        y: 1512
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8978e06e6387cb270800000000000000
+      internalID: 8267615193128667032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_64
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 1512
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03a052b78a4201b0800000000000000
+      internalID: -5691905032370216178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_65
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1500
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e95982d6a39c470800000000000000
+      internalID: 8415321619225222774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_66
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 1500
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ee321b6e324e000800000000000000
+      internalID: 64215768411401738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_67
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 1500
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276fe3750a03ed4c0800000000000000
+      internalID: -4260914732229265806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_68
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1486
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f744929f3ab66f2c0800000000000000
+      internalID: -4398209634076638081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_69
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 1490
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fda5adbb9ad1d580800000000000000
+      internalID: -8804015434096071182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_70
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 1490
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831790710c42eacb0800000000000000
+      internalID: -4850899341192629960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_71
+      rect:
+        serializedVersion: 2
+        x: 2910
+        y: 1490
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55442e55097a500f0800000000000000
+      internalID: -1151329891365272491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_72
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1475
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 387bd01470a8a7150800000000000000
+      internalID: 5871156827991684995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_73
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1211
+        width: 420
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a34271ecede23790800000000000000
+      internalID: -7551712023496473688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_74
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 1211
+        width: 420
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ba64228434691bf0800000000000000
+      internalID: -353140919087371600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_75
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1220
+        width: 406
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b8d4d7cab84b180800000000000000
+      internalID: -9100495374056060040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_76
+      rect:
+        serializedVersion: 2
+        x: 1357
+        y: 1220
+        width: 406
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d65ab15a01f27d20800000000000000
+      internalID: 3274944905674905303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_77
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 1220
+        width: 406
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d34720c8b65529c0800000000000000
+      internalID: -3952657746449972266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_78
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 1220
+        width: 406
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083cc4e502eba66a0800000000000000
+      internalID: -6455138069651864704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_79
+      rect:
+        serializedVersion: 2
+        x: 2705
+        y: 1256
+        width: 409
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3c8d9d8198fb35b0800000000000000
+      internalID: -5387439225188807621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_80
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 1374
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cd78080831b5ab0800000000000000
+      internalID: -5018395917141156731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_81
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 1356
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b9134186503bcac0800000000000000
+      internalID: -3833917509681866312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_82
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 1356
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9592cbf3b2a84c900800000000000000
+      internalID: 703839360134162777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_83
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1360
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b09c402f56e0c230800000000000000
+      internalID: 3657176193663013044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_84
+      rect:
+        serializedVersion: 2
+        x: 1761
+        y: 1360
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39fdd28af6014780800000000000000
+      internalID: -8700665332095911620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_85
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 1360
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf75e0dec2893cc0800000000000000
+      internalID: -3730806991520170047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_86
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 1360
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da5646ab3bb25ea30800000000000000
+      internalID: 4243846274792842669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_87
+      rect:
+        serializedVersion: 2
+        x: 2885
+        y: 1248
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfd50631b3eec2640800000000000000
+      internalID: 5056678419125788156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_88
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1210
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfa4fb519b317fa0800000000000000
+      internalID: -5804792949204799547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_89
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 1210
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6deea16750419d0800000000000000
+      internalID: -2804610663128836362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_90
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1219
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd32657f700196f30800000000000000
+      internalID: 4569200923344511965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_91
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1219
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 892f796b8d61de970800000000000000
+      internalID: 8785703568101864088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_92
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 1219
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fd2f5b5ac92eca0800000000000000
+      internalID: -5989052318913208486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_93
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 1219
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa8765f7d125e79d0800000000000000
+      internalID: -2774690033769744209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_94
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 1210
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21215caffb251fa80800000000000000
+      internalID: -8434869642588777966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_95
+      rect:
+        serializedVersion: 2
+        x: 1531
+        y: 1210
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c77771a970e9ab0800000000000000
+      internalID: -4999550177934607294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_96
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1210
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3553f917fbedb1ce0800000000000000
+      internalID: -1433307142560991917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_97
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 1210
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5d80ac500ac76b0800000000000000
+      internalID: -5297183114969688587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_98
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1200
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50a70ec731fc5ca0800000000000000
+      internalID: -6026676979346464678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_99
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 1200
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de60a09c28b5884a0800000000000000
+      internalID: -6590917437379967251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_100
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 966
+        width: 409
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34b25a62a7a7d0870800000000000000
+      internalID: 8650705124301548355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_101
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1084
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76c9f1ed64702b580800000000000000
+      internalID: -8812973519854920601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_102
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 966
+        width: 409
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9134d3c07f7cf9f90800000000000000
+      internalID: -6944612236505824487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_103
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1084
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bcd17fa77e81fa70800000000000000
+      internalID: 8859018586710203576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_104
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 966
+        width: 409
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3048be8e74c9a0310800000000000000
+      internalID: 1372080869152097283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_105
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1084
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82b95d4f893835f90800000000000000
+      internalID: -6966079505646118104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_106
+      rect:
+        serializedVersion: 2
+        x: 1358
+        y: 966
+        width: 409
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5184f2864e5fb4f0800000000000000
+      internalID: -810825750965616294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_107
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 1084
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf475705460cebf0800000000000000
+      internalID: -293852982140252228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_108
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 930
+        width: 406
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acf80955db751c1c0800000000000000
+      internalID: -4485207283188330550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_109
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 930
+        width: 406
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b2735a6d6734a50800000000000000
+      internalID: 6504172951120063327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_110
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 930
+        width: 406
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 524335e1cd631b3d0800000000000000
+      internalID: -3192710341799496667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_111
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 1070
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be807cb98e0eacbf0800000000000000
+      internalID: -303182735243540245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_112
+      rect:
+        serializedVersion: 2
+        x: 2659
+        y: 1070
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f464895183e8536e0800000000000000
+      internalID: -1858422899688847793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_113
+      rect:
+        serializedVersion: 2
+        x: 3108
+        y: 1070
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd8a18b7c43bb4d10800000000000000
+      internalID: 2110977991424190687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_114
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 958
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ac5875c9e5b1d580800000000000000
+      internalID: -8804055780887602015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_115
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 958
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f648e2875783cadc0800000000000000
+      internalID: -3626461522761448337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_116
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 958
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f748d058f3a84ffd0800000000000000
+      internalID: -2309068703514393473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_117
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 958
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a26ca07d85e4e20800000000000000
+      internalID: 3336702054550088339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_118
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 929
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6592f52838ab0f60800000000000000
+      internalID: 8001674122062108014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_119
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 929
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7b31789b15a99f0800000000000000
+      internalID: -460966154575038482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_120
+      rect:
+        serializedVersion: 2
+        x: 2826
+        y: 929
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0abf1f91ee77bbe40800000000000000
+      internalID: 5673260020124482464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_121
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 920
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbcd6134d29d3360800000000000000
+      internalID: 7151033223394216881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_122
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 920
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4ee796436505e10800000000000000
+      internalID: 2184340602382902500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_123
+      rect:
+        serializedVersion: 2
+        x: 2878
+        y: 920
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6994e4c26106803b0800000000000000
+      internalID: -5546077292757890666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_124
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 640
+        width: 406
+        height: 231
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32e5bf5617a013a40800000000000000
+      internalID: 5346065714824044067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_125
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 780
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdcb83eaacbb6e7f0800000000000000
+      internalID: -583572622517158689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_126
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 631
+        width: 420
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bdcd95f6b427830800000000000000
+      internalID: 4067396355090078511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_127
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 776
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0c78d209b28aa090800000000000000
+      internalID: -8022456055078814708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_128
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 631
+        width: 420
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da6e617a7d920aa0800000000000000
+      internalID: -6196216988093748526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_129
+      rect:
+        serializedVersion: 2
+        x: 1324
+        y: 776
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9b408cb9724296f0800000000000000
+      internalID: -679407503158522978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_130
+      rect:
+        serializedVersion: 2
+        x: 1361
+        y: 631
+        width: 420
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03baca0ed39c5c7d0800000000000000
+      internalID: -2898689517543445712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_131
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 776
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9599cb328cc78b460800000000000000
+      internalID: 7257687998542420313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_132
+      rect:
+        serializedVersion: 2
+        x: 1810
+        y: 631
+        width: 420
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff83b4fc3eb2c4540800000000000000
+      internalID: 4993414344282421503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_133
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 776
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e963e6c17c5cde840800000000000000
+      internalID: 5255073799177385630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_134
+      rect:
+        serializedVersion: 2
+        x: 2259
+        y: 631
+        width: 420
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d2142750663d5a0800000000000000
+      internalID: -6497737663787750024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_135
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 776
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5af881647bfa54b0800000000000000
+      internalID: -5450767921707419042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_136
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 652
+        width: 433
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab06a90f96639c950800000000000000
+      internalID: 6469762168330543290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_137
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 639
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b294808e442bd850800000000000000
+      internalID: 6402751214819513014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_138
+      rect:
+        serializedVersion: 2
+        x: 2884
+        y: 651
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a89cebfabca1fb90800000000000000
+      internalID: -7209791609352972128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_139
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 630
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d074befa58c74470800000000000000
+      internalID: 8378885924891947220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_140
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 630
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3647d9f5f981f720800000000000000
+      internalID: 2878233326418085437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_141
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 630
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1df983634e708690800000000000000
+      internalID: -7601937343103501027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_142
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 630
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 740354fce7b858ba0800000000000000
+      internalID: -6087305944561799097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_143
+      rect:
+        serializedVersion: 2
+        x: 2409
+        y: 630
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26111ba65e303f990800000000000000
+      internalID: -7353529482693504670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_144
+      rect:
+        serializedVersion: 2
+        x: 2939
+        y: 642
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 617402e1177f3d3f0800000000000000
+      internalID: -877085437198317802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_145
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 630
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d17d8ca587b9fad0800000000000000
+      internalID: -2667899519486823982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_146
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 620
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af939d0c455fe78c0800000000000000
+      internalID: -3999489674696902150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_147
+      rect:
+        serializedVersion: 2
+        x: 1114
+        y: 620
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743583752fa22f160800000000000000
+      internalID: 7057750786376749895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_148
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 620
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49eaacbddb3cd120800000000000000
+      internalID: 2439890921667094860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_149
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 620
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd1124664142cd70800000000000000
+      internalID: 9061877170806267347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_150
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 620
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc811d9876b18cc90800000000000000
+      internalID: -7149434276942898997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_151
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 362
+        width: 433
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25122ac63a830ba0800000000000000
+      internalID: -6123899100369644245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_152
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 362
+        width: 433
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b0977d7b6bd52900800000000000000
+      internalID: 659174175192617140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_153
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 327
+        width: 403
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c51c9bde833acb0800000000000000
+      internalID: -4853973379700401134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_154
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 480
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fe00628dff3fee0800000000000000
+      internalID: -1228356969526399124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_155
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 327
+        width: 403
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 153d417b189a870b0800000000000000
+      internalID: -5730644151241485487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_156
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 480
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677e44c72559c6b70800000000000000
+      internalID: 8893647545654634358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_157
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 327
+        width: 403
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7197959e7a0693800800000000000000
+      internalID: 592611100266690839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_158
+      rect:
+        serializedVersion: 2
+        x: 2215
+        y: 480
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d0e0a2e7a5e1ef00800000000000000
+      internalID: 1144448289553309907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_159
+      rect:
+        serializedVersion: 2
+        x: 2257
+        y: 327
+        width: 403
+        height: 254
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74a270f9070ecee0800000000000000
+      internalID: -1239045108210162565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_160
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 480
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e29f204669798320800000000000000
+      internalID: 2560711343207322344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_161
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 482
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5552c674dc5e7f80800000000000000
+      internalID: -8106940211625044644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_162
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 310
+        width: 393
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd3975c416a26520800000000000000
+      internalID: 2693898135263591897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_163
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 474
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293a8500457bea950800000000000000
+      internalID: 6462304086734185362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_164
+      rect:
+        serializedVersion: 2
+        x: 1318
+        y: 426
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cabff5f6eb160620800000000000000
+      internalID: 2739908102085130945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_165
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 426
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88b7980fe73ec770800000000000000
+      internalID: 8632899035496691851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_166
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 426
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e032fffa99b772780800000000000000
+      internalID: -8707855454484618482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_167
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 426
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c7c1d4effb292920800000000000000
+      internalID: 2965950207655790528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_168
+      rect:
+        serializedVersion: 2
+        x: 3104
+        y: 417
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cb152b290db9ea0800000000000000
+      internalID: -5864864761244435416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_169
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 361
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e541fd3ab0f6f80800000000000000
+      internalID: -8111251605420745191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_170
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 361
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e34e7dbe58c2ed20800000000000000
+      internalID: 3306425385675015138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_171
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 367
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f2bd4caec256da0800000000000000
+      internalID: -5952301945663574222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_172
+      rect:
+        serializedVersion: 2
+        x: 1769
+        y: 367
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9b2eb30c1d4fbd0800000000000000
+      internalID: -2597220461517293130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_173
+      rect:
+        serializedVersion: 2
+        x: 2218
+        y: 367
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f33d4ac7fdb4f3170800000000000000
+      internalID: 8160324473059595071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_174
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 367
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f57180a0fa8a0380800000000000000
+      internalID: -9004231738884262409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_175
+      rect:
+        serializedVersion: 2
+        x: 3103
+        y: 353
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 694403a30abfc6e70800000000000000
+      internalID: 9109932811853251734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_176
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 352
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d1cf981fe8547010800000000000000
+      internalID: 1185670385838834129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_177
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 352
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0e2d70d110d702c0800000000000000
+      internalID: -4465371730583671283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_178
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 326
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a61f0b71bd1df77b0800000000000000
+      internalID: -5224226303800970902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_179
+      rect:
+        serializedVersion: 2
+        x: 1492
+        y: 326
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d360877d5d8454320800000000000000
+      internalID: 2541517648000714301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_180
+      rect:
+        serializedVersion: 2
+        x: 1941
+        y: 326
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9cde725d16c90ca0800000000000000
+      internalID: -6050086795155153764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_181
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 326
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00d07520a59708430800000000000000
+      internalID: 3783157114484493568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_182
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 315
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63ed2017efea8c880800000000000000
+      internalID: -8590423881368281546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_183
+      rect:
+        serializedVersion: 2
+        x: 1544
+        y: 315
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe051626bd429cbe0800000000000000
+      internalID: -1456592479810662161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_184
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 315
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 229a4c3a733b21a30800000000000000
+      internalID: 4184604055332759842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_185
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 315
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd404332c5261d20800000000000000
+      internalID: 3248825697208126928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_186
+      rect:
+        serializedVersion: 2
+        x: 2824
+        y: 309
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17b7863e9036b0420800000000000000
+      internalID: 2597278504230353777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_187
+      rect:
+        serializedVersion: 2
+        x: 2874
+        y: 299
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3394a20ed04bc2b50800000000000000
+      internalID: 6569823928115153203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_188
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 192
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e313b1f44f62ff00800000000000000
+      internalID: 1149103196836402145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_189
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 20
+        width: 393
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3c2c51154ff12d0800000000000000
+      internalID: -3305654972372040783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_190
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 184
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a02da313f5b50a0800000000000000
+      internalID: -6891810139715532273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_191
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 192
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca695069a7028e800800000000000000
+      internalID: 641798657775343276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_192
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 20
+        width: 393
+        height: 271
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d87b15283bf40370800000000000000
+      internalID: 8288025432827853011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_193
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 184
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51f7167e00ef13f0800000000000000
+      internalID: -927776645499588260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_194
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 127
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55d2d5ed2dcd7080800000000000000
+      internalID: -9187962067752921766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_195
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 127
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ccabf63da9f9de0800000000000000
+      internalID: -1324169532520346466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_196
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 63
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b69c3623c2de7c0800000000000000
+      internalID: -4040524695747335319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_197
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 63
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a5b842f5c719ed0800000000000000
+      internalID: -2409007577589655013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_198
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 19
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddcfc7b0e642454c0800000000000000
+      internalID: -4299771689174237987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_199
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 19
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218fb7a70a1ee3460800000000000000
+      internalID: 7223458931714816018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_200
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 9
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69e6c1d920f543100800000000000000
+      internalID: 86798757657341590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GloriaAttack3Animated_201
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 9
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10e9b9cc7aba8490800000000000000
+      internalID: -7743171564187033572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      GloriaAttack3Animated_0: 1701790546753234161
+      GloriaAttack3Animated_1: 3864017522533478592
+      GloriaAttack3Animated_10: 5706925529197111588
+      GloriaAttack3Animated_100: 8650705124301548355
+      GloriaAttack3Animated_101: -8812973519854920601
+      GloriaAttack3Animated_102: -6944612236505824487
+      GloriaAttack3Animated_103: 8859018586710203576
+      GloriaAttack3Animated_104: 1372080869152097283
+      GloriaAttack3Animated_105: -6966079505646118104
+      GloriaAttack3Animated_106: -810825750965616294
+      GloriaAttack3Animated_107: -293852982140252228
+      GloriaAttack3Animated_108: -4485207283188330550
+      GloriaAttack3Animated_109: 6504172951120063327
+      GloriaAttack3Animated_11: 4308735333614143144
+      GloriaAttack3Animated_110: -3192710341799496667
+      GloriaAttack3Animated_111: -303182735243540245
+      GloriaAttack3Animated_112: -1858422899688847793
+      GloriaAttack3Animated_113: 2110977991424190687
+      GloriaAttack3Animated_114: -8804055780887602015
+      GloriaAttack3Animated_115: -3626461522761448337
+      GloriaAttack3Animated_116: -2309068703514393473
+      GloriaAttack3Animated_117: 3336702054550088339
+      GloriaAttack3Animated_118: 8001674122062108014
+      GloriaAttack3Animated_119: -460966154575038482
+      GloriaAttack3Animated_12: -4164023036294898674
+      GloriaAttack3Animated_120: 5673260020124482464
+      GloriaAttack3Animated_121: 7151033223394216881
+      GloriaAttack3Animated_122: 2184340602382902500
+      GloriaAttack3Animated_123: -5546077292757890666
+      GloriaAttack3Animated_124: 5346065714824044067
+      GloriaAttack3Animated_125: -583572622517158689
+      GloriaAttack3Animated_126: 4067396355090078511
+      GloriaAttack3Animated_127: -8022456055078814708
+      GloriaAttack3Animated_128: -6196216988093748526
+      GloriaAttack3Animated_129: -679407503158522978
+      GloriaAttack3Animated_13: 6785545061984271132
+      GloriaAttack3Animated_130: -2898689517543445712
+      GloriaAttack3Animated_131: 7257687998542420313
+      GloriaAttack3Animated_132: 4993414344282421503
+      GloriaAttack3Animated_133: 5255073799177385630
+      GloriaAttack3Animated_134: -6497737663787750024
+      GloriaAttack3Animated_135: -5450767921707419042
+      GloriaAttack3Animated_136: 6469762168330543290
+      GloriaAttack3Animated_137: 6402751214819513014
+      GloriaAttack3Animated_138: -7209791609352972128
+      GloriaAttack3Animated_139: 8378885924891947220
+      GloriaAttack3Animated_14: 7374760011903040104
+      GloriaAttack3Animated_140: 2878233326418085437
+      GloriaAttack3Animated_141: -7601937343103501027
+      GloriaAttack3Animated_142: -6087305944561799097
+      GloriaAttack3Animated_143: -7353529482693504670
+      GloriaAttack3Animated_144: -877085437198317802
+      GloriaAttack3Animated_145: -2667899519486823982
+      GloriaAttack3Animated_146: -3999489674696902150
+      GloriaAttack3Animated_147: 7057750786376749895
+      GloriaAttack3Animated_148: 2439890921667094860
+      GloriaAttack3Animated_149: 9061877170806267347
+      GloriaAttack3Animated_15: 4892889267962981737
+      GloriaAttack3Animated_150: -7149434276942898997
+      GloriaAttack3Animated_151: -6123899100369644245
+      GloriaAttack3Animated_152: 659174175192617140
+      GloriaAttack3Animated_153: -4853973379700401134
+      GloriaAttack3Animated_154: -1228356969526399124
+      GloriaAttack3Animated_155: -5730644151241485487
+      GloriaAttack3Animated_156: 8893647545654634358
+      GloriaAttack3Animated_157: 592611100266690839
+      GloriaAttack3Animated_158: 1144448289553309907
+      GloriaAttack3Animated_159: -1239045108210162565
+      GloriaAttack3Animated_16: -3234596250390293560
+      GloriaAttack3Animated_160: 2560711343207322344
+      GloriaAttack3Animated_161: -8106940211625044644
+      GloriaAttack3Animated_162: 2693898135263591897
+      GloriaAttack3Animated_163: 6462304086734185362
+      GloriaAttack3Animated_164: 2739908102085130945
+      GloriaAttack3Animated_165: 8632899035496691851
+      GloriaAttack3Animated_166: -8707855454484618482
+      GloriaAttack3Animated_167: 2965950207655790528
+      GloriaAttack3Animated_168: -5864864761244435416
+      GloriaAttack3Animated_169: -8111251605420745191
+      GloriaAttack3Animated_17: 5966765331613363836
+      GloriaAttack3Animated_170: 3306425385675015138
+      GloriaAttack3Animated_171: -5952301945663574222
+      GloriaAttack3Animated_172: -2597220461517293130
+      GloriaAttack3Animated_173: 8160324473059595071
+      GloriaAttack3Animated_174: -9004231738884262409
+      GloriaAttack3Animated_175: 9109932811853251734
+      GloriaAttack3Animated_176: 1185670385838834129
+      GloriaAttack3Animated_177: -4465371730583671283
+      GloriaAttack3Animated_178: -5224226303800970902
+      GloriaAttack3Animated_179: 2541517648000714301
+      GloriaAttack3Animated_18: -7568732552778308765
+      GloriaAttack3Animated_180: -6050086795155153764
+      GloriaAttack3Animated_181: 3783157114484493568
+      GloriaAttack3Animated_182: -8590423881368281546
+      GloriaAttack3Animated_183: -1456592479810662161
+      GloriaAttack3Animated_184: 4184604055332759842
+      GloriaAttack3Animated_185: 3248825697208126928
+      GloriaAttack3Animated_186: 2597278504230353777
+      GloriaAttack3Animated_187: 6569823928115153203
+      GloriaAttack3Animated_188: 1149103196836402145
+      GloriaAttack3Animated_189: -3305654972372040783
+      GloriaAttack3Animated_19: 4688945409982948627
+      GloriaAttack3Animated_190: -6891810139715532273
+      GloriaAttack3Animated_191: 641798657775343276
+      GloriaAttack3Animated_192: 8288025432827853011
+      GloriaAttack3Animated_193: -927776645499588260
+      GloriaAttack3Animated_194: -9187962067752921766
+      GloriaAttack3Animated_195: -1324169532520346466
+      GloriaAttack3Animated_196: -4040524695747335319
+      GloriaAttack3Animated_197: -2409007577589655013
+      GloriaAttack3Animated_198: -4299771689174237987
+      GloriaAttack3Animated_199: 7223458931714816018
+      GloriaAttack3Animated_2: -3062182014121201123
+      GloriaAttack3Animated_20: -1662534028461348620
+      GloriaAttack3Animated_200: 86798757657341590
+      GloriaAttack3Animated_201: -7743171564187033572
+      GloriaAttack3Animated_21: -8019954724220985177
+      GloriaAttack3Animated_22: 7116068094404209609
+      GloriaAttack3Animated_23: -7918033584651719380
+      GloriaAttack3Animated_24: 7678674915950489197
+      GloriaAttack3Animated_25: 6175067669012779177
+      GloriaAttack3Animated_26: -4630704209387959625
+      GloriaAttack3Animated_27: 4184169227279761381
+      GloriaAttack3Animated_28: 4194515612815050753
+      GloriaAttack3Animated_29: -8551727151031724522
+      GloriaAttack3Animated_3: 2764591745235113331
+      GloriaAttack3Animated_30: -8759062461940062775
+      GloriaAttack3Animated_31: -6293324879091771647
+      GloriaAttack3Animated_32: 6481276048958015949
+      GloriaAttack3Animated_33: -2466100513935759400
+      GloriaAttack3Animated_34: -6407288862954506316
+      GloriaAttack3Animated_35: -8392405798553367542
+      GloriaAttack3Animated_36: 3187065798198717635
+      GloriaAttack3Animated_37: 6351423834388481800
+      GloriaAttack3Animated_38: 8423290760025715437
+      GloriaAttack3Animated_39: 8949423208518218404
+      GloriaAttack3Animated_4: 2401065239471586400
+      GloriaAttack3Animated_40: 7386211519448412787
+      GloriaAttack3Animated_41: 5464222034546094941
+      GloriaAttack3Animated_42: 2875282747727350747
+      GloriaAttack3Animated_43: 8657671882877214114
+      GloriaAttack3Animated_44: -2552627584559324988
+      GloriaAttack3Animated_45: -5292578564024315964
+      GloriaAttack3Animated_46: -572761904652185846
+      GloriaAttack3Animated_47: 2843707207154469859
+      GloriaAttack3Animated_48: 8322063376705772192
+      GloriaAttack3Animated_49: -5078671357263286576
+      GloriaAttack3Animated_5: 1847674755885744927
+      GloriaAttack3Animated_50: 1847298108320251110
+      GloriaAttack3Animated_51: 6627519950287519501
+      GloriaAttack3Animated_52: 7223346152790974393
+      GloriaAttack3Animated_53: -6843619170131272593
+      GloriaAttack3Animated_54: -3624142475550425699
+      GloriaAttack3Animated_55: 6813567034639862888
+      GloriaAttack3Animated_56: 2551280457656787901
+      GloriaAttack3Animated_57: -720084533392151387
+      GloriaAttack3Animated_58: 8098480382512515963
+      GloriaAttack3Animated_59: 8409767690251640955
+      GloriaAttack3Animated_6: -8857660264159417606
+      GloriaAttack3Animated_60: 1958944789000641742
+      GloriaAttack3Animated_61: -3063879509061644311
+      GloriaAttack3Animated_62: -6466701795967214766
+      GloriaAttack3Animated_63: 8267615193128667032
+      GloriaAttack3Animated_64: -5691905032370216178
+      GloriaAttack3Animated_65: 8415321619225222774
+      GloriaAttack3Animated_66: 64215768411401738
+      GloriaAttack3Animated_67: -4260914732229265806
+      GloriaAttack3Animated_68: -4398209634076638081
+      GloriaAttack3Animated_69: -8804015434096071182
+      GloriaAttack3Animated_7: -7154691166422430349
+      GloriaAttack3Animated_70: -4850899341192629960
+      GloriaAttack3Animated_71: -1151329891365272491
+      GloriaAttack3Animated_72: 5871156827991684995
+      GloriaAttack3Animated_73: -7551712023496473688
+      GloriaAttack3Animated_74: -353140919087371600
+      GloriaAttack3Animated_75: -9100495374056060040
+      GloriaAttack3Animated_76: 3274944905674905303
+      GloriaAttack3Animated_77: -3952657746449972266
+      GloriaAttack3Animated_78: -6455138069651864704
+      GloriaAttack3Animated_79: -5387439225188807621
+      GloriaAttack3Animated_8: 7821521480741075557
+      GloriaAttack3Animated_80: -5018395917141156731
+      GloriaAttack3Animated_81: -3833917509681866312
+      GloriaAttack3Animated_82: 703839360134162777
+      GloriaAttack3Animated_83: 3657176193663013044
+      GloriaAttack3Animated_84: -8700665332095911620
+      GloriaAttack3Animated_85: -3730806991520170047
+      GloriaAttack3Animated_86: 4243846274792842669
+      GloriaAttack3Animated_87: 5056678419125788156
+      GloriaAttack3Animated_88: -5804792949204799547
+      GloriaAttack3Animated_89: -2804610663128836362
+      GloriaAttack3Animated_9: 9198052291012358793
+      GloriaAttack3Animated_90: 4569200923344511965
+      GloriaAttack3Animated_91: 8785703568101864088
+      GloriaAttack3Animated_92: -5989052318913208486
+      GloriaAttack3Animated_93: -2774690033769744209
+      GloriaAttack3Animated_94: -8434869642588777966
+      GloriaAttack3Animated_95: -4999550177934607294
+      GloriaAttack3Animated_96: -1433307142560991917
+      GloriaAttack3Animated_97: -5297183114969688587
+      GloriaAttack3Animated_98: -6026676979346464678
+      GloriaAttack3Animated_99: -6590917437379967251
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
