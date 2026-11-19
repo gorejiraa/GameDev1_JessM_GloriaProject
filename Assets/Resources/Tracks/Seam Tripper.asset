@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74dedcd54da02394a892896cb1029da0, type: 3}
+  m_Name: Seam Tripper
+  m_EditorClassIdentifier: Assembly-CSharp::Track
+  Name: Seam Tripper
+  Difficulty: 0
+  Song: {fileID: 8300000, guid: 47e7e7bbe7b5e4d4f9db8a73cbc9ab1f, type: 3}
+  BPM: 113
+  Offset: 0
+  GameplayStartBeat: 0
+  BeatsInBar: 8
+  HalfBeatsEnabled: 0
+  EnemyHealth: 10
+  PlayerHealth: 5
+  TimingWindow: 100
+  Tutorial: 0
+  RandomPatterns: 1
+  Patterns: []
+  Dialogue:
+  - Time: 92
+    Dialogue:
+    - Text: '[s="gloria"]Well, well, WELL! What a curious little predicament we''ve
+        found ourselves in!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]I simply must say, you have got such the interesting little
+        world in here!'
+      Audio: {fileID: 0}
+    - Text: '[s="you"]It''s not mine'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Oh, don''t be modest! I''m sure you have had a hand in its
+        creation somewhere!'
+      Audio: {fileID: 0}
+    - Text: '[s="you"]I really haven''t'
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]Well, that's rather concerning, actually\u2026"
+      Audio: {fileID: 0}
+    - Text: '[s="you"]Can you ever give it a rest?'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]REST?! '
+      Audio: {fileID: 0}
+    - Text: "[s=\"gloria\"]Darling, don\u2019t be so SILLY!"
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]We are in the middle of a perfectly wonderful production
+        and you want an INTERMISSION?'
+      Audio: {fileID: 0}
+    - Text: '[s="you"]I want you to stop trying to attack me actually'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Oh, don''t be such a spoilsport!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]WHERE is your sense of whimsy and wonder?'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Besides, I haven''t even shown you my best trick yet!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]HA'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]OHHOHOHOO! '
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]HA HA HA'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]OH, you''re going to LOVE this!!'
+      Audio: {fileID: 0}

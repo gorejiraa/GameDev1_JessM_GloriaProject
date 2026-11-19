@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74dedcd54da02394a892896cb1029da0, type: 3}
+  m_Name: Neural Overstimulation
+  m_EditorClassIdentifier: Assembly-CSharp::Track
+  Name: Neural Overstimulation
+  Difficulty: 3
+  Song: {fileID: 8300000, guid: 2e42f41ba776f9f4594c309b87ffe890, type: 3}
+  BPM: 175
+  Offset: 0
+  GameplayStartBeat: 0
+  BeatsInBar: 8
+  HalfBeatsEnabled: 0
+  EnemyHealth: 10
+  PlayerHealth: 5
+  TimingWindow: 100
+  Tutorial: 0
+  RandomPatterns: 1
+  Patterns: []
+  Dialogue:
+  - Time: 75
+    Dialogue:
+    - Text: '[s="gloria"]OHOHO!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]A little footwork!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]How DELIGHTFUL!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]A little to the left! A little to the right!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Now THAT is what I call a dramatic entrance!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Careful with this choreography, sweetheart, you will end
+        up ruining the whole number!'
+      Audio: {fileID: 0}
+    - Text: '[s="you"]You''re the one throwing things at me!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]ALL A PART OF THE SHOW, DARLING!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]And a one, and a two, and a DODGE!'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]OHOHOHOHOHOHO! HAHAHAHA! OH, I SIMPLY CANNOT!'
+      Audio: {fileID: 0}
+    - Text: '[s="you"]What is wrong with you..?'
+      Audio: {fileID: 0}
+    - Text: '[s="gloria"]Don''t look so serious! This is supposed to be FUN!'
+      Audio: {fileID: 0}
