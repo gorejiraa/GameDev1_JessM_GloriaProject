@@ -1588,7 +1588,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3162608417309628367, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: Songs.Array.size
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 3162608417309628367, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: 'Songs.Array.data[0]'
@@ -1614,6 +1614,18 @@ PrefabInstance:
       propertyPath: 'Songs.Array.data[5]'
       value: 
       objectReference: {fileID: 11400000, guid: 8f88ca487b3716d41be476464a222df2, type: 2}
+    - target: {fileID: 3162608417309628367, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: 'Songs.Array.data[6]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 5d9b390ddc672f84885c1ac94c7fa2c8, type: 2}
+    - target: {fileID: 3162608417309628367, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: 'Songs.Array.data[7]'
+      value: 
+      objectReference: {fileID: 11400000, guid: ae101579b19e60a46b56045f7f8baddc, type: 2}
+    - target: {fileID: 3162608417309628367, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: 'Songs.Array.data[8]'
+      value: 
+      objectReference: {fileID: 11400000, guid: 18d36633063db0b4ca88c4912e6a21ee, type: 2}
     - target: {fileID: 3367905872144941354, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_SizeDelta.x
       value: 167.4184
