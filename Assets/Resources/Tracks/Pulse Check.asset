@@ -52,4 +52,32 @@ MonoBehaviour:
     Notes: 04000000030000000100000001000000040000000400000002000000020000000300000004000000010000000200000004000000020000000400000002000000
   - HalfBeats: 1
     Notes: 03000000040000000100000001000000040000000300000001000000040000000100000003000000030000000100000004000000010000000400000004000000
-  Dialogue: []
+  Dialogue:
+  - Time: 0
+    Dialogue:
+    - Text: '[s="gloria"]ONE! TWO! THREE! FOUR!'
+      Audio: {fileID: 0}
+  - Time: 4
+    Dialogue:
+    - Text: '[s="you"]What are you doing?'
+      Audio: {fileID: 0}
+  - Time: 7
+    Dialogue:
+    - Text: '[s="gloria"]Keeping COUNT, DARLING! Someone has to!'
+      Audio: {fileID: 0}
+  - Time: 10
+    Dialogue:
+    - Text: '[s="gloria"]You are getting ever so SLIGHTLY AHEAD OF YOURSELF!'
+      Audio: {fileID: 0}
+  - Time: 14
+    Dialogue:
+    - Text: '[s="you"]You are the one always changing the rhythm!'
+      Audio: {fileID: 0}
+  - Time: 17
+    Dialogue:
+    - Text: '[s="gloria"]A performer must learn to ADAPT!'
+      Audio: {fileID: 0}
+  - Time: 20
+    Dialogue:
+    - Text: '[s="gloria"]Come on now! Let''s put that little pulse to the TEST!'
+      Audio: {fileID: 0}

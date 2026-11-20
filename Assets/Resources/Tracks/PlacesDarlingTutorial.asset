@@ -49,8 +49,8 @@ MonoBehaviour:
   Dialogue:
   - Time: 0
     Dialogue:
-    - Text: '[s="tutorial"][patterns="0"]Hi! Welcome to Prefora! Here we''ll be teaching
-        you the basics'
+    - Text: '[s="tutorial"]Hi! Welcome to Prefora! Here we''ll be teaching you the
+        basics'
       Audio: {fileID: 8300000, guid: 0f85c7c1de9e3ed4ab63d0578f359171, type: 3}
     - Text: '[s="tutorial"]In this game, you''ll follow the prompts of your opponent
         to defeat them by matching the rhythm'
