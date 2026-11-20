@@ -16,7 +16,7 @@ MonoBehaviour:
   Difficulty: 1
   Song: {fileID: 8300000, guid: 8f48a851a4e32b54c993ab05b85b59d1, type: 3}
   BPM: 175
-  Offset: 0
+  Offset: 25
   GameplayStartBeat: 8
   BeatsInBar: 8
   HalfBeatsEnabled: 1

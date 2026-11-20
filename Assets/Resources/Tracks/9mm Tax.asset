@@ -16,11 +16,11 @@ MonoBehaviour:
   Difficulty: 1
   Song: {fileID: 8300000, guid: fb4e304a6605df44bb7f5f9c8ce84a9b, type: 3}
   BPM: 142
-  Offset: 0
+  Offset: 55
   GameplayStartBeat: 8
   BeatsInBar: 8
-  HalfBeatsEnabled: 1
-  EnemyHealth: 10
+  HalfBeatsEnabled: 0
+  EnemyHealth: 25
   PlayerHealth: 5
   TimingWindow: 100
   Tutorial: 0
@@ -55,7 +55,7 @@ MonoBehaviour:
   Dialogue:
   - Time: 0
     Dialogue:
-    - Text: '[patterns="1,2,4,5,6,7"][auto="0"]'
+    - Text: '[patterns="1,2,4,5,6"][auto="0"]'
       Audio: {fileID: 0}
   - Time: 129
     Dialogue:
@@ -101,7 +101,7 @@ MonoBehaviour:
     - Text: '[s="gloria"]After all, how could I possibly be a star without someone
         to dance around on stage?'
       Audio: {fileID: 0}
-    - Text: '[s="gloria"][patterns="8,9,10"]PLACES AGAIN EVERYONE!'
+    - Text: '[s="gloria"][patterns="1,2,4,5,6"]PLACES AGAIN EVERYONE!'
       Audio: {fileID: 0}
   - Time: 273
     Dialogue:
@@ -134,5 +134,5 @@ MonoBehaviour:
       Audio: {fileID: 0}
     - Text: "[s=\"gloria\"]I suppose it\u2019s time for our final bow now,"
       Audio: {fileID: 0}
-    - Text: '[s="gloria"][patterns="8,9,10"]Shall we?'
+    - Text: '[s="gloria"][patterns="1,2,4,5,6"]Shall we?'
       Audio: {fileID: 0}

@@ -14,9 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Track
   Name: Cardomom
   Difficulty: 1
-  Song: {fileID: 0}
+  Song: {fileID: 8300000, guid: 653cfeab0b092554cafad40440e0478b, type: 3}
   BPM: 132
-  Offset: 0
+  Offset: 55
   GameplayStartBeat: 8
   BeatsInBar: 8
   HalfBeatsEnabled: 1
@@ -90,7 +90,5 @@ MonoBehaviour:
       Audio: {fileID: 0}
   - Time: 26
     Dialogue:
-    - Text: 'Gloria:
-
-        [s="gloria"]With PLEASURE!'
+    - Text: '[s="gloria"]With PLEASURE!'
       Audio: {fileID: 0}
