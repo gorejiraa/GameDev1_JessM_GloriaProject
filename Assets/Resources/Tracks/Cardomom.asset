@@ -57,40 +57,18 @@ MonoBehaviour:
     Dialogue:
     - Text: '[s="gloria"]Oh, I do LOVE a little persistence!'
       Audio: {fileID: 0}
-  - Time: 5
-    Dialogue:
     - Text: '[s="you"]You talk too much'
       Audio: {fileID: 0}
-  - Time: 9
-    Dialogue:
     - Text: '[s="gloria"]And you don''t talk ENOUGH! What a dreadful imbalance!'
       Audio: {fileID: 0}
-  - Time: 12
-    Dialogue:
     - Text: '[s="you"]You''re trying to kill me, it is pretty hard to make conversation
 
 '
       Audio: {fileID: 0}
-  - Time: 16
-    Dialogue:
-    - Text: '[s="you"]You''re trying to kill me, it is pretty hard to make conversation
-
-'
-      Audio: {fileID: 0}
-  - Time: 19
-    Dialogue:
     - Text: '[s="gloria"]Oh, darling, don''t be so dramatic! You''ve done MARVELLOUSLY
         so far!'
       Audio: {fileID: 0}
-  - Time: 23
-    Dialogue:
-    - Text: 'Player:
-
-        [s="you"]Can we just finish this?'
+    - Text: '[s="you"]Can we just finish this?'
       Audio: {fileID: 0}
-  - Time: 26
-    Dialogue:
-    - Text: 'Gloria:
-
-        [s="gloria"]With PLEASURE!'
+    - Text: '[s="gloria"]With PLEASURE!'
       Audio: {fileID: 0}
