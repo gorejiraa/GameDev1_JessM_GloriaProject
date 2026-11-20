@@ -26,4 +26,37 @@ MonoBehaviour:
   Tutorial: 0
   RandomPatterns: 1
   Patterns: []
-  Dialogue: []
+  Dialogue:
+  - Time: 82
+    Dialogue:
+    - Text: '[s="gloria"]OHOHOHO! Now THIS is more like it!'
+      Audio: {fileID: 0}
+  - Time: 85
+    Dialogue:
+    - Text: '[s="gloria"]A proper waltz! How positively DELIGHTFUL!'
+      Audio: {fileID: 0}
+  - Time: 88
+    Dialogue:
+    - Text: '[s="gloria"]One must ALWAYS make time for a little elegance!'
+      Audio: {fileID: 0}
+  - Time: 91
+    Dialogue:
+    - Text: '[s="gloria"]Now, let''s see if you can manage a little three step...'
+      Audio: {fileID: 0}
+  - Time: 93
+    Dialogue:
+    - Text: '[s="gloria"]One... two... THREE!'
+      Audio: {fileID: 0}
+  - Time: 96
+    Dialogue:
+    - Text: '[s="you"]Oh, you have GOT TO BE KIDDING ME!'
+      Audio: {fileID: 0}
+  - Time: 99
+    Dialogue:
+    - Text: '[s="gloria"]A little faster, darling! We are not dancing the FUNERAL
+        WALTZ! '
+      Audio: {fileID: 0}
+  - Time: 101
+    Dialogue:
+    - Text: '[s="gloria"]Come now! One, two, three! One, two, THREE! '
+      Audio: {fileID: 0}
