@@ -716,7 +716,7 @@ MonoBehaviour:
     Sound: {fileID: 8300000, guid: ad9c7d28d68e33a4e98268470b5ec0dc, type: 3}
   - Note: 7
     Sprite: {fileID: 295006509812495885, guid: 55e127ace595e6941af3009d8a31d2c4, type: 3}
-    Sound: {fileID: 0}
+    Sound: {fileID: 8300000, guid: 5a18595aa523a67409051dd5d94b7c2e, type: 3}
   spriteAnimationTime: 0.4
   matchAnimationTimerToTimingWindow: 1
   spriteAnimationSlideDistance: 1
