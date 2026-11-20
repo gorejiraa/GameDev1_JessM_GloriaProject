@@ -17,10 +17,10 @@ MonoBehaviour:
   Song: {fileID: 8300000, guid: 62bcc70e8fb83d74da86115415e12f1f, type: 3}
   BPM: 135
   Offset: 50
-  GameplayStartBeat: 8
+  GameplayStartBeat: 16
   BeatsInBar: 8
-  HalfBeatsEnabled: 1
-  EnemyHealth: 10
+  HalfBeatsEnabled: 0
+  EnemyHealth: 25
   PlayerHealth: 5
   TimingWindow: 100
   Tutorial: 0
