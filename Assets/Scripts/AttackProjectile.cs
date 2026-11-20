@@ -34,7 +34,10 @@ public class AttackProjectile : MonoBehaviour
     private void Start()
     {
         Metronome.OnBeatWindowOpenedWithBeat += MoveOnBeat;
-        AttackProjectile.OnMove += DecrementOrder;
+        OnMove += DecrementOrder;
+        GameManager.EndBattle += Cancel;
+        PlayerStatus.OnPlayerHealthEmpty += Cancel;
+        EnemyEncounter.OnEnemyHealthEmpty += Cancel;
     }
 
     // Update is called once per frame
@@ -81,14 +84,28 @@ public class AttackProjectile : MonoBehaviour
         _moving = true;
         Animator.SetBool("Moving", true);
 
-        OnMove?.Invoke();
-
         Metronome.OnBeatWindowOpenedWithBeat -= MoveOnBeat;
         AttackProjectile.OnMove -= DecrementOrder;
+
+        OnMove?.Invoke();
     }
 
     private void DecrementOrder() 
     {
         _orderInQueue--;
+    }
+
+    private void Cancel() 
+    {
+        Destroy(gameObject);
+    }
+    private void OnDestroy()
+    {
+        // Guaranteed cleanup whenever this projectile is destroyed for ANY reason
+        Metronome.OnBeatWindowOpenedWithBeat -= MoveOnBeat;
+        OnMove -= DecrementOrder;
+        GameManager.EndBattle -= Cancel;
+        PlayerStatus.OnPlayerHealthEmpty -= Cancel;
+        EnemyEncounter.OnEnemyHealthEmpty -= Cancel;
     }
 }

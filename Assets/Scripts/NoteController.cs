@@ -18,6 +18,13 @@ public class NoteController : MonoBehaviour
     [SerializeField] private float maxOpacity = 0.5f;
     [SerializeField] private float fadeDurationProgress = 0.2f;
 
+    private void Start()
+    {
+        GameManager.EndBattle += Cancel;
+        PlayerStatus.OnPlayerHealthEmpty += Cancel;
+        EnemyEncounter.OnEnemyHealthEmpty += Cancel;
+    }
+
     public void Initialize(float hitTime, Note note)
     {
         TargetHitTime = hitTime;
@@ -62,4 +69,15 @@ public class NoteController : MonoBehaviour
         transform.localScale = new Vector3(currentScale, currentScale, 1f);
     }
 
+    private void Cancel()
+    {
+        Destroy(gameObject);
+    }
+
+    private void OnDestroy()
+    {
+        GameManager.EndBattle -= Cancel;
+        PlayerStatus.OnPlayerHealthEmpty -= Cancel;
+        EnemyEncounter.OnEnemyHealthEmpty -= Cancel;
+    }
 }

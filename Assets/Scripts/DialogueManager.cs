@@ -160,6 +160,7 @@ public class DialogueManager : MonoBehaviour
 
     private void CancelDialogue() 
     {
+        TimedDialogueSections?.Clear();
         DialogueQueue?.Clear();
         _showingText = false;
         _dialogueStartTimer = 0;

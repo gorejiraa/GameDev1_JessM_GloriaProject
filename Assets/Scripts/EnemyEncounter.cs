@@ -35,6 +35,7 @@ public class EnemyEncounter : MonoBehaviour
     
 
     public Health Health;
+    public bool Invincible = false;
 
     public static event Action<Track, float> SendEncounterDetails;
     public static event Action<Health> OnEnemyHealthChange;
@@ -130,6 +131,8 @@ public class EnemyEncounter : MonoBehaviour
 
     private void TakeDamage(int damage) 
     {
+        if (Invincible) return;
+
         Health.TakeDamage(damage);
         OnEnemyHealthChange?.Invoke(Health);
 
@@ -185,5 +188,11 @@ public class EnemyEncounter : MonoBehaviour
         OnEnemyHealthChange?.Invoke(Health);
         spriteTimer = 0f;
         beatToCue = 0;
+        Invincible = false;
+    }
+
+    private void ToggleInvincibility(bool toggle) 
+    {
+        Invincible = toggle;
     }
 }

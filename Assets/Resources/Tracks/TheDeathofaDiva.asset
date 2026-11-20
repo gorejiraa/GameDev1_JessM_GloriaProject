@@ -20,14 +20,14 @@ MonoBehaviour:
   GameplayStartBeat: 26
   BeatsInBar: 8
   HalfBeatsEnabled: 0
-  EnemyHealth: 28
+  EnemyHealth: 20
   PlayerHealth: 10
   TimingWindow: 80
   Tutorial: 0
   RandomPatterns: 0
   Patterns:
   - HalfBeats: 0
-    Notes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    Notes: 0000000000000000000000000000000000000000000000000000000000000000
   - HalfBeats: 0
     Notes: 0300000004000000010000000200000003000000040000000100000007000000
   - HalfBeats: 0
@@ -54,6 +54,10 @@ MonoBehaviour:
     Notes: 04000000020000000400000002000000030000000400000001000000030000000200000001000000020000000200000002000000040000000100000007000000
   Dialogue:
   - Time: 0
+    Dialogue:
+    - Text: '[patterns="1,2,3,4,5,6,7,8,9"][auto="0"]'
+      Audio: {fileID: 0}
+  - Time: 100
     Dialogue:
     - Text: '[patterns="0"][s="you"]...'
       Audio: {fileID: 0}
@@ -101,46 +105,4 @@ MonoBehaviour:
       Audio: {fileID: 0}
     - Text: '[patterns="10,11,12"][s="gloria"]PLACES, DARLING!!! LET''S MAKE A BLOODY
         MESS OF THINGS!!!'
-      Audio: {fileID: 0}
-  - Time: 100
-    Dialogue:
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
-      Audio: {fileID: 0}
-    - Text: 
       Audio: {fileID: 0}

@@ -40,6 +40,7 @@ public class Choreographer : MonoBehaviour
     public static event Action OnSwitchToListenState;
     public static event Action OnEndListenPhase;
     public static event Action<int, Note, int> OnNoteSpawned;
+    public static event Action<bool> OnPatternZero;
 
     [SerializeField] private GameObject notePrefab;
 
@@ -207,6 +208,9 @@ public class Choreographer : MonoBehaviour
         foreach (Match match in matches)
         {
             int index = int.Parse(match.Value);
+
+            if (index == 0) OnPatternZero?.Invoke(true);
+            else OnPatternZero?.Invoke(false);
 
             if (DebugMessages) Debug.Log($"Activating pattern: {index}");
 
