@@ -2,6 +2,9 @@ using UnityEngine;
 
 public class IndicatorManager : MonoBehaviour
 {
+    [SerializeField] private float _highlightTimeLength = 0.5f;
+    [SerializeField] private Color _highlightColor = Color.cyan;
+
     public GameObject LeftIndicator;
     public GameObject RightIndicator;
     public GameObject UpIndicator;
@@ -11,6 +14,7 @@ public class IndicatorManager : MonoBehaviour
     void Start()
     {
         ToggleIndicators(false);
+        PlayerController.OnPlayerAction += HighlightIndicator;
     }
 
     public void ToggleIndicators(bool toggle) 
@@ -52,6 +56,29 @@ public class IndicatorManager : MonoBehaviour
                 return DownIndicator.transform.localScale;
             default:
                 return transform.localScale;
+        }
+    }
+
+    public void HighlightIndicator(int direction, double time) 
+    {
+        Note note = (Note)direction;
+
+        switch (note)
+        {
+            case Note.Left:
+                LeftIndicator.GetComponent<IndicatorCircleColorChange>().Highlight(_highlightTimeLength, _highlightColor);
+                break;
+            case Note.Right:
+                RightIndicator.GetComponent<IndicatorCircleColorChange>().Highlight(_highlightTimeLength, _highlightColor);
+                break;
+            case Note.Up:
+                UpIndicator.GetComponent<IndicatorCircleColorChange>().Highlight(_highlightTimeLength, _highlightColor);
+                break;
+            case Note.Down:
+                DownIndicator.GetComponent<IndicatorCircleColorChange>().Highlight(_highlightTimeLength, _highlightColor);
+                break;
+            default:
+                return;
         }
     }
 }

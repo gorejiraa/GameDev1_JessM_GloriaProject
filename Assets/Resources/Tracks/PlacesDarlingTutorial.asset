@@ -49,8 +49,8 @@ MonoBehaviour:
   Dialogue:
   - Time: 0
     Dialogue:
-    - Text: '[s="tutorial"]Hi! Welcome to Prefora! Here we''ll be teaching you the
-        basics'
+    - Text: '[s="tutorial"][patterns="0"]Hi! Welcome to Prefora! Here we''ll be teaching
+        you the basics'
       Audio: {fileID: 8300000, guid: 0f85c7c1de9e3ed4ab63d0578f359171, type: 3}
     - Text: '[s="tutorial"]In this game, you''ll follow the prompts of your opponent
         to defeat them by matching the rhythm'
@@ -77,8 +77,8 @@ MonoBehaviour:
     - Text: '[s="tutorial"][patterns="0"]Fantastic! If you miss a note, you''ll fail
         that sequence and lose your own health'
       Audio: {fileID: 8300000, guid: 7d58bca9210b160428e2ab64d5adcc05, type: 3}
-    - Text: '[s=tutorial]Now, try and beat a few harder sequences here to prove you''ve
-        got what it takes to take on Gloria'
+    - Text: '[s="tutorial"]Now, try and beat a few harder sequences here to prove
+        you''ve got what it takes to take on Gloria'
       Audio: {fileID: 8300000, guid: c4f10de4c3c1b29409fffff714bf1611, type: 3}
     - Text: '[s="tutorial"][tutorial="Sequence(3)"][patterns="7,8,9"]Good luck!!'
       Audio: {fileID: 8300000, guid: 066a2b7abf2e4654687ae9d0cec4d641, type: 3}

@@ -53,9 +53,13 @@ MonoBehaviour:
   - HalfBeats: 1
     Notes: 03000000040000000100000001000000040000000300000001000000040000000100000003000000030000000100000004000000010000000400000004000000
   Dialogue:
+  - Time: 0
+    Dialogue:
+    - Text: '[patterns="1,2,3,4,5,6"][auto="0"]'
+      Audio: {fileID: 0}
   - Time: 82
     Dialogue:
-    - Text: '[s="gloria"]OHOHOHO! Now THIS is more like it!'
+    - Text: '[s="gloria"][patterns="0"]OHOHOHO! Now THIS is more like it!'
       Audio: {fileID: 0}
     - Text: '[s="gloria"]A proper waltz! How positively DELIGHTFUL!'
       Audio: {fileID: 0}
@@ -70,5 +74,6 @@ MonoBehaviour:
     - Text: '[s="gloria"]A little faster, darling! We are not dancing the FUNERAL
         WALTZ! '
       Audio: {fileID: 0}
-    - Text: '[s="gloria"]Come now! One, two, three! One, two, THREE! '
+    - Text: '[s="gloria"][patterns="1,2,3,4,5,6"]Come now! One, two, three! One,
+        two, THREE! '
       Audio: {fileID: 0}

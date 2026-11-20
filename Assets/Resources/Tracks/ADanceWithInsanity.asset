@@ -45,7 +45,7 @@ MonoBehaviour:
   Dialogue:
   - Time: 0
     Dialogue:
-    - Text: '[patterns="1,2,3,4,5,6,7,8"][auto="0"]'
+    - Text: '[patterns="1,2,3,4,5,6"][auto="0"]'
       Audio: {fileID: 0}
   - Time: 150
     Dialogue:
@@ -64,6 +64,6 @@ MonoBehaviour:
       Audio: {fileID: 0}
     - Text: '[s="gloria"]Now, chin up! Shoulders back!'
       Audio: {fileID: 0}
-    - Text: '[s="gloria"][patterns="1,2,3,4,5,6,7,8"]If we''re going to do this,
-        we''re going to do it PROPERLY!'
+    - Text: '[s="gloria"][patterns="1,2,3,4,5,6"]If we''re going to do this, we''re
+        going to do it PROPERLY!'
       Audio: {fileID: 0}

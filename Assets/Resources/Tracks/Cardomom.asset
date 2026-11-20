@@ -55,7 +55,7 @@ MonoBehaviour:
   Dialogue:
   - Time: 0
     Dialogue:
-    - Text: '[s="gloria"]Oh, I do LOVE a little persistence!'
+    - Text: '[s="gloria"][patterns="0"]Oh, I do LOVE a little persistence!'
       Audio: {fileID: 0}
     - Text: '[s="you"]You talk too much'
       Audio: {fileID: 0}
@@ -70,5 +70,5 @@ MonoBehaviour:
       Audio: {fileID: 0}
     - Text: '[s="you"]Can we just finish this?'
       Audio: {fileID: 0}
-    - Text: '[s="gloria"]With PLEASURE!'
+    - Text: '[s="gloria"][patterns="1,2,3,4,5,6"]With PLEASURE!'
       Audio: {fileID: 0}

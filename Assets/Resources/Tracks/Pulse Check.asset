@@ -55,7 +55,7 @@ MonoBehaviour:
   Dialogue:
   - Time: 1
     Dialogue:
-    - Text: '[s="gloria"]ONE! TWO! THREE! FOUR!'
+    - Text: '[s="gloria"][patterns="0"]ONE! TWO! THREE! FOUR!'
       Audio: {fileID: 0}
     - Text: '[s="you"]What are you doing?'
       Audio: {fileID: 0}
@@ -65,5 +65,6 @@ MonoBehaviour:
       Audio: {fileID: 0}
     - Text: '[s="gloria"]A performer must learn to ADAPT!'
       Audio: {fileID: 0}
-    - Text: '[s="gloria"]So come on now! Let''s put that little pulse to the TEST!'
+    - Text: '[s="gloria"][patterns="1,2,3,4,5,6"]So come on now! Let''s put that
+        little pulse to the TEST!'
       Audio: {fileID: 0}

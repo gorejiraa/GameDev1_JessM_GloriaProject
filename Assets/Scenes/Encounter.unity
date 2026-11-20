@@ -1124,6 +1124,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48373e4c8b2dc844eb4b81665a4a4a47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+--- !u!1 &632832282 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2403611091284916709, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+  m_PrefabInstance: {fileID: 693776405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &632832285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 632832282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d53b6b8b13b7847883000bf20f3655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IndicatorCircleColorChange
+  _highlightTimeLength: 0.5
 --- !u!1001 &693776405
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1932,6 +1950,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5833495126274781708, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: _highlightColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833495126274781708, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: _highlightColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5833495126274781708, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: _highlightColor.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5943044914746164032, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.8
@@ -2416,6 +2446,18 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3072847342395049986, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 812764854}
+    - targetCorrespondingSourceObject: {fileID: 5243647023877059598, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2145005517}
+    - targetCorrespondingSourceObject: {fileID: 6523152294302488833, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1748519386}
+    - targetCorrespondingSourceObject: {fileID: 8763340956090419452, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1560783856}
+    - targetCorrespondingSourceObject: {fileID: 2403611091284916709, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 632832285}
   m_SourcePrefab: {fileID: 100100000, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
 --- !u!1 &734413478 stripped
 GameObject:
@@ -3247,6 +3289,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &1560783853 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8763340956090419452, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+  m_PrefabInstance: {fileID: 693776405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1560783856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1560783853}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d53b6b8b13b7847883000bf20f3655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IndicatorCircleColorChange
+  _highlightTimeLength: 0.5
 --- !u!224 &1576238044 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3878417020808061811, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
@@ -3407,6 +3467,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1921200027}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1748519383 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6523152294302488833, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+  m_PrefabInstance: {fileID: 693776405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1748519386
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1748519383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d53b6b8b13b7847883000bf20f3655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::IndicatorCircleColorChange
+  _highlightTimeLength: 0.5
 --- !u!1 &1811405774 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4988888500910344685, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
@@ -3821,6 +3899,24 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!1 &2145005514 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5243647023877059598, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+  m_PrefabInstance: {fileID: 693776405}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2145005517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145005514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09d53b6b8b13b7847883000bf20f3655, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  _highlightTimeLength: 0.5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
