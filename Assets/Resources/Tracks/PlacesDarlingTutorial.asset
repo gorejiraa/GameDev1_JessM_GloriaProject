@@ -84,6 +84,6 @@ MonoBehaviour:
       Audio: {fileID: 8300000, guid: 066a2b7abf2e4654687ae9d0cec4d641, type: 3}
     - Text: '[s="tutorial"][patterns="0"][auto]Great work! Looks like you''re ready
         to take on the real thing. Good luck!'
-      Audio: {fileID: 0}
+      Audio: {fileID: 8300000, guid: 985bd5aa31205d142ad89adbbbcae072, type: 3}
     - Text: '[tutorial="End(1)"]'
       Audio: {fileID: 0}
