@@ -1780,7 +1780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3773304435370339546, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -55.095203
+      value: -66.095215
       objectReference: {fileID: 0}
     - target: {fileID: 3861475481933512555, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_Sprite
@@ -1956,7 +1956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4467838900230611170, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 50
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 4522659598369251833, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2523,9 +2523,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6840134965547140687, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1717229664}
-    - targetCorrespondingSourceObject: {fileID: 350419209839276376, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 15206995}
     - targetCorrespondingSourceObject: {fileID: 6048574532611735558, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1154309225}
@@ -2538,6 +2535,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4599834874942512754, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1705204635}
+    - targetCorrespondingSourceObject: {fileID: 350419209839276376, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 15206995}
     - targetCorrespondingSourceObject: {fileID: 5369531226810616765, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 815213821}
@@ -2917,7 +2917,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 255.79, y: -53.4}
+  m_AnchoredPosition: {x: 255.79, y: -17}
   m_SizeDelta: {x: -640, y: -420}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &936781372
