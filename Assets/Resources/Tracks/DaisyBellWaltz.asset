@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DaisyBellWaltz
   m_EditorClassIdentifier: Assembly-CSharp::Track
   Name: Daisy Bell's Waltz
-  Difficulty: 1
+  Difficulty: 2
   Song: {fileID: 8300000, guid: 8f48a851a4e32b54c993ab05b85b59d1, type: 3}
   BPM: 175
   Offset: 0

@@ -304,12 +304,12 @@ TextureImporter:
       name: YouLose_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 1239
-        width: 408
-        height: 250
+        x: 0
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -326,12 +326,12 @@ TextureImporter:
       name: YouLose_1
       rect:
         serializedVersion: 2
-        x: 427
-        y: 1239
-        width: 410
-        height: 250
+        x: 419
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -348,12 +348,12 @@ TextureImporter:
       name: YouLose_2
       rect:
         serializedVersion: 2
-        x: 429
-        y: 991
-        width: 408
-        height: 250
+        x: 838
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -370,12 +370,12 @@ TextureImporter:
       name: YouLose_3
       rect:
         serializedVersion: 2
-        x: 845
-        y: 1241
-        width: 410
-        height: 246
+        x: 1257
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -392,12 +392,12 @@ TextureImporter:
       name: YouLose_4
       rect:
         serializedVersion: 2
-        x: 1265
-        y: 1239
-        width: 408
-        height: 250
+        x: 1676
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -414,12 +414,12 @@ TextureImporter:
       name: YouLose_5
       rect:
         serializedVersion: 2
-        x: 1265
-        y: 991
-        width: 408
-        height: 250
+        x: 2095
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -436,12 +436,12 @@ TextureImporter:
       name: YouLose_6
       rect:
         serializedVersion: 2
-        x: 1681
-        y: 1241
-        width: 410
-        height: 246
+        x: 2514
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -458,12 +458,12 @@ TextureImporter:
       name: YouLose_7
       rect:
         serializedVersion: 2
-        x: 1681
-        y: 991
-        width: 410
-        height: 250
+        x: 0
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -480,12 +480,12 @@ TextureImporter:
       name: YouLose_8
       rect:
         serializedVersion: 2
-        x: 2101
-        y: 1239
-        width: 408
-        height: 250
+        x: 419
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -502,12 +502,12 @@ TextureImporter:
       name: YouLose_9
       rect:
         serializedVersion: 2
-        x: 2517
-        y: 1239
-        width: 410
-        height: 250
+        x: 838
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -524,12 +524,12 @@ TextureImporter:
       name: YouLose_10
       rect:
         serializedVersion: 2
-        x: 2519
-        y: 991
-        width: 408
-        height: 250
+        x: 1257
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -546,12 +546,12 @@ TextureImporter:
       name: YouLose_11
       rect:
         serializedVersion: 2
-        x: 9
-        y: 993
-        width: 410
-        height: 246
+        x: 1676
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -568,12 +568,12 @@ TextureImporter:
       name: YouLose_12
       rect:
         serializedVersion: 2
-        x: 429
-        y: 743
-        width: 408
-        height: 250
+        x: 2095
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -590,12 +590,12 @@ TextureImporter:
       name: YouLose_13
       rect:
         serializedVersion: 2
-        x: 845
-        y: 993
-        width: 410
-        height: 246
+        x: 2514
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -612,12 +612,12 @@ TextureImporter:
       name: YouLose_14
       rect:
         serializedVersion: 2
-        x: 845
-        y: 743
-        width: 410
-        height: 250
+        x: 0
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -634,12 +634,12 @@ TextureImporter:
       name: YouLose_15
       rect:
         serializedVersion: 2
-        x: 1683
-        y: 743
-        width: 408
-        height: 250
+        x: 419
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -656,12 +656,12 @@ TextureImporter:
       name: YouLose_16
       rect:
         serializedVersion: 2
-        x: 2099
-        y: 993
-        width: 410
-        height: 246
+        x: 838
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -678,12 +678,12 @@ TextureImporter:
       name: YouLose_17
       rect:
         serializedVersion: 2
-        x: 2519
-        y: 743
-        width: 408
-        height: 250
+        x: 1257
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -700,12 +700,12 @@ TextureImporter:
       name: YouLose_18
       rect:
         serializedVersion: 2
-        x: 9
-        y: 745
-        width: 410
-        height: 246
+        x: 1676
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -722,12 +722,12 @@ TextureImporter:
       name: YouLose_19
       rect:
         serializedVersion: 2
-        x: 9
-        y: 495
-        width: 410
-        height: 250
+        x: 2095
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -744,12 +744,12 @@ TextureImporter:
       name: YouLose_20
       rect:
         serializedVersion: 2
-        x: 847
-        y: 495
-        width: 408
-        height: 250
+        x: 2514
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -766,12 +766,12 @@ TextureImporter:
       name: YouLose_21
       rect:
         serializedVersion: 2
-        x: 1263
-        y: 745
-        width: 410
-        height: 246
+        x: 0
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -788,12 +788,12 @@ TextureImporter:
       name: YouLose_22
       rect:
         serializedVersion: 2
-        x: 1683
-        y: 495
-        width: 408
-        height: 250
+        x: 419
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -810,12 +810,12 @@ TextureImporter:
       name: YouLose_23
       rect:
         serializedVersion: 2
-        x: 2099
-        y: 745
-        width: 410
-        height: 246
+        x: 838
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -832,12 +832,12 @@ TextureImporter:
       name: YouLose_24
       rect:
         serializedVersion: 2
-        x: 2099
-        y: 495
-        width: 410
-        height: 250
+        x: 1257
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -854,12 +854,12 @@ TextureImporter:
       name: YouLose_25
       rect:
         serializedVersion: 2
-        x: 11
-        y: 247
-        width: 408
-        height: 250
+        x: 1676
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -876,12 +876,12 @@ TextureImporter:
       name: YouLose_26
       rect:
         serializedVersion: 2
-        x: 427
-        y: 497
-        width: 410
-        height: 246
+        x: 2095
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -898,12 +898,12 @@ TextureImporter:
       name: YouLose_27
       rect:
         serializedVersion: 2
-        x: 847
-        y: 247
-        width: 408
-        height: 250
+        x: 2514
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -920,12 +920,12 @@ TextureImporter:
       name: YouLose_28
       rect:
         serializedVersion: 2
-        x: 1263
-        y: 497
-        width: 410
-        height: 246
+        x: 0
+        y: 253
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -942,12 +942,12 @@ TextureImporter:
       name: YouLose_29
       rect:
         serializedVersion: 2
-        x: 1263
-        y: 247
-        width: 410
-        height: 250
+        x: 419
+        y: 253
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -964,12 +964,12 @@ TextureImporter:
       name: YouLose_30
       rect:
         serializedVersion: 2
-        x: 2101
-        y: 247
-        width: 408
-        height: 250
+        x: 838
+        y: 253
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -986,12 +986,12 @@ TextureImporter:
       name: YouLose_31
       rect:
         serializedVersion: 2
-        x: 2517
-        y: 497
-        width: 410
-        height: 246
+        x: 1257
+        y: 253
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1008,12 +1008,12 @@ TextureImporter:
       name: YouLose_32
       rect:
         serializedVersion: 2
-        x: 11
-        y: 0
-        width: 408
+        x: 1676
+        y: 253
+        width: 419
         height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1030,12 +1030,12 @@ TextureImporter:
       name: YouLose_33
       rect:
         serializedVersion: 2
-        x: 427
-        y: 249
-        width: 410
-        height: 246
+        x: 2095
+        y: 253
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1052,12 +1052,12 @@ TextureImporter:
       name: YouLose_34
       rect:
         serializedVersion: 2
-        x: 427
-        y: 0
-        width: 410
+        x: 2514
+        y: 253
+        width: 419
         height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1074,12 +1074,12 @@ TextureImporter:
       name: YouLose_35
       rect:
         serializedVersion: 2
-        x: 1265
-        y: 0
-        width: 408
+        x: 0
+        y: 4
+        width: 419
         height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1096,12 +1096,12 @@ TextureImporter:
       name: YouLose_36
       rect:
         serializedVersion: 2
-        x: 1681
-        y: 249
-        width: 410
-        height: 246
+        x: 419
+        y: 4
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1118,12 +1118,12 @@ TextureImporter:
       name: YouLose_37
       rect:
         serializedVersion: 2
-        x: 2101
-        y: 0
-        width: 408
+        x: 838
+        y: 4
+        width: 419
         height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1140,12 +1140,12 @@ TextureImporter:
       name: YouLose_38
       rect:
         serializedVersion: 2
-        x: 2517
-        y: 249
-        width: 410
-        height: 246
+        x: 1257
+        y: 4
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1162,12 +1162,12 @@ TextureImporter:
       name: YouLose_39
       rect:
         serializedVersion: 2
-        x: 2517
-        y: 0
-        width: 410
+        x: 1676
+        y: 4
+        width: 419
         height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1184,12 +1184,12 @@ TextureImporter:
       name: YouLose_40
       rect:
         serializedVersion: 2
-        x: 845
-        y: 1
-        width: 410
-        height: 246
+        x: 2095
+        y: 4
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1206,12 +1206,12 @@ TextureImporter:
       name: YouLose_41
       rect:
         serializedVersion: 2
-        x: 1681
-        y: 1
-        width: 410
-        height: 246
+        x: 2514
+        y: 4
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1228,7 +1228,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 2a4459b6d22a42949bba46b86e9258a4
     internalID: 0
     vertices: []
     indices: 
@@ -1236,7 +1236,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":6.0},"gridSpriteSize":{"x":419.0,"y":249.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       YouLose_0: 7909953315912693506
       YouLose_1: 1009002104306257056

@@ -295,12 +295,12 @@ TextureImporter:
       name: YouWin_0
       rect:
         serializedVersion: 2
-        x: 11
-        y: 1239
-        width: 408
-        height: 250
+        x: 0
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -317,12 +317,12 @@ TextureImporter:
       name: YouWin_1
       rect:
         serializedVersion: 2
-        x: 427
-        y: 1239
-        width: 410
-        height: 250
+        x: 419
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -339,12 +339,12 @@ TextureImporter:
       name: YouWin_2
       rect:
         serializedVersion: 2
-        x: 429
-        y: 991
-        width: 408
-        height: 250
+        x: 838
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -361,12 +361,12 @@ TextureImporter:
       name: YouWin_3
       rect:
         serializedVersion: 2
-        x: 845
-        y: 1241
-        width: 410
-        height: 246
+        x: 1257
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -383,12 +383,12 @@ TextureImporter:
       name: YouWin_4
       rect:
         serializedVersion: 2
-        x: 1265
-        y: 1239
-        width: 408
-        height: 250
+        x: 1676
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -405,12 +405,12 @@ TextureImporter:
       name: YouWin_5
       rect:
         serializedVersion: 2
-        x: 1265
-        y: 991
-        width: 408
-        height: 250
+        x: 2095
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -427,12 +427,12 @@ TextureImporter:
       name: YouWin_6
       rect:
         serializedVersion: 2
-        x: 1681
-        y: 1241
-        width: 410
-        height: 246
+        x: 2514
+        y: 1249
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -449,12 +449,12 @@ TextureImporter:
       name: YouWin_7
       rect:
         serializedVersion: 2
-        x: 1681
-        y: 991
-        width: 410
-        height: 250
+        x: 0
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -471,12 +471,12 @@ TextureImporter:
       name: YouWin_8
       rect:
         serializedVersion: 2
-        x: 2101
-        y: 1239
-        width: 408
-        height: 250
+        x: 419
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -493,12 +493,12 @@ TextureImporter:
       name: YouWin_9
       rect:
         serializedVersion: 2
-        x: 2517
-        y: 1239
-        width: 410
-        height: 250
+        x: 838
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -515,12 +515,12 @@ TextureImporter:
       name: YouWin_10
       rect:
         serializedVersion: 2
-        x: 2519
-        y: 991
-        width: 408
-        height: 250
+        x: 1257
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -537,12 +537,12 @@ TextureImporter:
       name: YouWin_11
       rect:
         serializedVersion: 2
-        x: 9
-        y: 993
-        width: 410
-        height: 246
+        x: 1676
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -559,12 +559,12 @@ TextureImporter:
       name: YouWin_12
       rect:
         serializedVersion: 2
-        x: 429
-        y: 743
-        width: 408
-        height: 250
+        x: 2095
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -581,12 +581,12 @@ TextureImporter:
       name: YouWin_13
       rect:
         serializedVersion: 2
-        x: 845
-        y: 993
-        width: 410
-        height: 246
+        x: 2514
+        y: 1000
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -603,12 +603,12 @@ TextureImporter:
       name: YouWin_14
       rect:
         serializedVersion: 2
-        x: 845
-        y: 743
-        width: 410
-        height: 250
+        x: 0
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -625,12 +625,12 @@ TextureImporter:
       name: YouWin_15
       rect:
         serializedVersion: 2
-        x: 1683
-        y: 743
-        width: 408
-        height: 250
+        x: 419
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -647,12 +647,12 @@ TextureImporter:
       name: YouWin_16
       rect:
         serializedVersion: 2
-        x: 2099
-        y: 993
-        width: 410
-        height: 246
+        x: 838
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -669,12 +669,12 @@ TextureImporter:
       name: YouWin_17
       rect:
         serializedVersion: 2
-        x: 2519
-        y: 743
-        width: 408
-        height: 250
+        x: 1257
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -691,12 +691,12 @@ TextureImporter:
       name: YouWin_18
       rect:
         serializedVersion: 2
-        x: 9
-        y: 745
-        width: 410
-        height: 246
+        x: 1676
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -713,12 +713,12 @@ TextureImporter:
       name: YouWin_19
       rect:
         serializedVersion: 2
-        x: 9
-        y: 495
-        width: 410
-        height: 250
+        x: 2095
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -735,12 +735,12 @@ TextureImporter:
       name: YouWin_20
       rect:
         serializedVersion: 2
-        x: 847
-        y: 495
-        width: 408
-        height: 250
+        x: 2514
+        y: 751
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -757,12 +757,12 @@ TextureImporter:
       name: YouWin_21
       rect:
         serializedVersion: 2
-        x: 1263
-        y: 745
-        width: 410
-        height: 246
+        x: 0
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -779,12 +779,12 @@ TextureImporter:
       name: YouWin_22
       rect:
         serializedVersion: 2
-        x: 1683
-        y: 495
-        width: 408
-        height: 250
+        x: 419
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -801,12 +801,12 @@ TextureImporter:
       name: YouWin_23
       rect:
         serializedVersion: 2
-        x: 2099
-        y: 745
-        width: 410
-        height: 246
+        x: 838
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -823,12 +823,12 @@ TextureImporter:
       name: YouWin_24
       rect:
         serializedVersion: 2
-        x: 2099
-        y: 495
-        width: 410
-        height: 250
+        x: 1257
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -845,12 +845,12 @@ TextureImporter:
       name: YouWin_25
       rect:
         serializedVersion: 2
-        x: 11
-        y: 247
-        width: 408
-        height: 250
+        x: 1676
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -867,12 +867,12 @@ TextureImporter:
       name: YouWin_26
       rect:
         serializedVersion: 2
-        x: 427
-        y: 497
-        width: 410
-        height: 246
+        x: 2095
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -889,12 +889,12 @@ TextureImporter:
       name: YouWin_27
       rect:
         serializedVersion: 2
-        x: 847
-        y: 247
-        width: 408
-        height: 250
+        x: 2514
+        y: 502
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -911,12 +911,12 @@ TextureImporter:
       name: YouWin_28
       rect:
         serializedVersion: 2
-        x: 1263
-        y: 497
-        width: 410
-        height: 246
+        x: 0
+        y: 253
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -933,12 +933,12 @@ TextureImporter:
       name: YouWin_29
       rect:
         serializedVersion: 2
-        x: 1263
-        y: 247
-        width: 410
-        height: 250
+        x: 419
+        y: 253
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -955,12 +955,12 @@ TextureImporter:
       name: YouWin_30
       rect:
         serializedVersion: 2
-        x: 2101
-        y: 247
-        width: 408
-        height: 250
+        x: 838
+        y: 253
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -977,12 +977,12 @@ TextureImporter:
       name: YouWin_31
       rect:
         serializedVersion: 2
-        x: 2517
-        y: 497
-        width: 410
-        height: 246
+        x: 1257
+        y: 253
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -999,12 +999,12 @@ TextureImporter:
       name: YouWin_32
       rect:
         serializedVersion: 2
-        x: 11
-        y: 0
-        width: 408
+        x: 1676
+        y: 253
+        width: 419
         height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1021,12 +1021,12 @@ TextureImporter:
       name: YouWin_33
       rect:
         serializedVersion: 2
-        x: 427
-        y: 249
-        width: 410
-        height: 246
+        x: 2095
+        y: 253
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1043,12 +1043,12 @@ TextureImporter:
       name: YouWin_34
       rect:
         serializedVersion: 2
-        x: 427
-        y: 0
-        width: 410
+        x: 2514
+        y: 253
+        width: 419
         height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1065,12 +1065,12 @@ TextureImporter:
       name: YouWin_35
       rect:
         serializedVersion: 2
-        x: 1265
-        y: 0
-        width: 408
+        x: 0
+        y: 4
+        width: 419
         height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1087,12 +1087,12 @@ TextureImporter:
       name: YouWin_36
       rect:
         serializedVersion: 2
-        x: 1681
-        y: 249
-        width: 410
-        height: 246
+        x: 419
+        y: 4
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1109,12 +1109,12 @@ TextureImporter:
       name: YouWin_37
       rect:
         serializedVersion: 2
-        x: 2517
-        y: 249
-        width: 410
-        height: 246
+        x: 838
+        y: 4
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1131,12 +1131,12 @@ TextureImporter:
       name: YouWin_38
       rect:
         serializedVersion: 2
-        x: 845
-        y: 1
-        width: 410
-        height: 246
+        x: 1257
+        y: 4
+        width: 419
+        height: 249
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -1149,11 +1149,77 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: YouWin_39
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 4
+        width: 419
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e445c2cbb0483c4fa8db40f92c36245
+      internalID: 801095413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin_40
+      rect:
+        serializedVersion: 2
+        x: 2095
+        y: 4
+        width: 419
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c0d1e0d2c68cd4aa2e7bada7a7f814
+      internalID: 248084402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: YouWin_41
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 4
+        width: 419
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040d797cffcf1e34e9f6cda4fa23cf6f
+      internalID: -1053592858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d9c9c187730e1c148bd8ad2c428b4d11
     internalID: 0
     vertices: []
     indices: 
@@ -1161,7 +1227,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":6.0},"gridSpriteSize":{"x":419.0,"y":249.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       YouWin_0: -1917456623886003214
       YouWin_1: -1396798009471981283
@@ -1196,7 +1264,10 @@ TextureImporter:
       YouWin_36: 8812310668022546075
       YouWin_37: -767530031390122909
       YouWin_38: 5239453343023920799
+      YouWin_39: 801095413
       YouWin_4: -4405487883113955544
+      YouWin_40: 248084402
+      YouWin_41: -1053592858
       YouWin_5: 1050992390523227405
       YouWin_6: -6929901745831876268
       YouWin_7: 6991509478299654478
