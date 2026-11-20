@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
 
     public OffsetCalculator OffsetCalculator;
     public int GeneralOffset = 0;
+    private bool _calibrating = false;
 
     private Track currentTrack;
 
@@ -115,6 +116,7 @@ public class GameManager : MonoBehaviour
         OffsetCalculator.gameObject.SetActive(true);
         OffsetCalculator.Reset();
         GeneralOffset = 0;
+        _calibrating = true;
 
         Track track = OffsetCalculator.CalculationTrack;
 
@@ -129,6 +131,7 @@ public class GameManager : MonoBehaviour
         GeneralOffset = OffsetCalculator.GetOffsetAverageInt();
         OffsetCalculator.gameObject.SetActive(false);
         UIManager.ToggleDisplayOffsetCalculation(true);
+        _calibrating = false;
     }
 
     public void ExitOffsetCalculation() 
@@ -137,6 +140,7 @@ public class GameManager : MonoBehaviour
         UIManager.ToggleOffsetCalculationPanel(false);
         Music.audioSource?.Stop();
         Metronome.ToggleGameplay(false);
+        _calibrating = false;
         ReturnToMenu();
     }
 
@@ -179,6 +183,11 @@ public class GameManager : MonoBehaviour
         if (Metronome.GameplayActive) 
         {
             LoseGame();
+        }
+        if (_calibrating) 
+        {
+            UIManager.ToggleOffsetCalculationPanel(false);
+            ReturnToMenu();
         }
     }
 
