@@ -1536,6 +1536,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 087c21d8ff59b0d499057838f452d3ef, type: 2}
   TitleText: {fileID: 6630626504048014831}
   DifficultyText: {fileID: 51702397167233045}
+  easyColor: {r: 0, g: 1, b: 0, a: 1}
+  mediumColor: {r: 1, g: 0.6470588, b: 0, a: 1}
+  hardColor: {r: 1, g: 0, b: 0, a: 1}
+  impossibleColor: {r: 0.5450981, g: 0, b: 0, a: 1}
 --- !u!1 &1867533146205479283
 GameObject:
   m_ObjectHideFlags: 0
@@ -1669,6 +1673,15 @@ MonoBehaviour:
   OffsetCalculationPanel: {fileID: 1075657193863060878}
   OffsetCalculationDetailsPanel: {fileID: 4422649296754508350}
   OffsetDisplayText: {fileID: 3958768650736869644}
+  DefaultClickSound: {fileID: 0}
+  missColor: {r: 0, g: 0, b: 0, a: 0}
+  missText: 
+  perfectColor: {r: 0, g: 0, b: 0, a: 0}
+  perfectText: 
+  closeColor: {r: 0, g: 0, b: 0, a: 0}
+  closeText: 
+  nearMissColor: {r: 0, g: 0, b: 0, a: 0}
+  nearMissText: 
   DebugMessages: 0
 --- !u!1 &2099558447254731689
 GameObject:
@@ -1717,6 +1730,8 @@ MonoBehaviour:
   NextCorrectInput: 0
   LastReceivedInput: 0
   RanValidation: 0
+  hitSuccessSound: {fileID: 0}
+  hitFailureSound: {fileID: 0}
   DebugMessages: 0
 --- !u!1 &2145336977057973552
 GameObject:
@@ -2406,6 +2421,7 @@ MonoBehaviour:
   Offset: 0
   HalfBeatsEnabled: 0
   beatDurationMs: 0
+  NextBeatPosition: 0
   activeBeat: -1
 --- !u!1 &2873257586201370720
 GameObject:
@@ -2652,6 +2668,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   audioSource: {fileID: 7166296430610649921}
   pitchReduction: 0.2
+  leadInSeconds: 0.25
   TitleScreenMusic: {fileID: 8300000, guid: 1c4b94ba2fe440144a8ecb432cfe709b, type: 3}
 --- !u!82 &7166296430610649921
 AudioSource:
