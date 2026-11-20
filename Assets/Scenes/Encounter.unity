@@ -728,6 +728,7 @@ MonoBehaviour:
   UpAttackController: {fileID: 22100000, guid: eccc427146a3d12439044273bc47d8ff, type: 2}
   DownAttackController: {fileID: 22100000, guid: 7b832822d26a2df4fb944fb2fada8838, type: 2}
   AttackPrefab: {fileID: 3643139306406417284, guid: 89289caa700b3fb4fa7b196f0ea03d2b, type: 3}
+  Invincible: 0
 --- !u!212 &275158541
 SpriteRenderer:
   serializedVersion: 2
@@ -1902,6 +1903,10 @@ PrefabInstance:
       propertyPath: hitSuccessSound
       value: 
       objectReference: {fileID: 8300000, guid: 165247dfaa8e32443894d11bea44a47d, type: 3}
+    - target: {fileID: 5033739245297923688, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -4
+      objectReference: {fileID: 0}
     - target: {fileID: 5167138100422954789, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2437,6 +2442,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6840134965547140687, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1717229664}
+    - targetCorrespondingSourceObject: {fileID: 350419209839276376, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 15206995}
     - targetCorrespondingSourceObject: {fileID: 6048574532611735558, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1154309225}
@@ -2449,9 +2457,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4599834874942512754, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1705204635}
-    - targetCorrespondingSourceObject: {fileID: 350419209839276376, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 15206995}
     - targetCorrespondingSourceObject: {fileID: 5369531226810616765, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       insertIndex: -1
       addedObject: {fileID: 815213821}
@@ -3063,12 +3068,12 @@ GameObject:
   - component: {fileID: 1079194475}
   - component: {fileID: 1079194474}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Foreground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1079194473
 RectTransform:
   m_ObjectHideFlags: 0

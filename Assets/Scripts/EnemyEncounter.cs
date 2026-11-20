@@ -55,6 +55,7 @@ public class EnemyEncounter : MonoBehaviour
         Metronome.OnBeatPassed += DemoBeatPassed;
         Judge.OnSequenceEnd += LoseHealthOnSuccessfulPlayerSequence;
         GameManager.ResetGameState += ResetState;
+        Choreographer.OnPatternZero += ToggleInvincibility;
 
         if (matchAnimationTimerToTimingWindow) spriteAnimationTime = (TimingWindow * 2) / 1000;
     }
