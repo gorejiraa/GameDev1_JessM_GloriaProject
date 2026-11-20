@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Track
   Name: Neural Overstimulation
   Difficulty: 3
-  Song: {fileID: 8300000, guid: 2e42f41ba776f9f4594c309b87ffe890, type: 3}
+  Song: {fileID: 8300000, guid: 12dbf4baa7333ea43a1e3ffcccd22682, type: 3}
   BPM: 175
   Offset: 52
   GameplayStartBeat: 8

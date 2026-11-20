@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DaisyBellWaltz
   m_EditorClassIdentifier: Assembly-CSharp::Track
   Name: Daisy Bell's Waltz
-  Difficulty: 1
+  Difficulty: 2
   Song: {fileID: 8300000, guid: 8f48a851a4e32b54c993ab05b85b59d1, type: 3}
   BPM: 175
   Offset: 25
@@ -61,13 +61,13 @@ MonoBehaviour:
     Dialogue:
     - Text: '[s="gloria"][patterns="0"]OHOHOHO! Now THIS is more like it!'
       Audio: {fileID: 0}
-    - Text: '[s="gloria"]A proper waltz! How positively DELIGHTFUL!'
+    - Text: '[s="gloria"]A waltz! How positively DELIGHTFUL!'
       Audio: {fileID: 0}
     - Text: '[s="gloria"]One must ALWAYS make time for a little elegance!'
       Audio: {fileID: 0}
     - Text: '[s="gloria"]Now, let''s see if you can manage a little three step...'
       Audio: {fileID: 0}
-    - Text: '[s="gloria"]One... two... THREE!'
+    - Text: '[s="gloria"]One... two... THREE...One... two... THREE!'
       Audio: {fileID: 0}
     - Text: '[s="you"]Oh, you have GOT TO BE KIDDING ME!'
       Audio: {fileID: 0}
