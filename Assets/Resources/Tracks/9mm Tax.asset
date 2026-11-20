@@ -12,24 +12,54 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 74dedcd54da02394a892896cb1029da0, type: 3}
   m_Name: 9mm Tax
   m_EditorClassIdentifier: Assembly-CSharp::Track
-  Name: 
+  Name: 9mm Tax
   Difficulty: 1
   Song: {fileID: 8300000, guid: fb4e304a6605df44bb7f5f9c8ce84a9b, type: 3}
   BPM: 142
   Offset: 0
-  GameplayStartBeat: 0
+  GameplayStartBeat: 8
   BeatsInBar: 8
-  HalfBeatsEnabled: 0
+  HalfBeatsEnabled: 1
   EnemyHealth: 10
   PlayerHealth: 5
   TimingWindow: 100
   Tutorial: 0
-  RandomPatterns: 1
-  Patterns: []
+  RandomPatterns: 0
+  Patterns:
+  - HalfBeats: 0
+    Notes: 0000000000000000000000000000000000000000000000000000000000000000
+  - HalfBeats: 0
+    Notes: 0300000003000000040000000400000003000000010000000200000002000000
+  - HalfBeats: 0
+    Notes: 0300000004000000030000000400000001000000020000000100000002000000
+  - HalfBeats: 0
+    Notes: 0100000002000000010000000200000002000000010000000200000002000000
+  - HalfBeats: 0
+    Notes: 0100000003000000020000000400000004000000010000000300000002000000
+  - HalfBeats: 0
+    Notes: 0400000004000000010000000200000003000000030000000100000002000000
+  - HalfBeats: 0
+    Notes: 0300000001000000040000000200000003000000020000000400000002000000
+  - HalfBeats: 1
+    Notes: 03000000040000000300000003000000040000000300000004000000040000000100000002000000010000000100000003000000040000000300000001000000
+  - HalfBeats: 1
+    Notes: 03000000030000000400000004000000030000000100000002000000020000000100000001000000040000000300000003000000020000000100000002000000
+  - HalfBeats: 1
+    Notes: 01000000020000000200000001000000010000000200000001000000030000000400000001000000020000000200000001000000020000000300000001000000
+  - HalfBeats: 1
+    Notes: 03000000040000000200000003000000010000000200000004000000010000000200000003000000040000000200000001000000040000000200000003000000
+  - HalfBeats: 1
+    Notes: 04000000030000000100000001000000040000000400000002000000020000000300000004000000010000000200000004000000020000000400000002000000
+  - HalfBeats: 1
+    Notes: 03000000040000000100000001000000040000000300000001000000040000000100000003000000030000000100000004000000010000000400000004000000
   Dialogue:
+  - Time: 0
+    Dialogue:
+    - Text: '[patterns="1,2,4,5,6,7"][auto="0"]'
+      Audio: {fileID: 0}
   - Time: 129
     Dialogue:
-    - Text: '[s="gloria"]Oh look at that!'
+    - Text: '[s="gloria"][patterns="0"]Oh look at that!'
       Audio: {fileID: 0}
     - Text: '[s="gloria"]You are still managing to stand on your own two feet after
         the first act!'
@@ -71,11 +101,11 @@ MonoBehaviour:
     - Text: '[s="gloria"]After all, how could I possibly be a star without someone
         to dance around on stage?'
       Audio: {fileID: 0}
-    - Text: '[s="gloria"]PLACES AGAIN EVERYONE!'
+    - Text: '[s="gloria"][patterns="8,9,10"]PLACES AGAIN EVERYONE!'
       Audio: {fileID: 0}
   - Time: 273
     Dialogue:
-    - Text: '[s="gloria"]A STAR IS BORN!'
+    - Text: '[s="gloria"][patterns="0"]A STAR IS BORN!'
       Audio: {fileID: 0}
     - Text: '[s="gloria"]BRAVO!!! BRAVISSIMO!!! WHAT A PERFORMANCE!!! WHAT A SPECTACLE!!!
         SOMEBODY GET THIS STAR A BOQUET! SOME FLOWERS FOR THEIR PERFORMANCE!!'
@@ -86,7 +116,8 @@ MonoBehaviour:
     - Text: '[s="gloria"]and you my rising star, have made it all the way to the
         end!'
       Audio: {fileID: 0}
-    - Text: "[s=\"gloria\"]Don\u2019t let it all go to your head, Streisand"
+    - Text: "[s=\"gloria\"][patterns=\"0\"]Don\u2019t let it all go to your head,
+        Streisand"
       Audio: {fileID: 0}
     - Text: "[s=\"gloria\"]There\u2019s only room for ONE HEADLINER around here!"
       Audio: {fileID: 0}
@@ -103,5 +134,5 @@ MonoBehaviour:
       Audio: {fileID: 0}
     - Text: "[s=\"gloria\"]I suppose it\u2019s time for our final bow now,"
       Audio: {fileID: 0}
-    - Text: '[s="gloria"]Shall we?'
+    - Text: '[s="gloria"][patterns="8,9,10"]Shall we?'
       Audio: {fileID: 0}
