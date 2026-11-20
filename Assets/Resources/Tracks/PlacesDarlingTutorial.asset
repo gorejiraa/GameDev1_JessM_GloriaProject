@@ -49,37 +49,39 @@ MonoBehaviour:
   Dialogue:
   - Time: 0
     Dialogue:
-    - Text: '[s="tutorial"][patterns="0"][auto]Welcome to Prefora! Here we''ll be
-        teaching you the basics...'
-      Audio: {fileID: 8300000, guid: 0386d24fb27d77b408f0a2964a31b9b1, type: 3}
-    - Text: '[s="tutorial"][auto]In this game, you''ll follow the prompts of your
-        opponent to defeat them by matching the rhythm!'
-      Audio: {fileID: 8300000, guid: 7912ca3e8300ec94092e7f25804d9bd2, type: 3}
+    - Text: '[s="tutorial"][patterns="0"]Hi! Welcome to Prefora! Here we''ll be teaching
+        you the basics'
+      Audio: {fileID: 8300000, guid: 0f85c7c1de9e3ed4ab63d0578f359171, type: 3}
+    - Text: '[s="tutorial"]In this game, you''ll follow the prompts of your opponent
+        to defeat them by matching the rhythm'
+      Audio: {fileID: 8300000, guid: a195944cf68a070478b5f7eeaa86301f, type: 3}
     - Text: '[s="tutorial"]Gloria will perform a sequence of moves, and then you''ll
-        try to repeat it back to dodge her attacks.  '
-      Audio: {fileID: 8300000, guid: 8f94faa5176bf4a4ab95a46b963a1922, type: 3}
+        try to repeat it back to her, so that you can dodge her attacks '
+      Audio: {fileID: 8300000, guid: 502b2bbce0aba624583c2649d06a5598, type: 3}
     - Text: '[s="tutorial"]First, let''s start with just one note. When Gloria moves
-        on the beat, you move on the next beat. For now she''ll just go UP.'
-      Audio: {fileID: 0}
-    - Text: '[tutorial="Hit(5)"][patterns="1"]Give it a try!'
-      Audio: {fileID: 0}
-    - Text: '[s="tutorial"][patterns="0"][auto]Great job!!!'
-      Audio: {fileID: 8300000, guid: 16b3134ad0a2cdc4fb97eb97e85ccd8e, type: 3}
-    - Text: '[tutorial="Hit(5)"][patterns="1,2,3,4"]Now let''s try it with different
-        directions. '
-      Audio: {fileID: 8300000, guid: 67591c10dc15ab346b7e9f37cfc86fb1, type: 3}
-    - Text: '[s="tutorial"][patterns="0"][auto]Now you''re getting it!'
-      Audio: {fileID: 8300000, guid: 829ba8e9773e7a54cb485e6e345d6b78, type: 3}
-    - Text: '[tutorial="Sequence(3)"][patterns="5,6"]Let''''s get all four directions
-        in... Can you get the whole patterns? '
-      Audio: {fileID: 0}
-    - Text: '[s="tutorial"][patterns="0"][auto]Fantastic!! When you do a whole pattern
-        successfully, the enemy will lose health. If you miss a note, you''ll fail
-        that sequence and lose health.'
-      Audio: {fileID: 0}
-    - Text: '[tutorial="Sequence(3)"][patterns="7,8,9"]Try and beat a few harder
-        sequences here to prove you''ve got what it takes!'
-      Audio: {fileID: 0}
+        on the beat, you move on the next beat. For now, she''ll just go up'
+      Audio: {fileID: 8300000, guid: 7430197a7e3b950409d9c77b0e65b131, type: 3}
+    - Text: '[s="tutorial"][tutorial="Hit(5)"][patterns="1"]Okay, now you give it
+        a try!'
+      Audio: {fileID: 8300000, guid: de2074533e824d94b83fccf17f04d691, type: 3}
+    - Text: '[s="tutorial"][patterns="0"]Great job! '
+      Audio: {fileID: 8300000, guid: 6cbc715e49e9a2e4b969b825666b0c9c, type: 3}
+    - Text: '[s="tutorial"][tutorial="Hit(5)"][patterns="1,2,3,4"]Now, let''s try
+        different directions'
+      Audio: {fileID: 8300000, guid: c22b31e95f5d158478a85cab557f5dfd, type: 3}
+    - Text: '[s="tutorial"][patterns="0"]Now you''re getting it! '
+      Audio: {fileID: 8300000, guid: e4079ef26f8587e4b911f5910d789ecb, type: 3}
+    - Text: '[s="tutorial"][tutorial="Sequence(3)"][patterns="5,6"]Let''s try to
+        get all four directions in, can you get all the patterns?'
+      Audio: {fileID: 8300000, guid: 8d9290c3c12cae44f9cd4664daf6f723, type: 3}
+    - Text: '[s="tutorial"][patterns="0"]Fantastic! If you miss a note, you''ll fail
+        that sequence and lose your own health'
+      Audio: {fileID: 8300000, guid: 7d58bca9210b160428e2ab64d5adcc05, type: 3}
+    - Text: '[s=tutorial]Now, try and beat a few harder sequences here to prove you''ve
+        got what it takes to take on Gloria'
+      Audio: {fileID: 8300000, guid: c4f10de4c3c1b29409fffff714bf1611, type: 3}
+    - Text: '[s="tutorial"][tutorial="Sequence(3)"][patterns="7,8,9"]Good luck!!'
+      Audio: {fileID: 8300000, guid: 066a2b7abf2e4654687ae9d0cec4d641, type: 3}
     - Text: '[s="tutorial"][patterns="0"][auto]Great work! Looks like you''re ready
         to take on the real thing. Good luck!'
       Audio: {fileID: 0}
