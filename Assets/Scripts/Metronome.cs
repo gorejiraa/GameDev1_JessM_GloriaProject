@@ -10,6 +10,7 @@ public class Metronome : MonoBehaviour
     public static event Action OnBeatWindowClosed;
     public static event Action<int> OnBeatWindowOpenedWithBeat;
     public static event Action<double> OnBeatDurationSet;
+    public static event Action OnWindowBufferPassed;
 
     public double BPM;
     public int BeatsInBar;
@@ -19,11 +20,14 @@ public class Metronome : MonoBehaviour
 
     private int lastBeat;
     [SerializeField] private double beatDurationMs;
+    [SerializeField] private double bufferTimeMs = 50;
     public double NextBeatPosition;
     [SerializeField] private int activeBeat = -1;
     private double activeBeatStartPos;
     private double activeBeatEndPos;
+    private double previousBeatBufferEndPos;
     private bool beatPassed = false;
+    private bool bufferCalled = true;
     private double firstBeatMs;
 
     public bool GameplayActive { get; private set; } = false;
@@ -45,14 +49,14 @@ public class Metronome : MonoBehaviour
         SetNextBeatWindow();
     }
 
-    public void ResetValues(Track track, int generalOffset)
+    public void ResetValues(Track track, int generalOffset, int timingWindow)
     {
         BPM = track.BPM;
         BeatsInBar = track.BeatsInBar;
         Offset = generalOffset;
         firstBeatMs = track.Offset;
         HalfBeatsEnabled = track.HalfBeatsEnabled;
-        TimingWindowMargin = track.TimingWindow;
+        TimingWindowMargin = timingWindow;
 
         activeBeat = -1;
         lastBeat = 0;
@@ -102,11 +106,19 @@ public class Metronome : MonoBehaviour
             activeBeat = -1;
             SetNextBeatWindow();
             OnBeatWindowClosed?.Invoke();
+            bufferCalled = false;
+        }
+
+        if (currentPosition >= previousBeatBufferEndPos && !bufferCalled) 
+        {
+            OnWindowBufferPassed?.Invoke();
+            bufferCalled = true;
         }
     }
 
     private void SetNextBeatWindow() 
     {
+        previousBeatBufferEndPos = activeBeatEndPos + bufferTimeMs;
         activeBeatStartPos = NextBeatPosition - TimingWindowMargin;
         activeBeatEndPos = NextBeatPosition + TimingWindowMargin;
     }

@@ -29,7 +29,7 @@ public class Judge : MonoBehaviour
 
         Choreographer.OnBeatListen += SetNextInput;
         PlayerController.OnPlayerAction += ReceiveInput;
-        Metronome.OnBeatWindowClosed += ValidateLastInput;
+        Metronome.OnWindowBufferPassed += ValidateLastInput;
         Choreographer.OnEndListenPhase += EndSequenceCheck;
         GameManager.ResetGameState += ResetState;
     }
@@ -64,8 +64,7 @@ public class Judge : MonoBehaviour
 
     private void ValidateLastInput() 
     {
-        if (RanValidation) return;
-        if (NextCorrectInput == 0 || NextCorrectInput == 7) return;
+        if (RanValidation || NextCorrectInput == 0 || NextCorrectInput == 7) return;
 
         RanValidation = true;
 

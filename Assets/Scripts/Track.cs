@@ -28,7 +28,6 @@ public class Track : ScriptableObject
     [Header("Difficulty")]
     public int EnemyHealth = 10;
     public int PlayerHealth = 5;
-    public int TimingWindow = 100;
     public bool Tutorial = false;
 
     [Header("Patterns")]

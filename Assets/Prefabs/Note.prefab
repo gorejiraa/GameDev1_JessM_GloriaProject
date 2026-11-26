@@ -48,6 +48,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 7459117766447115056}
   PreBeatsVisualTime: 800
   MsTilDestruction: 300
+  startingScaleRatio: 4
   startingScale: 4
   targetScale: 1
   maxOpacity: 0.5

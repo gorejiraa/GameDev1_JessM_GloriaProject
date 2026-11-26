@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
 
     public OffsetCalculator OffsetCalculator;
     public int GeneralOffset = 0;
+    public int TimingWindow = 160;
     private bool _calibrating = false;
 
     private Track currentTrack;
@@ -103,7 +104,7 @@ public class GameManager : MonoBehaviour
     public void SetTrackDetails(Track track) 
     {
         Music.audioSource.clip = track.Song;
-        Metronome.ResetValues(track, GeneralOffset);
+        Metronome.ResetValues(track, GeneralOffset, TimingWindow);
         Choreographer.ResetValues(track);
         LightingManager.SetStartBattleBeat(track.GameplayStartBeat);
         DialogueManager.AddAllTimedDialogue(track.Dialogue);
