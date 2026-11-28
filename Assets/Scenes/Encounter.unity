@@ -1058,6 +1058,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3162608417309628367, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: _impossibleColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162608417309628367, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: _impossibleColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3162608417309628367, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
+      propertyPath: _impossibleColor.r
+      value: 0.16037738
+      objectReference: {fileID: 0}
     - target: {fileID: 3687993498572624329, guid: 06f749fc0af71504bae395f3619361b3, type: 3}
       propertyPath: m_Name
       value: GameManager
