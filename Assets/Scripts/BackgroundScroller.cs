@@ -3,8 +3,8 @@ using UnityEngine.UI;
 
 public class UIBackgroundScroller : MonoBehaviour
 {
-    [SerializeField] private float speedX = 0.1f;
-    [SerializeField] private float speedY = 0.1f;
+    [SerializeField] private float _speedX = 0.1f;
+    [SerializeField] private float _speedY = 0.1f;
 
     private RawImage rawImage;
 
@@ -16,7 +16,7 @@ public class UIBackgroundScroller : MonoBehaviour
     void Update()
     {
         rawImage.uvRect = new Rect(
-            rawImage.uvRect.position + new Vector2(speedX, speedY) * Time.deltaTime,
+            rawImage.uvRect.position + new Vector2(_speedX, _speedY) * Time.deltaTime,
             rawImage.uvRect.size
         );
     }

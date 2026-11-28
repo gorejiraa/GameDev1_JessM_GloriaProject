@@ -3,10 +3,10 @@ using UnityEngine;
 
 public class TutorialManager : MonoBehaviour
 {
-    private static readonly Regex GoalRegex = new Regex(@"\((?<number>\d+)\)");
+    private static readonly Regex _goalRegex = new Regex(@"\((?<number>\d+)\)");
 
-    private int progressGoal;
-    private int progress;
+    private int _progressGoal;
+    private int _progress;
 
     private void Start()
     {
@@ -15,9 +15,9 @@ public class TutorialManager : MonoBehaviour
 
     public void ReceiveTutorialPrompt(string prompt) 
     {
-        progressGoal = int.Parse(GoalRegex.Match(prompt).Groups["number"].Value);
+        _progressGoal = int.Parse(_goalRegex.Match(prompt).Groups["number"].Value);
 
-        string cleanPrompt = GoalRegex.Replace(prompt, "").Trim();
+        string cleanPrompt = _goalRegex.Replace(prompt, "").Trim();
 
         switch (cleanPrompt) 
         {
@@ -44,12 +44,12 @@ public class TutorialManager : MonoBehaviour
 
     private void IncrementProgress() 
     {
-        progress++;
+        _progress++;
 
-        if (progress >= progressGoal) 
+        if (_progress >= _progressGoal) 
         {
             ClearSubscribers();
-            progress = 0;
+            _progress = 0;
             GameManager.Instance.DialogueManager.ProgressDialogue();
         }
     }
@@ -63,7 +63,7 @@ public class TutorialManager : MonoBehaviour
     private void OnDisable()
     {
         ClearSubscribers();
-        progress = 0;
+        _progress = 0;
         gameObject.SetActive(false);
     }
 }

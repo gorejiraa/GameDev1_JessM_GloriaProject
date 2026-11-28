@@ -1,40 +1,45 @@
 using System;
+using UnityEditor.PackageManager.UI;
 using UnityEngine;
+using UnityEngine.Rendering;
 using UnityEngine.UI;
 
 public class TimingVisualizer : MonoBehaviour
 {
     private Image image;
 
-    private int currentActiveBeat = -99;
-    private Vector3 baseScale;
+    private int _currentActiveBeat = -99;
+    private Vector3 _baseScale;
+    private int _offset = 0;
 
     void Start()
     {
         image = GetComponent<Image>();
-        baseScale = transform.localScale;
+        _baseScale = transform.localScale;
+        OffsetCalculator.Complete += GetOffset;
     }
 
     void Update()
     {
-        int activeBeat = GameManager.Instance.Metronome.GetActiveBeat();
+        float proximity = GameManager.Instance.Metronome.GetProximityToNearestBeat() + _offset;
 
-        if (activeBeat != currentActiveBeat)
+        float t = Mathf.InverseLerp((float)GameManager.Instance.Metronome.TimingWindowMargin, 0f, Mathf.Abs(proximity));
+        float scaleMultiplier = Mathf.Lerp(1f, 1.4f, t);
+
+        transform.localScale = _baseScale * scaleMultiplier;
+
+        if (t == 0)
         {
-            if (activeBeat == -1)
-            {
-                image.color = Color.red;
-            }
-            else
-            {
-                image.color = Color.green;
-            }
-
-            currentActiveBeat = activeBeat;
+            image.color = Color.red;
         }
+        else
+        {
+            image.color = Color.green;
+        }
+    }
 
-        float proximity = GameManager.Instance.Metronome.GetProximityToNearestBeat();
-
-        transform.localScale = baseScale * Math.Max((1.2f - (Math.Abs(proximity) / (float)GameManager.Instance.Metronome.TimingWindowMargin) / 5), 1);
+    private void GetOffset(int offset) 
+    {
+        _offset = offset;
     }
 }

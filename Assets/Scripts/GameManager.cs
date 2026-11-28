@@ -3,6 +3,10 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
+    public static event Action<bool> ToggleMusic;
+    public static event Action ResetGameState;
+    public static event Action EndBattle;
+
     public static GameManager Instance { get; private set; }
 
     public MusicController Music;
@@ -19,16 +23,12 @@ public class GameManager : MonoBehaviour
     public PlayerStatus PlayerStatus;
     public EnemyEncounter Enemy;
 
-    public static event Action<bool> ToggleMusic;
-    public static event Action ResetGameState;
-    public static event Action EndBattle;
-
     public OffsetCalculator OffsetCalculator;
     public int GeneralOffset = 0;
     public int TimingWindow = 160;
     private bool _calibrating = false;
 
-    private Track currentTrack;
+    private Track _currentTrack;
 
     private void Awake()
     {
@@ -55,12 +55,13 @@ public class GameManager : MonoBehaviour
         OffsetCalculator.gameObject.SetActive(false);
         TutorialManager.gameObject.SetActive(false);
         SongSelectMenu.gameObject.SetActive(false);
+        DialogueManager.gameObject.SetActive(true);
         Music.PlayMenuMusic();
     }
 
     public void StartTrack(Track track) 
     {
-        currentTrack = track;
+        _currentTrack = track;
 
         SetTrackDetails(track);
 
@@ -127,9 +128,9 @@ public class GameManager : MonoBehaviour
         StartGameplay();
     }
 
-    public void OnCompleteOffsetCalculation() 
+    public void OnCompleteOffsetCalculation(int offset) 
     {
-        GeneralOffset = OffsetCalculator.GetOffsetAverageInt();
+        GeneralOffset = offset;
         OffsetCalculator.gameObject.SetActive(false);
         UIManager.ToggleDisplayOffsetCalculation(true);
         _calibrating = false;
@@ -196,7 +197,7 @@ public class GameManager : MonoBehaviour
     {
         ResetGameState?.Invoke();
 
-        StartTrack(currentTrack);
+        StartTrack(_currentTrack);
     }
 
     public void ReturnToMenu() 

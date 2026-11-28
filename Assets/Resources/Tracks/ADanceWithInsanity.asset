@@ -22,7 +22,6 @@ MonoBehaviour:
   HalfBeatsEnabled: 0
   EnemyHealth: 20
   PlayerHealth: 15
-  TimingWindow: 100
   Tutorial: 0
   RandomPatterns: 0
   Patterns:

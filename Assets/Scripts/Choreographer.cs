@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
@@ -14,26 +15,6 @@ public enum ChoreographerState
 
 public class Choreographer : MonoBehaviour
 {
-    private static readonly Regex PatternSetRegex = new Regex(@"\d+");
-
-    [SerializeField] private int NextDemoBeat;
-    [SerializeField] private int NextListenBeat;
-    [SerializeField] private int ActiveBeat;
-    public ChoreographerState State = ChoreographerState.Waiting;
-    public int BeatsBeforeSetting = 4;
-
-    private List<Note> _currentPattern;
-    private int _currentPatternBeat = 0;
-    private bool _randomPatterns = true;
-    private int _currentPatternLength = 8;
-    private bool _currentPatternHalfBeats = false;
-    private List<Pattern> _allPresetPatterns;
-    private List<Pattern> _activePresetPatterns;
-
-    [SerializeField] private bool DisableBlanks = false;
-    [SerializeField] private bool LastSequenceNoteIsGo = false;
-    [SerializeField] private bool DebugMessages = false;
-
     public static event Action<int> OnBeatDemo;
     public static event Action<int> OnBeatListen;
     public static event Action OnSwitchToDemoState;
@@ -42,40 +23,68 @@ public class Choreographer : MonoBehaviour
     public static event Action<int, Note, int> OnNoteSpawned;
     public static event Action<bool> OnPatternZero;
 
-    [SerializeField] private GameObject notePrefab;
+    private static readonly Regex _patternSetRegex = new Regex(@"\d+");
+
+    
+    public int BeatsBeforeSetting = 4;
+    [SerializeField] private GameObject _notePrefab;
+    [SerializeField] private PresetPatternList _patternList;
+
+    private List<Pattern> _allPresetPatterns;
+    private List<Pattern> _activePresetPatterns;
+    private List<Note> _currentPattern;
+
+    private int _currentPatternBeat = 0;
+    private bool _randomPatterns = true;
+    private int _currentPatternLength = 8;
+    private int _beatsInBar = 8;
+
+    [Header("Debugging")]
+    [SerializeField] private bool _debugMessages = false;
+    [SerializeField] private ChoreographerState _state = ChoreographerState.Waiting;
+    [SerializeField] private int _nextDemoBeat;
+    [SerializeField] private int _nextListenBeat;
+    [SerializeField] private int _activeBeat;
+    [SerializeField] private bool _disableBlanks = false;
+    [SerializeField] private bool _lastSequenceNoteIsGo = false;
+    [SerializeField] private bool _halfBeats = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         ResetValues();
+        _allPresetPatterns = _patternList.Patterns.ToList();
     }
 
     public void ResetValues() 
     {
-        State = ChoreographerState.Waiting;
+        _state = ChoreographerState.Waiting;
         _currentPattern = new List<Note>();
-        _currentPatternLength = GameManager.Instance.Metronome.BeatsInBar;
-        ActiveBeat = 0;
-        NextDemoBeat = GameManager.Instance.Metronome.BeatsInBar + 1;
-        NextListenBeat = NextDemoBeat;
+        _beatsInBar = GameManager.Instance.Metronome.BeatsInBar;
+        _currentPatternLength = _beatsInBar;
+        _activeBeat = 0;
+        _nextDemoBeat = GameManager.Instance.Metronome.BeatsInBar + 1;
+        _nextListenBeat = _nextDemoBeat;
         _currentPatternBeat = 0;
     }
 
     public void ResetValues(Track track)
     {
-        State = ChoreographerState.Waiting;
+        _state = ChoreographerState.Waiting;
         _currentPattern = new List<Note>();
-        ActiveBeat = 0;
-        NextDemoBeat = track.GameplayStartBeat + 1;
-        NextListenBeat = NextDemoBeat;
+        _halfBeats = track.HalfBeatsEnabled;
+        _activeBeat = 0;
+        _nextDemoBeat = _halfBeats ? (track.GameplayStartBeat * 2) + 1 : track.GameplayStartBeat + 1;
+        _nextListenBeat = _nextDemoBeat;
         _currentPatternBeat = 0;
         _randomPatterns = track.RandomPatterns;
-        _allPresetPatterns = track.Patterns.ToList();
+        
 
-        if (track.RandomPatterns) _currentPatternLength = track.BeatsInBar;
+        _beatsInBar = track.BeatsInBar;
+
+        _currentPatternLength = _beatsInBar;
 
         if (_allPresetPatterns.Count <= 0) _randomPatterns = true;
-        if (!track.HalfBeatsEnabled) _allPresetPatterns.RemoveAll(p => p.HalfBeats);
 
         _activePresetPatterns = _allPresetPatterns.ToList();
     }
@@ -83,64 +92,62 @@ public class Choreographer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (GameManager.Instance.Metronome.GetActiveBeat() != -1) ActiveBeat = GameManager.Instance.Metronome.GetActiveBeat();
+        if (GameManager.Instance.Metronome.GetActiveBeat() != -1) _activeBeat = GameManager.Instance.Metronome.GetActiveBeat();
 
-        if (State == ChoreographerState.Waiting) 
+        if (_state == ChoreographerState.Waiting) 
         {
-            if (ActiveBeat >= NextDemoBeat - BeatsBeforeSetting) State = ChoreographerState.Setting;
+            if (_activeBeat >= _nextDemoBeat - BeatsBeforeSetting) _state = ChoreographerState.Setting;
         }
-        else if (State == ChoreographerState.Setting)
+        else if (_state == ChoreographerState.Setting)
         {
             SetNextPattern();
-            NextListenBeat += _currentPatternLength;
-            State = ChoreographerState.Demonstrating;
+            _nextListenBeat += _currentPatternLength;
+            _state = ChoreographerState.Demonstrating;
             OnSwitchToDemoState?.Invoke();
         }
-        else if (State == ChoreographerState.Demonstrating)
+        else if (_state == ChoreographerState.Demonstrating)
         {
-            if (ActiveBeat == NextDemoBeat)
+            if (_activeBeat == _nextDemoBeat)
             {
                 OnBeatListen.Invoke(0);
 
                 // Demo the beat using pattern[CurrentPatternBeat]
                 OnBeatDemo.Invoke((int)_currentPattern[_currentPatternBeat]);
-                double noteHitTime = GameManager.Instance.Metronome.GetTimingOfSpecificBeatInMs(ActiveBeat+_currentPattern.Count);
-                SpawnNote((float)noteHitTime, (Note)_currentPattern[_currentPatternBeat]);
+                float noteHitTime = (float)GameManager.Instance.Metronome.GetTimingOfSpecificBeatInMs(_activeBeat+_currentPatternLength);
+                SpawnNote(noteHitTime, (Note)_currentPattern[_currentPatternBeat]);
 
-                if (DebugMessages) Debug.Log($"Demo: {_currentPattern[_currentPatternBeat]} (Bar {_currentPatternBeat + 1}/{_currentPatternLength}");
+                if (_debugMessages) Debug.Log($"Demo: {_currentPattern[_currentPatternBeat]} (Bar {_currentPatternBeat + 1}/{_currentPatternLength})");
 
-                if (!_currentPatternHalfBeats && GameManager.Instance.Metronome.HalfBeatsEnabled) NextDemoBeat += 2;
-                else NextDemoBeat++;
+                _nextDemoBeat++;
 
                 _currentPatternBeat++;
             }
-            if (NextDemoBeat == NextListenBeat)
+            if (_nextDemoBeat == _nextListenBeat)
             {
-                NextDemoBeat += _currentPatternLength;
+                _nextDemoBeat += _currentPatternLength;
                 _currentPatternBeat = 0;
-                State = ChoreographerState.Listening;
+                _state = ChoreographerState.Listening;
                 OnSwitchToListenState?.Invoke();
             }
         }
-        else if (State == ChoreographerState.Listening)
+        else if (_state == ChoreographerState.Listening)
         {
-            if (ActiveBeat == NextListenBeat)
+            if (_activeBeat == _nextListenBeat)
             {
                 OnBeatDemo.Invoke(-1);
 
                 // Tell judge to listen for pattern[CurrentBeatPattern]
                 OnBeatListen.Invoke((int)_currentPattern[_currentPatternBeat]);
-                if (DebugMessages) Debug.Log($"Listening for: {_currentPattern[_currentPatternBeat]} (Bar {_currentPatternBeat + 1}/{_currentPatternLength}");
+                if (_debugMessages) Debug.Log($"Listening for: {_currentPattern[_currentPatternBeat]} (Bar {_currentPatternBeat + 1}/{_currentPatternLength})");
 
-                if (!_currentPatternHalfBeats && GameManager.Instance.Metronome.HalfBeatsEnabled) NextListenBeat += 2;
-                else NextListenBeat++;
+                _nextListenBeat++;
 
                 _currentPatternBeat++;
             }
-            if (NextListenBeat == NextDemoBeat)
+            if (_nextListenBeat == _nextDemoBeat)
             {
                 _currentPatternBeat = 0;
-                State = ChoreographerState.Setting;
+                _state = ChoreographerState.Setting;
                 OnEndListenPhase?.Invoke();
             }
         }
@@ -151,8 +158,8 @@ public class Choreographer : MonoBehaviour
         if (note == Note.Blank || note == Note.Finish) return;
 
         // Pass the prefab reference, position, and rotation
-        OnNoteSpawned.Invoke(ActiveBeat + _currentPattern.Count, note, _currentPatternBeat);
-        GameObject newNote = Instantiate(notePrefab);
+        OnNoteSpawned.Invoke(_activeBeat + _currentPatternLength, note, _currentPatternBeat);
+        GameObject newNote = Instantiate(_notePrefab);
         newNote.GetComponent<NoteController>().Initialize(hitTime, note);
     }
 
@@ -171,7 +178,7 @@ public class Choreographer : MonoBehaviour
     private void GenerateRandomPattern() 
     {
         int minRange = 0;
-        if (DisableBlanks) minRange = 1;
+        if (_disableBlanks) minRange = 1;
 
         _currentPattern.Clear();
 
@@ -181,29 +188,42 @@ public class Choreographer : MonoBehaviour
             _currentPattern.Add((Note)note);
         }
 
-        if (LastSequenceNoteIsGo) _currentPattern[_currentPattern.Count - 1] = Note.Finish;
+        if (_lastSequenceNoteIsGo) _currentPattern[_currentPatternLength - 1] = Note.Finish;
 
-        if (DebugMessages) Debug.Log($"Next random pattern: {string.Join(", ", _currentPattern)}");
+        if (_debugMessages) Debug.Log($"Next random pattern: {string.Join(", ", _currentPattern)}");
     }
 
     private void SelectRandomPatternPreset() 
     {
         int index = UnityEngine.Random.Range(0, _activePresetPatterns.Count);
 
-        _currentPattern = _activePresetPatterns[index].Notes;
-        _currentPatternLength = _currentPattern.Count;
-        _currentPatternHalfBeats = _activePresetPatterns[index].HalfBeats;
+        SetCurrentPattern(index);
 
-        if (DebugMessages) Debug.Log($"Selected preset pattern {index}: {string.Join(", ", _currentPattern)}");
+        if (_debugMessages) Debug.Log($"Selected preset pattern {index}: {string.Join(", ", _currentPattern)}");
+    }
+
+    private void SetCurrentPattern(int index) 
+    {
+        _currentPattern = new List<Note>(_activePresetPatterns[index].Notes);
+
+        if (!_activePresetPatterns[index].HalfBeats && GameManager.Instance.Metronome.HalfBeatsEnabled) 
+        {
+            for (int i = _currentPattern.Count - 1; i >= 0; i--)
+            {
+                _currentPattern.Insert(i + 1, Note.Blank);
+            }
+        }
+
+        _currentPatternLength = _halfBeats ? _beatsInBar * 2 : _beatsInBar;
     }
 
     public void SetActivePatterns(string patternIndexes) 
     {
-        if (DebugMessages) Debug.Log("Setting active patterns...");
+        if (_debugMessages) Debug.Log("Setting active patterns...");
 
         _activePresetPatterns.Clear();
 
-        MatchCollection matches = PatternSetRegex.Matches(patternIndexes);
+        MatchCollection matches = _patternSetRegex.Matches(patternIndexes);
 
         foreach (Match match in matches)
         {
@@ -212,7 +232,7 @@ public class Choreographer : MonoBehaviour
             if (index == 0) OnPatternZero?.Invoke(true);
             else OnPatternZero?.Invoke(false);
 
-            if (DebugMessages) Debug.Log($"Activating pattern: {index}");
+            if (_debugMessages) Debug.Log($"Activating pattern: {index}");
 
             _activePresetPatterns.Add(_allPresetPatterns[index]);
         }

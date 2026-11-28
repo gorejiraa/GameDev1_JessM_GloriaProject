@@ -32,7 +32,7 @@ public class Track : ScriptableObject
 
     [Header("Patterns")]
     public bool RandomPatterns = true;
-    public List<Pattern> Patterns;
+    public List<PatternName> OrderedPatterns;
 
     [Header("Dialogue")]
     public List<TimedDialogue> Dialogue;

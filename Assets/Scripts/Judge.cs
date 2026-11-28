@@ -1,61 +1,74 @@
 using System;
+using System.Drawing;
 using UnityEngine;
+
+public enum Judgement
+{
+    Miss,
+    OK,
+    Great,
+    Perfect
+}
 
 public class Judge : MonoBehaviour
 {
-    private AudioSource audioSource;
-
-    [SerializeField] private int NextCorrectInput = 0;
-    [SerializeField] private int LastReceivedInput = 0;
-    private double lastInputProximity;
-    private bool InputReceived = false;
-    public bool RanValidation = false;
-    private bool SequenceEnded = false;
-    private bool SuccessfulSequence = true;
-
-    [SerializeField] private AudioClip hitSuccessSound;
-    [SerializeField] private AudioClip hitFailureSound;
-
     public static event Action OnInputReceived;
     public static event Action<bool> OnValidateInput;
-    public static event Action<bool, double> OnValidateInputWithProximity;
+    public static event Action<Judgement, double> OnJudgementRating;
     public static event Action<bool> OnSequenceEnd;
 
-    [SerializeField] private bool DebugMessages = false;
+    [Header("Judgements")]
+    [SerializeField] private int _perfectRange;
+    [SerializeField] private int _greatRange;
+
+    private double _lastInputProximity;
+    private bool _inputReceived = false;
+    private bool _ranValidation = false;
+    private bool _successfulSequence = true;
+
+    [Header("Audio")]
+    [SerializeField] private AudioClip _hitSuccessSound;
+    [SerializeField] private AudioClip _hitFailureSound;
+    private AudioSource _audioSource;
+
+    [Header("Debugging")]
+    [SerializeField] private int _nextCorrectInput = 0;
+    [SerializeField] private int _lastReceivedInput = 0;
+    [SerializeField] private bool _debugMessages = false;
 
     public void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        _audioSource = GetComponent<AudioSource>();
 
         Choreographer.OnBeatListen += SetNextInput;
         PlayerController.OnPlayerAction += ReceiveInput;
-        Metronome.OnWindowBufferPassed += ValidateLastInput;
+        Metronome.OnBeatWindowClosed += ValidateLastInput;
         Choreographer.OnEndListenPhase += EndSequenceCheck;
         GameManager.ResetGameState += ResetState;
     }
 
     public void SetNextInput(int input) 
     {
-        if (input != 0 && DebugMessages) Debug.Log($"Judge waiting for input: {(Note)input}");
+        if (input != 0 && _debugMessages) Debug.Log($"Judge waiting for input: {(Note)input}");
 
-        RanValidation = false;
-        InputReceived = false;
-        LastReceivedInput = 0;
-        NextCorrectInput = input;
+        _ranValidation = false;
+        _inputReceived = false;
+        _lastReceivedInput = 0;
+        _nextCorrectInput = input;
     }
 
     public void ReceiveInput(int input, double inputTime)
     {
-        if (!InputReceived) 
+        if (!_inputReceived) 
         {
-            if (DebugMessages) Debug.Log($"Judge received player input: {(Note)input}");
+            if (_debugMessages) Debug.Log($"Judge received player input: {(Note)input}");
 
             double songInputTime = GameManager.Instance.Music.RealtimeToSongMs(inputTime);
             double inputProximity = songInputTime - (GameManager.Instance.Metronome.ActiveBeatTimeMs() + GameManager.Instance.GeneralOffset);
 
-            LastReceivedInput = input;
-            lastInputProximity = inputProximity;
-            InputReceived = true;
+            _lastReceivedInput = input;
+            _lastInputProximity = inputProximity;
+            _inputReceived = true;
             OnInputReceived?.Invoke();
 
             ValidateLastInput();
@@ -64,36 +77,54 @@ public class Judge : MonoBehaviour
 
     private void ValidateLastInput() 
     {
-        if (RanValidation || NextCorrectInput == 0 || NextCorrectInput == 7) return;
+        if (_ranValidation || _nextCorrectInput == 0 || _nextCorrectInput == 7) return;
 
-        RanValidation = true;
+        _ranValidation = true;
 
         bool valid = false;
 
-        if (LastReceivedInput == NextCorrectInput && Math.Abs(lastInputProximity) <= GameManager.Instance.Metronome.TimingWindowMargin) valid = true;
-        else SuccessfulSequence = false;
+        if (_lastReceivedInput == _nextCorrectInput && Math.Abs(_lastInputProximity) <= GameManager.Instance.Metronome.TimingWindowMargin) valid = true;
+        else _successfulSequence = false;
+
+        Judgement judgement = valid ? GetJudgementFromProximity(_lastInputProximity) : Judgement.Miss;
 
         OnValidateInput?.Invoke(valid);
-        OnValidateInputWithProximity?.Invoke(valid, lastInputProximity);
+        OnJudgementRating?.Invoke(judgement, _lastInputProximity);
 
-        if (valid) audioSource.PlayOneShot(hitSuccessSound);
-        else audioSource.PlayOneShot(hitFailureSound);
+        if (valid) _audioSource.PlayOneShot(_hitSuccessSound);
+        else _audioSource.PlayOneShot(_hitFailureSound);
 
-        if (NextCorrectInput != 0 && DebugMessages) Debug.Log($"Player succeeded note: {valid} (Expected {NextCorrectInput}, Received {LastReceivedInput})");
+        if (_nextCorrectInput != 0 && _debugMessages) Debug.Log($"Player succeeded note: {valid} (Expected {_nextCorrectInput}, Received {_lastReceivedInput})");
     }
 
     private void EndSequenceCheck() 
     {
-        OnSequenceEnd?.Invoke(SuccessfulSequence);
-        SuccessfulSequence = true;
+        OnSequenceEnd?.Invoke(_successfulSequence);
+        _successfulSequence = true;
+    }
+
+    private Judgement GetJudgementFromProximity(double proximity) 
+    {
+        if (Math.Abs(proximity) < _perfectRange)
+        {
+            return Judgement.Perfect;
+        }
+        else if (Math.Abs(proximity) < _greatRange)
+        {
+            return Judgement.Great;
+        }
+        else
+        {
+            return Judgement.OK;
+        }
     }
 
     private void ResetState() 
     {
-        SuccessfulSequence = true;
-        LastReceivedInput = 0;
-        NextCorrectInput = 0;
-        InputReceived = false;
-        RanValidation = false;
+        _successfulSequence = true;
+        _lastReceivedInput = 0;
+        _nextCorrectInput = 0;
+        _inputReceived = false;
+        _ranValidation = false;
     }
 }

@@ -7,6 +7,7 @@ public class MusicController : MonoBehaviour
     [SerializeField] private double leadInSeconds = 0.25;
     [SerializeField] private AudioClip TitleScreenMusic;
     private bool PlayingMusic = true;
+    [SerializeField] private bool Debugging = false;
 
     private double songStartDsp;
     private double lastDsp;
@@ -21,6 +22,8 @@ public class MusicController : MonoBehaviour
 
     private void Update()
     {
+        if (Debugging) return;
+
         if (PlayingMusic)
         {
             audioSource.pitch = Mathf.Min(1f, audioSource.pitch + Time.deltaTime * pitchReduction);

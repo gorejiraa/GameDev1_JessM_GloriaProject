@@ -7,14 +7,14 @@ public class LightingManager : MonoBehaviour
     public GameObject EnemyLight;
     public GameObject PlayerLight;
 
-    public float BattleDimness = 0.8f;
-    public int BeatsToDim = 8;
-    public int BeatsToBeDimBeforeStart = 8;
-    private int StartBattleBeat = 999;
+    [SerializeField] private float BattleDimness = 0.8f;
+    [SerializeField] private int BeatsToDim = 8;
+    [SerializeField] private int BeatsToBeDimBeforeStart = 8;
 
-    private bool SpotlightsEnabled = true;
+    private int _startBattleBeat = 999;
+    private bool _spotlightsEnabled = true;
 
-    [SerializeField] private bool DebugMessages = false;
+    [SerializeField] private bool _debugMessages = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -32,8 +32,8 @@ public class LightingManager : MonoBehaviour
     void Update()
     {
         double currentBeat = GameManager.Instance.Metronome.GetCurrentBeat();
-        int dimStart = StartBattleBeat - (BeatsToDim + BeatsToBeDimBeforeStart);
-        int dimEnd = StartBattleBeat - BeatsToBeDimBeforeStart;
+        int dimStart = _startBattleBeat - (BeatsToDim + BeatsToBeDimBeforeStart);
+        int dimEnd = _startBattleBeat - BeatsToBeDimBeforeStart;
 
         //Debug.Log($"Current beat: {currentBeat} (Waiting to dim at beat {dimStart})");
         if (currentBeat < dimStart) 
@@ -56,14 +56,14 @@ public class LightingManager : MonoBehaviour
 
     public void SetStartBattleBeat(int beat) 
     {
-        StartBattleBeat = beat;
-        if (DebugMessages) Debug.Log($"Set start battle beat to: {beat} (In LightingManager)");
+        _startBattleBeat = beat;
+        if (_debugMessages) Debug.Log($"Set start battle beat to: {beat} (In LightingManager)");
     }
 
     private void EnemyLighting() 
     {
-        if (!SpotlightsEnabled) return;
-        if (DebugMessages) Debug.Log("Swapping to enemy light");
+        if (!_spotlightsEnabled) return;
+        if (_debugMessages) Debug.Log("Swapping to enemy light");
 
         PlayerLight.SetActive(false);
         EnemyLight.SetActive(true);
@@ -71,8 +71,8 @@ public class LightingManager : MonoBehaviour
 
     private void PlayerLighting()
     {
-        if (!SpotlightsEnabled) return;
-        if (DebugMessages) Debug.Log("Swapping to player light");
+        if (!_spotlightsEnabled) return;
+        if (_debugMessages) Debug.Log("Swapping to player light");
 
         PlayerLight.SetActive(true);
         EnemyLight.SetActive(false);
@@ -80,16 +80,16 @@ public class LightingManager : MonoBehaviour
 
     private void ResetState() 
     {
-        if (DebugMessages) Debug.Log("Resetting lights");
+        if (_debugMessages) Debug.Log("Resetting lights");
 
         PlayerLight.SetActive(false);
         EnemyLight.SetActive(false);
-        SpotlightsEnabled = true;
+        _spotlightsEnabled = true;
     }
 
     private void DisableSpotlights() 
     {
         ResetState();
-        SpotlightsEnabled = false;
+        _spotlightsEnabled = false;
     }
 }

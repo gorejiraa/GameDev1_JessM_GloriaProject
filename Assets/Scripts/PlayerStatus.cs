@@ -3,26 +3,26 @@ using UnityEngine;
 
 public class PlayerStatus : MonoBehaviour
 {
-    public Health Health;
-
-    [SerializeField] private float DamageFlickerTime = 0.3f;
-    private float DamageTimer = 0f;
-    private SpriteRenderer spriteRenderer;
-    private bool Invincibility = false;
-
     public static event Action<Health> OnPlayerHealthChange;
     public static event Action OnPlayerHealthEmpty;
 
-    private AudioSource audioSource;
-    [SerializeField] private AudioClip TakeDamageSound;
+    public Health Health;
+
+    [SerializeField] private AudioClip _takeDamageSound;
+    private AudioSource _audioSource;
+
+    [SerializeField] private float _damageFlickerTime = 0.3f;
+    private float _damageTimer = 0f;
+    private SpriteRenderer _spriteRenderer;
+    private bool _invincibility = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Health = new Health(5);
         Judge.OnValidateInput += TakeDamageOnFailedInput;
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        audioSource = GetComponent<AudioSource>();
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _audioSource = GetComponent<AudioSource>();
         Choreographer.OnSwitchToListenState += ResetInvincibility;
         GameManager.ResetGameState += ResetState;
     }
@@ -30,10 +30,10 @@ public class PlayerStatus : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (DamageTimer > 0f)
+        if (_damageTimer > 0f)
         {
-            DamageTimer -= Time.deltaTime;
-            if (DamageTimer <= 0f) 
+            _damageTimer -= Time.deltaTime;
+            if (_damageTimer <= 0f) 
             {
                 ToggleDamageVisual(false);
             }
@@ -43,11 +43,11 @@ public class PlayerStatus : MonoBehaviour
     private void TakeDamageOnFailedInput(bool success) 
     {
         if (success) return;
-        if (Invincibility) return;
+        if (_invincibility) return;
 
-        Invincibility = true;
+        _invincibility = true;
 
-        audioSource.PlayOneShot(TakeDamageSound);
+        _audioSource.PlayOneShot(_takeDamageSound);
         Health.TakeDamage(1);
         OnPlayerHealthChange?.Invoke(Health);
 
@@ -57,25 +57,25 @@ public class PlayerStatus : MonoBehaviour
             return;
         }
 
-        DamageTimer = DamageFlickerTime;
+        _damageTimer = _damageFlickerTime;
         ToggleDamageVisual(true);
     }
 
     private void ToggleDamageVisual(bool toggle) 
     {
-        if (toggle) spriteRenderer.color = Color.red;
-        else spriteRenderer.color = Color.white;
+        if (toggle) _spriteRenderer.color = Color.red;
+        else _spriteRenderer.color = Color.white;
     }
 
     private void ResetInvincibility() 
     {
-        Invincibility = false;
+        _invincibility = false;
     }
 
     private void ResetState() 
     {
         Health.Reset();
         OnPlayerHealthChange?.Invoke(Health);
-        Invincibility = false;
+        _invincibility = false;
     }
 }

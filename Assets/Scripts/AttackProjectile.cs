@@ -10,7 +10,6 @@ public class AttackProjectile : MonoBehaviour
     [SerializeField] private float _moveSpeed;
     [SerializeField] private float _spawnMoveSpeed;
     [SerializeField] private int _targetBeat;
-    private bool _spawning = true;
     private bool _moving = false;
     private float stoppingDistance = 0.05f;
     private int _orderInQueue = 0;
@@ -79,13 +78,11 @@ public class AttackProjectile : MonoBehaviour
     {
         if (activeBeat < _targetBeat) return;
 
-        Debug.Log($"Moving on beat: {activeBeat} = {_targetBeat}");
-
         _moving = true;
         Animator.SetBool("Moving", true);
 
         Metronome.OnBeatWindowOpenedWithBeat -= MoveOnBeat;
-        AttackProjectile.OnMove -= DecrementOrder;
+        OnMove -= DecrementOrder;
 
         OnMove?.Invoke();
     }

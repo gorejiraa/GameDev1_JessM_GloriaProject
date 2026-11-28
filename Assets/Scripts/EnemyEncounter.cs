@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class EnemyEncounter : MonoBehaviour
 {
+    public static event Action<Track, float> SendEncounterDetails;
+    public static event Action<Health> OnEnemyHealthChange;
+    public static event Action OnEnemyHealthEmpty;
+
+    public Health Health;
+    private bool _invincible = false;
+
     [Header("Animation Details")]
     public Sprite DefaultSprite;
     public List<NoteActionDetails> NoteActions;
-    [SerializeField] private float spriteAnimationTime = 0.4f;
-    [SerializeField] private bool matchAnimationTimerToTimingWindow = false;
-    [SerializeField] private float spriteAnimationSlideDistance;
+    [SerializeField] private float _spriteAnimationTime = 0.4f;
+    [SerializeField] private bool _matchAnimationTimerToTimingWindow = false;
+    [SerializeField] private float _spriteAnimationSlideDistance;
 
     [Header("Song Details")]
     public Track EncounterTrack;
@@ -23,33 +30,22 @@ public class EnemyEncounter : MonoBehaviour
     public AnimatorOverrideController DownAttackController;
     public GameObject AttackPrefab;
 
-    private SpriteRenderer spriteRenderer;
-    private AudioSource audioSource;
-    private Vector2 baseScale;
-    private Vector2 basePosition;
-    private int beatToCue = -1;
-    private float spriteTimer = 0f;
-    private bool spriteTimerActive = false;
-    private Vector2 slideDirection;
-
-    
-
-    public Health Health;
-    public bool Invincible = false;
-
-    public static event Action<Track, float> SendEncounterDetails;
-    public static event Action<Health> OnEnemyHealthChange;
-    public static event Action OnEnemyHealthEmpty;
+    private SpriteRenderer _spriteRenderer;
+    private AudioSource _audioSource;
+    private Vector2 _basePosition;
+    private int _beatToCue = -1;
+    private float _spriteTimer = 0f;
+    private bool _spriteTimerActive = false;
+    private Vector2 _slideDirection;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         Health = new Health(10);
 
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        audioSource = GetComponent<AudioSource>();
-        baseScale = transform.localScale;
-        basePosition = transform.localPosition;
+        _spriteRenderer = GetComponent<SpriteRenderer>();
+        _audioSource = GetComponent<AudioSource>();
+        _basePosition = transform.localPosition;
         Choreographer.OnBeatDemo += DemoBeat;
         Choreographer.OnNoteSpawned += SpawnAttackProjectile;
         Metronome.OnBeatPassed += DemoBeatPassed;
@@ -57,7 +53,7 @@ public class EnemyEncounter : MonoBehaviour
         GameManager.ResetGameState += ResetState;
         Choreographer.OnPatternZero += ToggleInvincibility;
 
-        if (matchAnimationTimerToTimingWindow) spriteAnimationTime = (TimingWindow * 2) / 1000;
+        if (_matchAnimationTimerToTimingWindow) _spriteAnimationTime = (TimingWindow * 2) / 1000;
     }
 
     // Update is called once per frame
@@ -65,28 +61,28 @@ public class EnemyEncounter : MonoBehaviour
     {
         float delta = Time.deltaTime;
 
-        spriteTimer -= delta;
+        _spriteTimer -= delta;
 
-        if (spriteTimer > 0f)
+        if (_spriteTimer > 0f)
         {
-            float distancePercentage = spriteTimer / spriteAnimationTime;
-            transform.localPosition = basePosition + slideDirection * (Mathf.Sin(distancePercentage * Mathf.PI) * spriteAnimationSlideDistance);
+            float distancePercentage = _spriteTimer / _spriteAnimationTime;
+            transform.localPosition = _basePosition + _slideDirection * (Mathf.Sin(distancePercentage * Mathf.PI) * _spriteAnimationSlideDistance);
         }
-        else if (spriteTimerActive && spriteTimer < -spriteAnimationTime) ResetSprite();
+        else if (_spriteTimerActive && _spriteTimer < -_spriteAnimationTime) ResetSprite();
     }
 
     private void DemoBeat(int beat) 
     {
-        beatToCue = beat;
+        _beatToCue = beat;
 
         foreach (NoteActionDetails noteAction in NoteActions) 
         {
-            if (beatToCue != (int)noteAction.Note) continue;
+            if (_beatToCue != (int)noteAction.Note) continue;
 
             SetSlideDirection(noteAction.Note);
-            if (noteAction.Sprite != null) SetSpriteWithTimer(noteAction.Sprite, spriteAnimationTime);
-            audioSource.clip = noteAction.Sound;
-            if (noteAction.Sound != null) audioSource.PlayScheduled(GameManager.Instance.Metronome.NextBeatPositionDspTime());
+            if (noteAction.Sprite != null) SetSpriteWithTimer(noteAction.Sprite, _spriteAnimationTime);
+            _audioSource.clip = noteAction.Sound;
+            if (noteAction.Sound != null) _audioSource.PlayScheduled(GameManager.Instance.Metronome.NextBeatPositionDspTime());
         }
     }
 
@@ -94,7 +90,7 @@ public class EnemyEncounter : MonoBehaviour
     {
         foreach (NoteActionDetails noteAction in NoteActions)
         {
-            if (beatToCue != (int)noteAction.Note) continue;
+            if (_beatToCue != (int)noteAction.Note) continue;
 
             //if (noteAction.Sound != null) audioSource.PlayOneShot(noteAction.Sound);
         }
@@ -102,27 +98,27 @@ public class EnemyEncounter : MonoBehaviour
 
     private void SetSpriteWithTimer(Sprite sprite, float time) 
     {
-        spriteRenderer.sprite = sprite;
-        spriteTimer = time;
-        spriteTimerActive = true;
+        _spriteRenderer.sprite = sprite;
+        _spriteTimer = time;
+        _spriteTimerActive = true;
     }
 
     private void SetSlideDirection(Note note) 
     {
         switch (note) 
         {
-            case Note.Up: slideDirection = Vector2.up; break;
-            case Note.Down: slideDirection = Vector2.down; break;
-            case Note.Left: slideDirection = Vector2.left; break;
-            case Note.Right: slideDirection = Vector2.right; break;
-            case Note.Finish: slideDirection = Vector2.zero; break;
+            case Note.Up: _slideDirection = Vector2.up; break;
+            case Note.Down: _slideDirection = Vector2.down; break;
+            case Note.Left: _slideDirection = Vector2.left; break;
+            case Note.Right: _slideDirection = Vector2.right; break;
+            case Note.Finish: _slideDirection = Vector2.zero; break;
         }
     }
     private void ResetSprite() 
     {
-        spriteRenderer.sprite = DefaultSprite;
-        spriteTimerActive = false;
-        transform.localPosition = basePosition;
+        _spriteRenderer.sprite = DefaultSprite;
+        _spriteTimerActive = false;
+        transform.localPosition = _basePosition;
     }
 
     public void BeginEncounter() 
@@ -132,7 +128,7 @@ public class EnemyEncounter : MonoBehaviour
 
     private void TakeDamage(int damage) 
     {
-        if (Invincible) return;
+        if (_invincible) return;
 
         Health.TakeDamage(damage);
         OnEnemyHealthChange?.Invoke(Health);
@@ -187,13 +183,13 @@ public class EnemyEncounter : MonoBehaviour
     {
         Health.Reset();
         OnEnemyHealthChange?.Invoke(Health);
-        spriteTimer = 0f;
-        beatToCue = 0;
-        Invincible = false;
+        _spriteTimer = 0f;
+        _beatToCue = 0;
+        _invincible = false;
     }
 
     private void ToggleInvincibility(bool toggle) 
     {
-        Invincible = toggle;
+        _invincible = toggle;
     }
 }

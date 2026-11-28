@@ -22,13 +22,7 @@ MonoBehaviour:
   HalfBeatsEnabled: 0
   EnemyHealth: 10
   PlayerHealth: 5
-  TimingWindow: 100
   Tutorial: 0
-  RandomPatterns: 1
-  Patterns: []
-  Dialogue:
-  - Time: 0
-    Dialogue:
-    - Text: '[s="tutorial"][auto="9999"]Press spacebar on the beat 10 times to find
-        your input offset!'
-      Audio: {fileID: 0}
+  RandomPatterns: 0
+  OrderedPatterns: 
+  Dialogue: []

@@ -30,26 +30,25 @@ public struct VoicedDialogue
 
 public class DialogueManager : MonoBehaviour
 {
-    private static readonly Regex MetaRegex = new Regex(@"\[([a-zA-Z0-9]+)(?:=""(.*?)"")?\]");
-    private static event Action<string> PromptTutorial;
+    private static readonly Regex _metaRegex = new Regex(@"\[([a-zA-Z0-9]+)(?:=""(.*?)"")?\]");
 
-    private AudioSource audioSource;
+    private AudioSource _audioSource;
 
-    private Queue<VoicedDialogue> DialogueQueue = new Queue<VoicedDialogue>();
-    private List<TimedDialogue> TimedDialogueSections = new List<TimedDialogue>();
+    private Queue<VoicedDialogue> _dialogueQueue = new Queue<VoicedDialogue>();
+    private List<TimedDialogue> _timedDialogueSections = new List<TimedDialogue>();
 
     [Header("Object References")]
-    [SerializeField] private GameObject DialogueCanvas;
-    [SerializeField] private Image DialogueBox;
-    [SerializeField] private Image SpeakerImage;
-    [SerializeField] private TextMeshProUGUI DialogueText;
+    [SerializeField] private GameObject _dialogueCanvas;
+    [SerializeField] private Image _dialogueBox;
+    [SerializeField] private Image _speakerImage;
+    [SerializeField] private TextMeshProUGUI _dialogueText;
 
     [Header("Text Settings")]
-    [SerializeField] private float DefaultCharPerSecond = 15;
-    [SerializeField] private float DefaultAutoWaitSeconds = 3;
-    [SerializeField] private float DialogueBoxOpenSpeed = 5;
+    [SerializeField] private float _defaultCharPerSecond = 15;
+    [SerializeField] private float _defaultAutoWaitSeconds = 3;
+    [SerializeField] private float _dialogueBoxOpenSpeed = 5;
 
-    [SerializeField] private List<SpeakerSprite> SpeakerSprites;
+    [SerializeField] private List<SpeakerSprite> _speakerSprites;
 
     private string _currentText = "";
     private float _textIndex = 0;
@@ -58,18 +57,16 @@ public class DialogueManager : MonoBehaviour
     private float _autoWaitTime = 99;
     private float _charPerSecond = 30;
     private float _dialogueStartTimer = 0;
-    private Vector2 _dialogueBoxSize;
     private bool _progressAfterAudio = false;
 
     private void Start()
     {
-        audioSource = GetComponent<AudioSource>();
+        _audioSource = GetComponent<AudioSource>();
 
-        DialogueText.text = "";
+        _dialogueText.text = "";
         GameManager.EndBattle += CancelDialogue;
         PlayerStatus.OnPlayerHealthEmpty += CancelDialogue;
         EnemyEncounter.OnEnemyHealthEmpty += CancelDialogue;
-        OffsetCalculator.Complete += CancelDialogue;
     }
 
     private void Update()
@@ -78,17 +75,17 @@ public class DialogueManager : MonoBehaviour
 
         if (!_showingText)
         {
-            _dialogueStartTimer = Mathf.Max(_dialogueStartTimer - Time.deltaTime * DialogueBoxOpenSpeed, 0);
+            _dialogueStartTimer = Mathf.Max(_dialogueStartTimer - Time.deltaTime * _dialogueBoxOpenSpeed, 0);
         }
         else
         {
-            _dialogueStartTimer = Mathf.Min(_dialogueStartTimer + Time.deltaTime * DialogueBoxOpenSpeed, 1);
+            _dialogueStartTimer = Mathf.Min(_dialogueStartTimer + Time.deltaTime * _dialogueBoxOpenSpeed, 1);
         }
 
-        if (_showingText && !DialogueCanvas.activeInHierarchy) DialogueCanvas.SetActive(true);
-        else if (!_showingText && DialogueCanvas.activeInHierarchy && _dialogueStartTimer <= 0) DialogueCanvas.SetActive(false);
+        if (_showingText && !_dialogueCanvas.activeInHierarchy) _dialogueCanvas.SetActive(true);
+        else if (!_showingText && _dialogueCanvas.activeInHierarchy && _dialogueStartTimer <= 0) _dialogueCanvas.SetActive(false);
 
-        DialogueBox.transform.localScale = new Vector3(_dialogueStartTimer, _dialogueStartTimer, 1f);
+        _dialogueBox.transform.localScale = new Vector3(_dialogueStartTimer, _dialogueStartTimer, 1f);
 
         if (_dialogueStartTimer < 1) return;
 
@@ -102,7 +99,7 @@ public class DialogueManager : MonoBehaviour
         {
             if (_progressAfterAudio)
             {
-                if (audioSource.time >= audioSource.clip.length) ProgressDialogue();
+                if (_audioSource.time >= _audioSource.clip.length) ProgressDialogue();
             }
             else if (_textIndex >= _currentText.Length)
             {
@@ -132,7 +129,7 @@ public class DialogueManager : MonoBehaviour
     {
         foreach (VoicedDialogue line in dialogue) 
         {
-            DialogueQueue.Enqueue(line);
+            _dialogueQueue.Enqueue(line);
         }
 
         ProgressDialogue();
@@ -142,13 +139,13 @@ public class DialogueManager : MonoBehaviour
     {
         _progressAfterAudio = false;
 
-        if (DialogueQueue.TryDequeue(out VoicedDialogue line))
+        if (_dialogueQueue.TryDequeue(out VoicedDialogue line))
         {
             SetText(line.Text);
             if (line.Audio != null)
             {
-                audioSource.clip = line.Audio;
-                audioSource.Play();
+                _audioSource.clip = line.Audio;
+                _audioSource.Play();
                 _progressAfterAudio = true;
             }
         }
@@ -160,8 +157,8 @@ public class DialogueManager : MonoBehaviour
 
     private void CancelDialogue() 
     {
-        TimedDialogueSections?.Clear();
-        DialogueQueue?.Clear();
+        _timedDialogueSections?.Clear();
+        _dialogueQueue?.Clear();
         _showingText = false;
         _dialogueStartTimer = 0;
     }
@@ -176,34 +173,34 @@ public class DialogueManager : MonoBehaviour
 
     private void DisplayText(string text) 
     {
-        DialogueText.text = text;
+        _dialogueText.text = text;
     }
 
     private void SetSpeakerSprite(string speakerName) 
     {
         Sprite spriteToSet = null;
 
-        foreach (SpeakerSprite speaker in SpeakerSprites) 
+        foreach (SpeakerSprite speaker in _speakerSprites) 
         {
             if (speaker.Name == speakerName) spriteToSet = speaker.Sprite;
         }
 
         if (spriteToSet != null)
         {
-            SpeakerImage.gameObject.SetActive(true);
-            SpeakerImage.sprite = spriteToSet;
+            _speakerImage.gameObject.SetActive(true);
+            _speakerImage.sprite = spriteToSet;
         }
-        else SpeakerImage.gameObject.SetActive(false);
+        else _speakerImage.gameObject.SetActive(false);
     }
 
     private string ParseMetadata(string text) 
     {
-        MatchCollection matches = MetaRegex.Matches(text);
+        MatchCollection matches = _metaRegex.Matches(text);
 
         string speakerName = null;
         bool auto = true;
-        float speed = DefaultCharPerSecond;
-        _autoWaitTime = DefaultAutoWaitSeconds;
+        float speed = _defaultCharPerSecond;
+        _autoWaitTime = _defaultAutoWaitSeconds;
 
         foreach (Match match in matches) 
         {
@@ -219,7 +216,7 @@ public class DialogueManager : MonoBehaviour
             {
                 if (int.TryParse(value, out int result)) _autoWaitTime = result;
                 else if (value == "false") auto = false;
-                else _autoWaitTime = DefaultAutoWaitSeconds;
+                else _autoWaitTime = _defaultAutoWaitSeconds;
             }
             else if (key == "speed" || key == "spd")
             {
@@ -240,7 +237,7 @@ public class DialogueManager : MonoBehaviour
         _charPerSecond = speed;
         _autoContinue = auto;
 
-        string cleanText = MetaRegex.Replace(text, "").Trim();
+        string cleanText = _metaRegex.Replace(text, "").Trim();
 
         return cleanText;
     }
@@ -251,7 +248,7 @@ public class DialogueManager : MonoBehaviour
 
         foreach (TimedDialogue timedDialogue in timedDialogueList)
         {
-            TimedDialogueSections.Add(timedDialogue);
+            _timedDialogueSections.Add(timedDialogue);
         }
     }
 
@@ -259,15 +256,15 @@ public class DialogueManager : MonoBehaviour
     {
         double songTime = GameManager.Instance.Music.SongTimeInSeconds();
 
-        if (TimedDialogueSections.Count > 0) 
+        if (_timedDialogueSections.Count > 0) 
         {
-            int index = TimedDialogueSections.FindIndex(t => songTime >= t.Time);
+            int index = _timedDialogueSections.FindIndex(t => songTime >= t.Time);
 
             if (index == -1) return;
 
-            InitiateDialogue(TimedDialogueSections[index].Dialogue);
+            InitiateDialogue(_timedDialogueSections[index].Dialogue);
 
-            TimedDialogueSections.RemoveAt(index);
+            _timedDialogueSections.RemoveAt(index);
         }
     }
 }

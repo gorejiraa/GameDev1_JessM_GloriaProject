@@ -9,40 +9,40 @@ public class SongSelectMenu : MonoBehaviour
     public TextMeshProUGUI TitleText;
     public TextMeshProUGUI DifficultyText;
 
-    private int TrackIndex = 0;
+    private int _trackIndex = 0;
 
-    [SerializeField] private Color easyColor = Color.green;
-    [SerializeField] private Color mediumColor = Color.orange;
-    [SerializeField] private Color hardColor = Color.red;
-    [SerializeField] private Color impossibleColor = Color.darkRed;
+    [SerializeField] private Color _easyColor = Color.green;
+    [SerializeField] private Color _mediumColor = Color.orange;
+    [SerializeField] private Color _hardColor = Color.red;
+    [SerializeField] private Color _impossibleColor = Color.darkRed;
 
     private void OnEnable()
     {
-        TrackIndex = 0;
+        _trackIndex = 0;
         DisplaySongDetails();
     }
 
     public void OnUpButton()
     {
-        TrackIndex--;
+        _trackIndex--;
 
-        if (TrackIndex < 0) TrackIndex = Songs.Count-1;
+        if (_trackIndex < 0) _trackIndex = Songs.Count-1;
 
         DisplaySongDetails();
     }
 
     public void OnDownButton()
     {
-        TrackIndex++;
+        _trackIndex++;
 
-        if (TrackIndex >= Songs.Count) TrackIndex = 0;
+        if (_trackIndex >= Songs.Count) _trackIndex = 0;
 
         DisplaySongDetails();
     }
 
     public void OnStart() 
     {
-        GameManager.Instance.StartTrack(Songs[TrackIndex]);
+        GameManager.Instance.StartTrack(Songs[_trackIndex]);
     }
 
     public void OnBack() 
@@ -52,22 +52,22 @@ public class SongSelectMenu : MonoBehaviour
 
     public void DisplaySongDetails() 
     {
-        TitleText.text = Songs[TrackIndex].Name;
-        DifficultyText.text = Songs[TrackIndex].Difficulty.ToString();
+        TitleText.text = Songs[_trackIndex].Name;
+        DifficultyText.text = $"{Songs[_trackIndex].Difficulty.ToString()}\n{Songs[_trackIndex].BPM.ToString()} BPM";
 
-        switch (Songs[TrackIndex].Difficulty) 
+        switch (Songs[_trackIndex].Difficulty) 
         {
             case SongDifficulty.Easy:
-                DifficultyText.color = easyColor;
+                DifficultyText.color = _easyColor;
                 break;
             case SongDifficulty.Medium:
-                DifficultyText.color = mediumColor;
+                DifficultyText.color = _mediumColor;
                 break;
             case SongDifficulty.Hard:
-                DifficultyText.color = hardColor;
+                DifficultyText.color = _hardColor;
                 break;
             case SongDifficulty.Impossible:
-                DifficultyText.color = impossibleColor;
+                DifficultyText.color = _impossibleColor;
                 break;
         }
     }

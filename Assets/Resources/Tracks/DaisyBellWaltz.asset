@@ -18,11 +18,10 @@ MonoBehaviour:
   BPM: 175
   Offset: 0
   GameplayStartBeat: 54
-  BeatsInBar: 8
+  BeatsInBar: 6
   HalfBeatsEnabled: 0
   EnemyHealth: 20
   PlayerHealth: 5
-  TimingWindow: 100
   Tutorial: 0
   RandomPatterns: 0
   Patterns:
